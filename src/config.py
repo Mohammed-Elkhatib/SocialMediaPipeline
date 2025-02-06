@@ -2,7 +2,7 @@
 class Config:
     # Scraping
     MAX_TWEETS = 200
-    STOP_DATE = "2014-12-31"
+    STOP_DATE = "2024-12-31"
     SCROLL_SPEED = 100
     SCROLL_DELAY = 0.05
     MAX_RETRIES = 3
