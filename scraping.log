@@ -1,0 +1,2901 @@
+2025-02-11 14:57:12,049 - INFO - Initializing pipeline
+2025-02-11 14:57:45,308 - INFO - Initializing pipeline
+2025-02-11 14:57:52,213 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-11 14:58:10,156 - WARNING - 🛑 Reached historical limit at 2020-08-08
+2025-02-11 14:58:12,171 - INFO - ✅ Final count: 0/200 tweets
+2025-02-11 14:58:12,171 - WARNING - ⚠️  Ended before reaching target
+2025-02-11 14:58:12,172 - INFO - Final count: 0 tweets sent
+2025-02-12 15:11:11,870 - INFO - Initializing pipeline
+2025-02-12 15:11:53,657 - INFO - Final count: 0 tweets sent
+2025-02-12 15:11:59,911 - INFO - Initializing pipeline
+2025-02-12 15:12:04,890 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 15:12:15,825 - WARNING - 🛑 Reached historical limit at 2020-08-08
+2025-02-12 15:12:17,856 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 15:12:17,856 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 15:12:17,856 - INFO - Final count: 0 tweets sent
+2025-02-12 15:21:28,407 - INFO - Initializing pipeline
+2025-02-12 15:21:33,435 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 15:21:39,306 - WARNING - 🛑 Reached historical limit at 2020-08-08
+2025-02-12 15:21:41,337 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 15:21:41,337 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 15:21:41,337 - INFO - Final count: 0 tweets sent
+2025-02-12 15:23:53,734 - INFO - Initializing pipeline
+2025-02-12 15:23:58,791 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 15:24:03,377 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 15:24:04,384 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-12 15:24:05,866 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 15:24:05,868 - INFO - 📦 Collected 5 new tweets (Total: 12)
+2025-02-12 15:24:07,119 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-12 15:24:08,277 - INFO - 📦 Collected 3 new tweets (Total: 18)
+2025-02-12 15:24:09,282 - INFO - 📦 Collected 1 new tweets (Total: 19)
+2025-02-12 15:24:10,278 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 15:24:10,278 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 15:24:13,352 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 15:24:13,357 - INFO - 📦 Collected 5 new tweets (Total: 24)
+2025-02-12 15:24:14,373 - INFO - 📦 Collected 3 new tweets (Total: 27)
+2025-02-12 15:24:15,353 - INFO - 📦 Collected 2 new tweets (Total: 29)
+2025-02-12 15:24:16,351 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 15:24:16,353 - INFO - 📦 Collected 2 new tweets (Total: 31)
+2025-02-12 15:24:17,577 - INFO - 📦 Collected 3 new tweets (Total: 34)
+2025-02-12 15:24:18,456 - INFO - 📦 Collected 3 new tweets (Total: 37)
+2025-02-12 15:24:19,332 - INFO - 📦 Collected 2 new tweets (Total: 39)
+2025-02-12 15:24:20,366 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 15:24:20,370 - INFO - 📦 Collected 5 new tweets (Total: 44)
+2025-02-12 15:24:21,479 - INFO - 📦 Collected 4 new tweets (Total: 48)
+2025-02-12 15:24:22,461 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 15:24:22,463 - INFO - 📦 Collected 3 new tweets (Total: 51)
+2025-02-12 15:24:23,477 - INFO - 📦 Collected 4 new tweets (Total: 55)
+2025-02-12 15:24:24,961 - INFO - 📦 Collected 4 new tweets (Total: 59)
+2025-02-12 15:24:26,519 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 15:24:26,522 - INFO - 📦 Collected 5 new tweets (Total: 64)
+2025-02-12 15:24:27,601 - INFO - 📦 Collected 2 new tweets (Total: 66)
+2025-02-12 15:24:28,665 - INFO - 📦 Collected 3 new tweets (Total: 69)
+2025-02-12 15:24:29,642 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 15:24:29,643 - INFO - 📦 Collected 2 new tweets (Total: 71)
+2025-02-12 15:24:30,771 - INFO - 📦 Collected 4 new tweets (Total: 75)
+2025-02-12 15:24:31,804 - INFO - 📦 Collected 4 new tweets (Total: 79)
+2025-02-12 15:24:32,978 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 15:24:32,981 - INFO - 📦 Collected 5 new tweets (Total: 84)
+2025-02-12 15:24:34,140 - INFO - 📦 Collected 1 new tweets (Total: 85)
+2025-02-12 15:24:35,467 - INFO - 📦 Collected 3 new tweets (Total: 88)
+2025-02-12 15:24:36,833 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 15:24:36,835 - INFO - 📦 Collected 3 new tweets (Total: 91)
+2025-02-12 15:24:37,826 - INFO - 📦 Collected 2 new tweets (Total: 93)
+2025-02-12 15:24:39,104 - INFO - 📦 Collected 3 new tweets (Total: 96)
+2025-02-12 15:24:40,429 - INFO - 📦 Collected 2 new tweets (Total: 98)
+2025-02-12 15:24:41,423 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 15:24:41,424 - INFO - 📦 Collected 3 new tweets (Total: 101)
+2025-02-12 15:24:42,633 - INFO - 📦 Collected 4 new tweets (Total: 105)
+2025-02-12 15:24:43,699 - INFO - 📦 Collected 4 new tweets (Total: 109)
+2025-02-12 15:24:44,651 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 15:24:44,653 - INFO - 📦 Collected 3 new tweets (Total: 112)
+2025-02-12 15:24:45,774 - INFO - 📦 Collected 5 new tweets (Total: 117)
+2025-02-12 15:24:47,016 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 15:24:47,018 - INFO - 📦 Collected 5 new tweets (Total: 122)
+2025-02-12 15:24:47,851 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 15:24:47,851 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 15:24:50,684 - INFO - 📦 Collected 4 new tweets (Total: 126)
+2025-02-12 15:24:52,122 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 15:24:52,123 - INFO - 📦 Collected 6 new tweets (Total: 132)
+2025-02-12 15:24:53,150 - INFO - 📦 Collected 2 new tweets (Total: 134)
+2025-02-12 15:24:54,328 - INFO - 📦 Collected 3 new tweets (Total: 137)
+2025-02-12 15:24:55,653 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 15:24:55,654 - INFO - 📦 Collected 4 new tweets (Total: 141)
+2025-02-12 15:24:56,803 - INFO - 📦 Collected 3 new tweets (Total: 144)
+2025-02-12 15:24:57,836 - INFO - 📦 Collected 3 new tweets (Total: 147)
+2025-02-12 15:24:59,030 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 15:24:59,033 - INFO - 📦 Collected 5 new tweets (Total: 152)
+2025-02-12 15:25:00,433 - INFO - 📦 Collected 3 new tweets (Total: 155)
+2025-02-12 15:25:01,415 - INFO - 📦 Collected 2 new tweets (Total: 157)
+2025-02-12 15:25:02,774 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 15:25:02,778 - INFO - 📦 Collected 6 new tweets (Total: 163)
+2025-02-12 15:25:03,841 - INFO - 📦 Collected 5 new tweets (Total: 168)
+2025-02-12 15:25:04,656 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 15:25:04,656 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 15:25:07,583 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 15:25:07,583 - WARNING - ⏳ Retry #2 for 4s
+2025-02-12 15:25:12,412 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 15:25:12,412 - WARNING - ⏳ Retry #3 for 8s
+2025-02-12 15:25:21,529 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 15:25:21,529 - ERROR - 🔴 Max retries reached. Stopping.
+2025-02-12 15:25:23,550 - INFO - ✅ Final count: 168/200 tweets
+2025-02-12 15:25:23,550 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 15:25:23,552 - INFO - Final count: 168 tweets sent
+2025-02-12 20:14:07,589 - INFO - Initializing pipeline
+2025-02-12 20:14:43,842 - INFO - Initializing pipeline
+2025-02-12 20:15:04,875 - INFO - Initializing pipeline
+2025-02-12 20:15:52,888 - INFO - Initializing pipeline
+2025-02-12 20:17:58,216 - INFO - Initializing pipeline
+2025-02-12 20:18:45,457 - INFO - Final count: 0 tweets sent
+2025-02-12 20:19:55,497 - INFO - Final count: 0 tweets sent
+2025-02-12 20:20:02,234 - INFO - Initializing pipeline
+2025-02-12 20:20:08,213 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:20:13,535 - INFO - 📦 Collected 6 new tweets (Total: 6)
+2025-02-12 20:20:15,333 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 20:20:15,337 - INFO - 📦 Collected 5 new tweets (Total: 11)
+2025-02-12 20:20:16,783 - INFO - 📦 Collected 4 new tweets (Total: 15)
+2025-02-12 20:20:18,587 - INFO - 📦 Collected 3 new tweets (Total: 18)
+2025-02-12 20:20:20,654 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 20:20:20,667 - INFO - 📦 Collected 7 new tweets (Total: 25)
+2025-02-12 20:20:22,329 - INFO - 📦 Collected 3 new tweets (Total: 28)
+2025-02-12 20:20:23,823 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 20:20:23,825 - INFO - 📦 Collected 3 new tweets (Total: 31)
+2025-02-12 20:20:25,150 - INFO - 📦 Collected 3 new tweets (Total: 34)
+2025-02-12 20:20:26,894 - INFO - 📦 Collected 4 new tweets (Total: 38)
+2025-02-12 20:20:29,608 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 20:20:29,624 - INFO - 📦 Collected 6 new tweets (Total: 44)
+2025-02-12 20:20:31,214 - INFO - 📦 Collected 3 new tweets (Total: 47)
+2025-02-12 20:20:33,151 - INFO - 📦 Collected 2 new tweets (Total: 49)
+2025-02-12 20:20:34,687 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 20:20:34,691 - INFO - 📦 Collected 3 new tweets (Total: 52)
+2025-02-12 20:20:36,357 - INFO - 📦 Collected 1 new tweets (Total: 53)
+2025-02-12 20:20:38,273 - INFO - 📦 Collected 5 new tweets (Total: 58)
+2025-02-12 20:20:39,706 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:20:39,706 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:20:43,186 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 20:20:43,187 - INFO - 📦 Collected 2 new tweets (Total: 60)
+2025-02-12 20:20:44,758 - INFO - 📦 Collected 3 new tweets (Total: 63)
+2025-02-12 20:20:46,225 - INFO - 📦 Collected 3 new tweets (Total: 66)
+2025-02-12 20:20:47,206 - INFO - 📦 Collected 2 new tweets (Total: 68)
+2025-02-12 20:20:48,711 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 20:20:48,718 - INFO - 📦 Collected 5 new tweets (Total: 73)
+2025-02-12 20:20:49,943 - INFO - 📦 Collected 4 new tweets (Total: 77)
+2025-02-12 20:20:50,926 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-12 20:20:53,353 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 20:20:53,361 - INFO - 📦 Collected 7 new tweets (Total: 85)
+2025-02-12 20:20:54,260 - INFO - 📦 Collected 2 new tweets (Total: 87)
+2025-02-12 20:20:55,266 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:20:55,266 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:20:58,302 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:20:58,302 - WARNING - ⏳ Retry #2 for 4s
+2025-02-12 20:21:03,362 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 20:21:03,380 - INFO - 📦 Collected 10 new tweets (Total: 97)
+2025-02-12 20:21:04,399 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:21:04,399 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:21:07,388 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:21:07,388 - WARNING - ⏳ Retry #2 for 4s
+2025-02-12 20:21:12,571 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:21:12,571 - WARNING - ⏳ Retry #3 for 8s
+2025-02-12 20:21:21,649 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:21:21,649 - ERROR - 🔴 Max retries reached. Stopping.
+2025-02-12 20:21:23,675 - INFO - ✅ Final count: 97/200 tweets
+2025-02-12 20:21:23,675 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 20:21:23,675 - INFO - Final count: 97 tweets sent
+2025-02-12 20:25:00,202 - INFO - Initializing pipeline
+2025-02-12 20:25:05,625 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:25:10,890 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 20:25:12,922 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 20:25:12,923 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 20:25:12,923 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 20:25:12,923 - INFO - Final count: 0 tweets sent
+2025-02-12 20:25:19,776 - INFO - Initializing pipeline
+2025-02-12 20:25:25,108 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:26:07,125 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 20:26:09,153 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 20:26:09,153 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 20:26:09,153 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 20:26:09,155 - INFO - Final count: 0 tweets sent
+2025-02-12 20:26:16,144 - INFO - Initializing pipeline
+2025-02-12 20:26:21,501 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:26:32,478 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 20:26:34,261 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 20:26:34,265 - INFO - 📦 Collected 6 new tweets (Total: 11)
+2025-02-12 20:26:35,836 - INFO - 📦 Collected 3 new tweets (Total: 14)
+2025-02-12 20:26:37,469 - INFO - 📦 Collected 5 new tweets (Total: 19)
+2025-02-12 20:26:39,769 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 20:26:39,778 - INFO - 📦 Collected 7 new tweets (Total: 26)
+2025-02-12 20:26:41,079 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:26:41,080 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:26:44,568 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 20:26:44,571 - INFO - 📦 Collected 5 new tweets (Total: 31)
+2025-02-12 20:26:47,189 - INFO - 📦 Collected 5 new tweets (Total: 36)
+2025-02-12 20:26:48,652 - INFO - 📦 Collected 1 new tweets (Total: 37)
+2025-02-12 20:26:49,659 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:26:49,659 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:26:52,890 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 20:26:52,906 - INFO - 📦 Collected 9 new tweets (Total: 46)
+2025-02-12 20:26:54,262 - INFO - 📦 Collected 2 new tweets (Total: 48)
+2025-02-12 20:26:55,856 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 20:26:55,861 - INFO - 📦 Collected 4 new tweets (Total: 52)
+2025-02-12 20:26:57,329 - INFO - 📦 Collected 1 new tweets (Total: 53)
+2025-02-12 20:26:58,805 - INFO - 📦 Collected 3 new tweets (Total: 56)
+2025-02-12 20:26:59,905 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:26:59,905 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:27:03,355 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 20:27:03,360 - INFO - 📦 Collected 6 new tweets (Total: 62)
+2025-02-12 20:27:04,610 - INFO - 📦 Collected 2 new tweets (Total: 64)
+2025-02-12 20:27:06,247 - INFO - 📦 Collected 2 new tweets (Total: 66)
+2025-02-12 20:27:07,555 - INFO - 📦 Collected 3 new tweets (Total: 69)
+2025-02-12 20:27:08,797 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 20:27:08,801 - INFO - 📦 Collected 3 new tweets (Total: 72)
+2025-02-12 20:27:10,025 - INFO - 📦 Collected 4 new tweets (Total: 76)
+2025-02-12 20:27:11,628 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 20:27:11,629 - INFO - 📦 Collected 4 new tweets (Total: 80)
+2025-02-12 20:27:13,252 - INFO - 📦 Collected 3 new tweets (Total: 83)
+2025-02-12 20:27:14,572 - INFO - 📦 Collected 4 new tweets (Total: 87)
+2025-02-12 20:27:15,885 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 20:27:15,885 - INFO - 📦 Collected 3 new tweets (Total: 90)
+2025-02-12 20:27:17,437 - INFO - 📦 Collected 4 new tweets (Total: 94)
+2025-02-12 20:27:19,029 - INFO - 📦 Collected 2 new tweets (Total: 96)
+2025-02-12 20:27:21,052 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 20:27:21,054 - INFO - 📦 Collected 5 new tweets (Total: 101)
+2025-02-12 20:27:22,494 - INFO - 📦 Collected 3 new tweets (Total: 104)
+2025-02-12 20:27:23,582 - INFO - 📦 Collected 2 new tweets (Total: 106)
+2025-02-12 20:27:25,110 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 20:27:25,110 - INFO - 📦 Collected 4 new tweets (Total: 110)
+2025-02-12 20:27:26,552 - INFO - 📦 Collected 4 new tweets (Total: 114)
+2025-02-12 20:27:28,528 - INFO - 📦 Collected 2 new tweets (Total: 116)
+2025-02-12 20:27:30,505 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 20:27:30,511 - INFO - 📦 Collected 6 new tweets (Total: 122)
+2025-02-12 20:27:32,059 - INFO - 📦 Collected 1 new tweets (Total: 123)
+2025-02-12 20:27:33,255 - INFO - 📦 Collected 2 new tweets (Total: 125)
+2025-02-12 20:27:35,324 - INFO - 📦 Collected 2 new tweets (Total: 127)
+2025-02-12 20:27:36,955 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 20:27:36,955 - INFO - 📦 Collected 3 new tweets (Total: 130)
+2025-02-12 20:27:38,460 - INFO - 📦 Collected 4 new tweets (Total: 134)
+2025-02-12 20:27:39,465 - INFO - 📦 Collected 1 new tweets (Total: 135)
+2025-02-12 20:27:41,380 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 20:27:41,384 - INFO - 📦 Collected 7 new tweets (Total: 142)
+2025-02-12 20:27:42,397 - INFO - 📦 Collected 1 new tweets (Total: 143)
+2025-02-12 20:27:43,623 - INFO - 📦 Collected 4 new tweets (Total: 147)
+2025-02-12 20:27:45,110 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 20:27:45,115 - INFO - 📦 Collected 5 new tweets (Total: 152)
+2025-02-12 20:27:46,293 - INFO - 📦 Collected 1 new tweets (Total: 153)
+2025-02-12 20:27:48,002 - INFO - 📦 Collected 5 new tweets (Total: 158)
+2025-02-12 20:27:49,204 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 20:27:49,204 - INFO - 📦 Collected 2 new tweets (Total: 160)
+2025-02-12 20:27:50,876 - INFO - 📦 Collected 6 new tweets (Total: 166)
+2025-02-12 20:27:52,577 - INFO - 📦 Collected 3 new tweets (Total: 169)
+2025-02-12 20:27:54,370 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-12 20:27:54,374 - INFO - 📦 Collected 4 new tweets (Total: 173)
+2025-02-12 20:27:55,324 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:27:55,325 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:27:58,503 - INFO - 📦 Collected 5 new tweets (Total: 178)
+2025-02-12 20:27:59,766 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-12 20:27:59,769 - INFO - 📦 Collected 4 new tweets (Total: 182)
+2025-02-12 20:28:01,239 - INFO - 📦 Collected 4 new tweets (Total: 186)
+2025-02-12 20:28:03,018 - INFO - 📦 Collected 3 new tweets (Total: 189)
+2025-02-12 20:28:04,879 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-12 20:28:04,883 - INFO - 📦 Collected 4 new tweets (Total: 193)
+2025-02-12 20:28:05,856 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:28:05,856 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:28:09,377 - INFO - 📦 Collected 6 new tweets (Total: 199)
+2025-02-12 20:28:11,097 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-12 20:28:11,097 - INFO - 📦 Collected 1 new tweets (Total: 200)
+2025-02-12 20:28:13,133 - INFO - ✅ Final count: 200/200 tweets
+2025-02-12 20:28:13,133 - INFO - 🎯 Target reached successfully
+2025-02-12 20:28:13,134 - INFO - Final count: 200 tweets sent
+2025-02-12 20:49:19,818 - INFO - Initializing pipeline
+2025-02-12 20:49:24,758 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:49:30,434 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 20:49:31,227 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 20:49:31,227 - INFO - 📦 Collected 5 new tweets (Total: 10)
+2025-02-12 20:49:32,047 - INFO - 📦 Collected 5 new tweets (Total: 15)
+2025-02-12 20:49:32,974 - INFO - 📦 Collected 4 new tweets (Total: 19)
+2025-02-12 20:49:33,916 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 20:49:33,917 - INFO - 📦 Collected 3 new tweets (Total: 22)
+2025-02-12 20:49:35,037 - INFO - 📦 Collected 5 new tweets (Total: 27)
+2025-02-12 20:49:36,203 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 20:49:36,203 - INFO - 📦 Collected 4 new tweets (Total: 31)
+2025-02-12 20:49:37,343 - INFO - 📦 Collected 3 new tweets (Total: 34)
+2025-02-12 20:49:38,396 - INFO - 📦 Collected 4 new tweets (Total: 38)
+2025-02-12 20:49:39,130 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:49:39,130 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:49:41,850 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 20:49:41,853 - INFO - 📦 Collected 9 new tweets (Total: 47)
+2025-02-12 20:49:42,875 - INFO - 📦 Collected 2 new tweets (Total: 49)
+2025-02-12 20:49:43,836 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 20:49:43,838 - INFO - 📦 Collected 3 new tweets (Total: 52)
+2025-02-12 20:49:44,877 - INFO - 📦 Collected 2 new tweets (Total: 54)
+2025-02-12 20:49:45,970 - INFO - 📦 Collected 3 new tweets (Total: 57)
+2025-02-12 20:49:46,801 - INFO - 📦 Collected 2 new tweets (Total: 59)
+2025-02-12 20:49:47,683 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 20:49:47,684 - INFO - 📦 Collected 3 new tweets (Total: 62)
+2025-02-12 20:49:48,574 - INFO - 📦 Collected 2 new tweets (Total: 64)
+2025-02-12 20:49:49,537 - INFO - 📦 Collected 3 new tweets (Total: 67)
+2025-02-12 20:49:50,348 - INFO - 📦 Collected 2 new tweets (Total: 69)
+2025-02-12 20:49:51,160 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 20:49:51,160 - INFO - 📦 Collected 3 new tweets (Total: 72)
+2025-02-12 20:49:52,033 - INFO - 📦 Collected 3 new tweets (Total: 75)
+2025-02-12 20:49:52,754 - INFO - 📦 Collected 2 new tweets (Total: 77)
+2025-02-12 20:49:53,400 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:49:53,401 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:49:56,083 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 20:49:56,086 - INFO - 📦 Collected 7 new tweets (Total: 84)
+2025-02-12 20:49:56,881 - INFO - 📦 Collected 2 new tweets (Total: 86)
+2025-02-12 20:49:57,835 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 20:49:57,835 - INFO - 📦 Collected 4 new tweets (Total: 90)
+2025-02-12 20:49:58,939 - INFO - 📦 Collected 5 new tweets (Total: 95)
+2025-02-12 20:49:59,750 - INFO - 📦 Collected 2 new tweets (Total: 97)
+2025-02-12 20:50:00,470 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:50:00,470 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:50:03,160 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 20:50:03,161 - INFO - 📦 Collected 6 new tweets (Total: 103)
+2025-02-12 20:50:04,015 - INFO - 📦 Collected 2 new tweets (Total: 105)
+2025-02-12 20:50:04,993 - INFO - 📦 Collected 4 new tweets (Total: 109)
+2025-02-12 20:50:06,017 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 20:50:06,020 - INFO - 📦 Collected 5 new tweets (Total: 114)
+2025-02-12 20:50:06,923 - INFO - 📦 Collected 1 new tweets (Total: 115)
+2025-02-12 20:50:07,871 - INFO - 📦 Collected 2 new tweets (Total: 117)
+2025-02-12 20:50:08,931 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 20:50:08,932 - INFO - 📦 Collected 4 new tweets (Total: 121)
+2025-02-12 20:50:09,736 - INFO - 📦 Collected 3 new tweets (Total: 124)
+2025-02-12 20:50:10,580 - INFO - 📦 Collected 2 new tweets (Total: 126)
+2025-02-12 20:50:11,528 - INFO - 📦 Collected 3 new tweets (Total: 129)
+2025-02-12 20:50:12,553 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 20:50:12,555 - INFO - 📦 Collected 3 new tweets (Total: 132)
+2025-02-12 20:50:13,435 - INFO - 📦 Collected 4 new tweets (Total: 136)
+2025-02-12 20:50:14,165 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:50:14,165 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:50:16,835 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 20:50:16,836 - INFO - 📦 Collected 6 new tweets (Total: 142)
+2025-02-12 20:50:17,667 - INFO - 📦 Collected 2 new tweets (Total: 144)
+2025-02-12 20:50:18,564 - INFO - 📦 Collected 5 new tweets (Total: 149)
+2025-02-12 20:50:19,517 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 20:50:19,518 - INFO - 📦 Collected 4 new tweets (Total: 153)
+2025-02-12 20:50:20,317 - INFO - 📦 Collected 1 new tweets (Total: 154)
+2025-02-12 20:50:21,312 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 20:50:21,312 - INFO - 📦 Collected 6 new tweets (Total: 160)
+2025-02-12 20:50:22,076 - INFO - 📦 Collected 1 new tweets (Total: 161)
+2025-02-12 20:50:23,263 - INFO - 📦 Collected 7 new tweets (Total: 168)
+2025-02-12 20:50:24,312 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-12 20:50:24,313 - INFO - 📦 Collected 4 new tweets (Total: 172)
+2025-02-12 20:50:25,389 - INFO - 📦 Collected 2 new tweets (Total: 174)
+2025-02-12 20:50:26,444 - INFO - 📦 Collected 3 new tweets (Total: 177)
+2025-02-12 20:50:27,500 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-12 20:50:27,501 - INFO - 📦 Collected 3 new tweets (Total: 180)
+2025-02-12 20:50:28,433 - INFO - 📦 Collected 5 new tweets (Total: 185)
+2025-02-12 20:50:29,365 - INFO - 📦 Collected 3 new tweets (Total: 188)
+2025-02-12 20:50:30,278 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-12 20:50:30,278 - INFO - 📦 Collected 2 new tweets (Total: 190)
+2025-02-12 20:50:31,266 - INFO - 📦 Collected 4 new tweets (Total: 194)
+2025-02-12 20:50:32,518 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-12 20:50:32,518 - INFO - 📦 Collected 6 new tweets (Total: 200)
+2025-02-12 20:50:34,551 - INFO - ✅ Final count: 200/200 tweets
+2025-02-12 20:50:34,551 - INFO - 🎯 Target reached successfully
+2025-02-12 20:50:34,552 - INFO - Final count: 200 tweets sent
+2025-02-12 20:52:59,221 - INFO - Initializing pipeline
+2025-02-12 20:53:04,163 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:53:08,850 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 20:53:09,695 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 20:53:09,695 - INFO - 📦 Collected 5 new tweets (Total: 10)
+2025-02-12 20:53:10,986 - INFO - 📦 Collected 5 new tweets (Total: 15)
+2025-02-12 20:53:11,397 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 20:53:13,425 - INFO - ✅ Final count: 15/200 tweets
+2025-02-12 20:53:13,425 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 20:53:13,425 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 20:53:13,425 - INFO - Final count: 15 tweets sent
+2025-02-12 20:53:18,575 - INFO - Initializing pipeline
+2025-02-12 20:53:23,417 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 20:53:28,331 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 20:53:29,147 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 20:53:29,147 - INFO - 📦 Collected 5 new tweets (Total: 10)
+2025-02-12 20:53:29,980 - INFO - 📦 Collected 5 new tweets (Total: 15)
+2025-02-12 20:53:30,803 - INFO - 📦 Collected 4 new tweets (Total: 19)
+2025-02-12 20:53:31,603 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 20:53:31,603 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-12 20:53:32,845 - INFO - 📦 Collected 6 new tweets (Total: 26)
+2025-02-12 20:53:34,067 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 20:53:34,068 - INFO - 📦 Collected 5 new tweets (Total: 31)
+2025-02-12 20:53:35,394 - INFO - 📦 Collected 4 new tweets (Total: 35)
+2025-02-12 20:53:36,315 - INFO - 📦 Collected 3 new tweets (Total: 38)
+2025-02-12 20:53:37,048 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:53:37,048 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:53:39,805 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 20:53:39,809 - INFO - 📦 Collected 10 new tweets (Total: 48)
+2025-02-12 20:53:40,888 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 20:53:40,889 - INFO - 📦 Collected 4 new tweets (Total: 52)
+2025-02-12 20:53:41,941 - INFO - 📦 Collected 2 new tweets (Total: 54)
+2025-02-12 20:53:43,335 - INFO - 📦 Collected 3 new tweets (Total: 57)
+2025-02-12 20:53:44,069 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:53:44,069 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:53:46,872 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 20:53:46,874 - INFO - 📦 Collected 6 new tweets (Total: 63)
+2025-02-12 20:53:47,756 - INFO - 📦 Collected 1 new tweets (Total: 64)
+2025-02-12 20:53:48,729 - INFO - 📦 Collected 3 new tweets (Total: 67)
+2025-02-12 20:53:49,526 - INFO - 📦 Collected 2 new tweets (Total: 69)
+2025-02-12 20:53:50,289 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 20:53:50,290 - INFO - 📦 Collected 2 new tweets (Total: 71)
+2025-02-12 20:53:51,119 - INFO - 📦 Collected 4 new tweets (Total: 75)
+2025-02-12 20:53:51,842 - INFO - 📦 Collected 2 new tweets (Total: 77)
+2025-02-12 20:53:52,918 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 20:53:52,920 - INFO - 📦 Collected 7 new tweets (Total: 84)
+2025-02-12 20:53:53,684 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:53:53,684 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:53:56,398 - INFO - 📦 Collected 5 new tweets (Total: 89)
+2025-02-12 20:53:57,255 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 20:53:57,255 - INFO - 📦 Collected 1 new tweets (Total: 90)
+2025-02-12 20:53:58,359 - INFO - 📦 Collected 6 new tweets (Total: 96)
+2025-02-12 20:53:59,061 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:53:59,062 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:54:01,726 - INFO - 📦 Collected 1 new tweets (Total: 97)
+2025-02-12 20:54:02,393 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:54:02,393 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:54:05,133 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 20:54:05,135 - INFO - 📦 Collected 6 new tweets (Total: 103)
+2025-02-12 20:54:06,071 - INFO - 📦 Collected 2 new tweets (Total: 105)
+2025-02-12 20:54:07,021 - INFO - 📦 Collected 4 new tweets (Total: 109)
+2025-02-12 20:54:08,014 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 20:54:08,016 - INFO - 📦 Collected 4 new tweets (Total: 113)
+2025-02-12 20:54:08,905 - INFO - 📦 Collected 2 new tweets (Total: 115)
+2025-02-12 20:54:09,865 - INFO - 📦 Collected 2 new tweets (Total: 117)
+2025-02-12 20:54:10,541 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:54:10,541 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:54:13,329 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 20:54:13,334 - INFO - 📦 Collected 6 new tweets (Total: 123)
+2025-02-12 20:54:14,518 - INFO - 📦 Collected 3 new tweets (Total: 126)
+2025-02-12 20:54:15,581 - INFO - 📦 Collected 2 new tweets (Total: 128)
+2025-02-12 20:54:16,606 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 20:54:16,607 - INFO - 📦 Collected 3 new tweets (Total: 131)
+2025-02-12 20:54:17,740 - INFO - 📦 Collected 2 new tweets (Total: 133)
+2025-02-12 20:54:18,634 - INFO - 📦 Collected 3 new tweets (Total: 136)
+2025-02-12 20:54:19,561 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 20:54:19,563 - INFO - 📦 Collected 6 new tweets (Total: 142)
+2025-02-12 20:54:20,243 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:54:20,243 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:54:22,923 - INFO - 📦 Collected 3 new tweets (Total: 145)
+2025-02-12 20:54:23,787 - INFO - 📦 Collected 4 new tweets (Total: 149)
+2025-02-12 20:54:24,808 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 20:54:24,810 - INFO - 📦 Collected 4 new tweets (Total: 153)
+2025-02-12 20:54:25,539 - INFO - 📦 Collected 1 new tweets (Total: 154)
+2025-02-12 20:54:26,672 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 20:54:26,672 - INFO - 📦 Collected 6 new tweets (Total: 160)
+2025-02-12 20:54:27,421 - INFO - 📦 Collected 1 new tweets (Total: 161)
+2025-02-12 20:54:28,479 - INFO - 📦 Collected 7 new tweets (Total: 168)
+2025-02-12 20:54:29,357 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-12 20:54:29,357 - INFO - 📦 Collected 3 new tweets (Total: 171)
+2025-02-12 20:54:30,584 - INFO - 📦 Collected 3 new tweets (Total: 174)
+2025-02-12 20:54:31,256 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:54:31,256 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:54:33,997 - INFO - 📦 Collected 5 new tweets (Total: 179)
+2025-02-12 20:54:34,990 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-12 20:54:34,992 - INFO - 📦 Collected 3 new tweets (Total: 182)
+2025-02-12 20:54:36,031 - INFO - 📦 Collected 6 new tweets (Total: 188)
+2025-02-12 20:54:37,065 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-12 20:54:37,065 - INFO - 📦 Collected 2 new tweets (Total: 190)
+2025-02-12 20:54:38,148 - INFO - 📦 Collected 4 new tweets (Total: 194)
+2025-02-12 20:54:38,993 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 20:54:38,993 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 20:54:41,782 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-12 20:54:41,782 - INFO - 📦 Collected 6 new tweets (Total: 200)
+2025-02-12 20:54:43,807 - INFO - ✅ Final count: 200/200 tweets
+2025-02-12 20:54:43,807 - INFO - 🎯 Target reached successfully
+2025-02-12 20:54:43,807 - INFO - Final count: 200 tweets sent
+2025-02-12 21:02:32,142 - INFO - Initializing pipeline
+2025-02-12 21:02:37,029 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:02:43,037 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 21:02:43,790 - INFO - 📦 Collected 1 new tweets (Total: 6)
+2025-02-12 21:02:44,568 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 21:02:44,569 - INFO - 📦 Collected 5 new tweets (Total: 11)
+2025-02-12 21:02:45,680 - INFO - 📦 Collected 7 new tweets (Total: 18)
+2025-02-12 21:02:46,428 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 21:02:46,428 - INFO - 📦 Collected 2 new tweets (Total: 20)
+2025-02-12 21:02:47,081 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:02:47,081 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:02:49,779 - INFO - 📦 Collected 9 new tweets (Total: 29)
+2025-02-12 21:02:50,622 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 21:02:50,622 - INFO - 📦 Collected 2 new tweets (Total: 31)
+2025-02-12 21:02:51,581 - INFO - 📦 Collected 4 new tweets (Total: 35)
+2025-02-12 21:02:52,511 - INFO - 📦 Collected 4 new tweets (Total: 39)
+2025-02-12 21:02:53,232 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:02:53,232 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:02:56,008 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 21:02:56,011 - INFO - 📦 Collected 7 new tweets (Total: 46)
+2025-02-12 21:02:57,425 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 21:02:57,426 - INFO - 📦 Collected 5 new tweets (Total: 51)
+2025-02-12 21:02:58,429 - INFO - 📦 Collected 2 new tweets (Total: 53)
+2025-02-12 21:02:59,372 - INFO - 📦 Collected 4 new tweets (Total: 57)
+2025-02-12 21:03:00,225 - INFO - 📦 Collected 1 new tweets (Total: 58)
+2025-02-12 21:03:00,913 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:03:00,913 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:03:03,799 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 21:03:03,802 - INFO - 📦 Collected 5 new tweets (Total: 63)
+2025-02-12 21:03:04,590 - INFO - 📦 Collected 4 new tweets (Total: 67)
+2025-02-12 21:03:05,421 - INFO - 📦 Collected 1 new tweets (Total: 68)
+2025-02-12 21:03:06,270 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 21:03:06,271 - INFO - 📦 Collected 2 new tweets (Total: 70)
+2025-02-12 21:03:07,077 - INFO - 📦 Collected 2 new tweets (Total: 72)
+2025-02-12 21:03:07,939 - INFO - 📦 Collected 3 new tweets (Total: 75)
+2025-02-12 21:03:08,757 - INFO - 📦 Collected 3 new tweets (Total: 78)
+2025-02-12 21:03:09,399 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:03:09,399 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:03:12,208 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 21:03:12,210 - INFO - 📦 Collected 8 new tweets (Total: 86)
+2025-02-12 21:03:12,943 - INFO - 📦 Collected 2 new tweets (Total: 88)
+2025-02-12 21:03:13,776 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 21:03:13,776 - INFO - 📦 Collected 3 new tweets (Total: 91)
+2025-02-12 21:03:14,688 - INFO - 📦 Collected 5 new tweets (Total: 96)
+2025-02-12 21:03:15,573 - INFO - 📦 Collected 2 new tweets (Total: 98)
+2025-02-12 21:03:16,221 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:03:16,221 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:03:19,080 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 21:03:19,082 - INFO - 📦 Collected 6 new tweets (Total: 104)
+2025-02-12 21:03:20,074 - INFO - 📦 Collected 3 new tweets (Total: 107)
+2025-02-12 21:03:20,889 - INFO - 📦 Collected 2 new tweets (Total: 109)
+2025-02-12 21:03:21,685 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 21:03:21,686 - INFO - 📦 Collected 3 new tweets (Total: 112)
+2025-02-12 21:03:22,577 - INFO - 📦 Collected 5 new tweets (Total: 117)
+2025-02-12 21:03:23,277 - INFO - 📦 Collected 1 new tweets (Total: 118)
+2025-02-12 21:03:24,282 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 21:03:24,283 - INFO - 📦 Collected 5 new tweets (Total: 123)
+2025-02-12 21:03:25,103 - INFO - 📦 Collected 2 new tweets (Total: 125)
+2025-02-12 21:03:25,974 - INFO - 📦 Collected 3 new tweets (Total: 128)
+2025-02-12 21:03:26,883 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 21:03:26,883 - INFO - 📦 Collected 3 new tweets (Total: 131)
+2025-02-12 21:03:27,703 - INFO - 📦 Collected 2 new tweets (Total: 133)
+2025-02-12 21:03:28,664 - INFO - 📦 Collected 2 new tweets (Total: 135)
+2025-02-12 21:03:29,497 - INFO - 📦 Collected 3 new tweets (Total: 138)
+2025-02-12 21:03:30,166 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:03:30,166 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:03:32,837 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 21:03:32,840 - INFO - 📦 Collected 8 new tweets (Total: 146)
+2025-02-12 21:03:33,668 - INFO - 📦 Collected 2 new tweets (Total: 148)
+2025-02-12 21:03:34,694 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 21:03:34,695 - INFO - 📦 Collected 5 new tweets (Total: 153)
+2025-02-12 21:03:35,479 - INFO - 📦 Collected 3 new tweets (Total: 156)
+2025-02-12 21:03:36,125 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:03:36,126 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:03:38,816 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 21:03:38,817 - INFO - 📦 Collected 5 new tweets (Total: 161)
+2025-02-12 21:03:39,674 - INFO - 📦 Collected 3 new tweets (Total: 164)
+2025-02-12 21:03:40,492 - INFO - 📦 Collected 2 new tweets (Total: 166)
+2025-02-12 21:03:41,572 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-12 21:03:41,574 - INFO - 📦 Collected 6 new tweets (Total: 172)
+2025-02-12 21:03:42,705 - INFO - 📦 Collected 4 new tweets (Total: 176)
+2025-02-12 21:03:43,429 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:03:43,429 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:03:46,106 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-12 21:03:46,107 - INFO - 📦 Collected 5 new tweets (Total: 181)
+2025-02-12 21:03:46,987 - INFO - 📦 Collected 2 new tweets (Total: 183)
+2025-02-12 21:03:47,921 - INFO - 📦 Collected 3 new tweets (Total: 186)
+2025-02-12 21:03:48,913 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-12 21:03:48,914 - INFO - 📦 Collected 6 new tweets (Total: 192)
+2025-02-12 21:03:49,940 - INFO - 📦 Collected 3 new tweets (Total: 195)
+2025-02-12 21:03:50,728 - INFO - 📦 Collected 1 new tweets (Total: 196)
+2025-02-12 21:03:51,887 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-12 21:03:51,887 - INFO - 📦 Collected 4 new tweets (Total: 200)
+2025-02-12 21:03:53,909 - INFO - ✅ Final count: 200/200 tweets
+2025-02-12 21:03:53,909 - INFO - 🎯 Target reached successfully
+2025-02-12 21:03:53,910 - INFO - Final count: 200 tweets sent
+2025-02-12 21:06:19,677 - INFO - Initializing pipeline
+2025-02-12 21:06:24,731 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:06:30,430 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:06:32,450 - INFO - ✅ Final count: 0/50 tweets
+2025-02-12 21:06:32,450 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 21:06:32,450 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:06:32,450 - INFO - Final count: 0 tweets sent
+2025-02-12 21:06:37,923 - INFO - Initializing pipeline
+2025-02-12 21:06:42,768 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:06:48,474 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:06:50,500 - INFO - ✅ Final count: 0/50 tweets
+2025-02-12 21:06:50,501 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 21:06:50,501 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:06:50,501 - INFO - Final count: 0 tweets sent
+2025-02-12 21:07:07,359 - INFO - Initializing pipeline
+2025-02-12 21:07:12,222 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:07:13,877 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:07:15,907 - INFO - ✅ Final count: 0/50 tweets
+2025-02-12 21:07:15,908 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 21:07:15,908 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:07:15,908 - INFO - Final count: 0 tweets sent
+2025-02-12 21:07:17,828 - INFO - Initializing pipeline
+2025-02-12 21:07:22,697 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:07:25,916 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 21:07:26,602 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:07:26,602 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:07:29,385 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 21:07:29,386 - INFO - 📦 Collected 6 new tweets (Total: 11)
+2025-02-12 21:07:30,317 - INFO - 📦 Collected 5 new tweets (Total: 16)
+2025-02-12 21:07:31,267 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 21:07:31,267 - INFO - 📦 Collected 4 new tweets (Total: 20)
+2025-02-12 21:07:32,715 - INFO - 📦 Collected 8 new tweets (Total: 28)
+2025-02-12 21:07:33,698 - INFO - 📦 Collected 1 new tweets (Total: 29)
+2025-02-12 21:07:35,177 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 21:07:35,179 - INFO - 📦 Collected 3 new tweets (Total: 32)
+2025-02-12 21:07:36,364 - INFO - 📦 Collected 4 new tweets (Total: 36)
+2025-02-12 21:07:37,515 - INFO - 📦 Collected 3 new tweets (Total: 39)
+2025-02-12 21:07:38,787 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 21:07:38,791 - INFO - 📦 Collected 8 new tweets (Total: 47)
+2025-02-12 21:07:39,559 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:07:39,559 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:07:42,309 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 21:07:42,309 - INFO - 📦 Collected 3 new tweets (Total: 50)
+2025-02-12 21:07:44,325 - INFO - ✅ Final count: 50/50 tweets
+2025-02-12 21:07:44,325 - INFO - 🎯 Target reached successfully
+2025-02-12 21:07:44,325 - INFO - Final count: 50 tweets sent
+2025-02-12 21:09:56,713 - INFO - Initializing pipeline
+2025-02-12 21:10:01,672 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:10:08,511 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-12 21:10:09,273 - INFO - 📦 Collected 2 new tweets (Total: 6)
+2025-02-12 21:10:10,074 - INFO - 📦 Collected 2 new tweets (Total: 8)
+2025-02-12 21:10:11,018 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 21:10:11,021 - INFO - 📦 Collected 7 new tweets (Total: 15)
+2025-02-12 21:10:11,999 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 21:10:11,999 - INFO - 📦 Collected 5 new tweets (Total: 20)
+2025-02-12 21:10:12,674 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:10:12,674 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:10:15,396 - INFO - 📦 Collected 6 new tweets (Total: 26)
+2025-02-12 21:10:16,627 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 21:10:16,627 - INFO - 📦 Collected 4 new tweets (Total: 30)
+2025-02-12 21:10:17,671 - INFO - 📦 Collected 5 new tweets (Total: 35)
+2025-02-12 21:10:18,869 - INFO - 📦 Collected 3 new tweets (Total: 38)
+2025-02-12 21:10:19,782 - INFO - 📦 Collected 1 new tweets (Total: 39)
+2025-02-12 21:10:21,325 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 21:10:21,329 - INFO - 📦 Collected 8 new tweets (Total: 47)
+2025-02-12 21:10:22,557 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 21:10:22,557 - INFO - 📦 Collected 3 new tweets (Total: 50)
+2025-02-12 21:10:24,584 - INFO - ✅ Final count: 50/50 tweets
+2025-02-12 21:10:24,585 - INFO - 🎯 Target reached successfully
+2025-02-12 21:10:24,585 - INFO - Final count: 50 tweets sent
+2025-02-12 21:11:14,715 - INFO - Initializing pipeline
+2025-02-12 21:11:19,597 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:11:24,993 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-12 21:11:25,775 - INFO - 📦 Collected 2 new tweets (Total: 6)
+2025-02-12 21:11:26,484 - INFO - 📦 Collected 2 new tweets (Total: 8)
+2025-02-12 21:11:27,360 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 21:11:27,363 - INFO - 📦 Collected 7 new tweets (Total: 15)
+2025-02-12 21:11:28,338 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 21:11:28,339 - INFO - 📦 Collected 5 new tweets (Total: 20)
+2025-02-12 21:11:29,598 - INFO - 📦 Collected 6 new tweets (Total: 26)
+2025-02-12 21:11:30,332 - INFO - 📦 Collected 1 new tweets (Total: 27)
+2025-02-12 21:11:31,545 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 21:11:31,546 - INFO - 📦 Collected 4 new tweets (Total: 31)
+2025-02-12 21:11:32,570 - INFO - 📦 Collected 4 new tweets (Total: 35)
+2025-02-12 21:11:33,472 - INFO - 📦 Collected 4 new tweets (Total: 39)
+2025-02-12 21:11:34,372 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:11:34,372 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:11:37,093 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 21:11:37,098 - INFO - 📦 Collected 8 new tweets (Total: 47)
+2025-02-12 21:11:38,268 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 21:11:38,268 - INFO - 📦 Collected 3 new tweets (Total: 50)
+2025-02-12 21:11:40,296 - INFO - ✅ Final count: 50/50 tweets
+2025-02-12 21:11:40,296 - INFO - 🎯 Target reached successfully
+2025-02-12 21:11:40,297 - INFO - Final count: 50 tweets sent
+2025-02-12 21:15:58,087 - INFO - Initializing pipeline
+2025-02-12 21:16:02,981 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:16:08,244 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-12 21:16:08,955 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-12 21:16:09,747 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-12 21:16:10,537 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 21:16:10,538 - INFO - 📦 Collected 4 new tweets (Total: 12)
+2025-02-12 21:16:11,394 - INFO - 📦 Collected 5 new tweets (Total: 17)
+2025-02-12 21:16:12,146 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 21:16:12,146 - INFO - 📦 Collected 3 new tweets (Total: 20)
+2025-02-12 21:16:13,553 - INFO - 📦 Collected 8 new tweets (Total: 28)
+2025-02-12 21:16:14,379 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 21:16:14,379 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 21:16:17,095 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 21:16:17,098 - INFO - 📦 Collected 6 new tweets (Total: 34)
+2025-02-12 21:16:18,084 - INFO - 📦 Collected 4 new tweets (Total: 38)
+2025-02-12 21:16:19,077 - INFO - 📦 Collected 1 new tweets (Total: 39)
+2025-02-12 21:16:20,095 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 21:16:20,098 - INFO - 📦 Collected 6 new tweets (Total: 45)
+2025-02-12 21:16:21,080 - INFO - 📦 Collected 4 new tweets (Total: 49)
+2025-02-12 21:16:22,280 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 21:16:22,280 - INFO - 📦 Collected 1 new tweets (Total: 50)
+2025-02-12 21:16:24,294 - INFO - ✅ Final count: 50/50 tweets
+2025-02-12 21:16:24,294 - INFO - 🎯 Target reached successfully
+2025-02-12 21:16:24,294 - INFO - Final count: 50 tweets sent
+2025-02-12 21:23:15,192 - INFO - Initializing pipeline
+2025-02-12 21:23:48,520 - INFO - Initializing pipeline
+2025-02-12 21:24:00,925 - INFO - Initializing pipeline
+2025-02-12 21:24:25,255 - INFO - Initializing pipeline
+2025-02-12 21:24:44,701 - INFO - Final count: 0 tweets sent
+2025-02-12 21:24:45,593 - INFO - Initializing pipeline
+2025-02-12 21:24:50,451 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:24:56,165 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:24:58,194 - INFO - ✅ Final count: 0/50 tweets
+2025-02-12 21:24:58,194 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 21:24:58,194 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:24:58,195 - INFO - Final count: 0 tweets sent
+2025-02-12 21:25:16,156 - INFO - Initializing pipeline
+2025-02-12 21:25:21,014 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:25:26,863 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:25:28,885 - INFO - ✅ Final count: 0/50 tweets
+2025-02-12 21:25:28,886 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 21:25:28,886 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 21:25:28,886 - INFO - Final count: 0 tweets sent
+2025-02-12 21:25:46,279 - INFO - Initializing pipeline
+2025-02-12 21:25:51,113 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 21:25:57,428 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-12 21:25:58,127 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-12 21:25:58,899 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-12 21:25:59,677 - INFO - 📦 Collected 2 new tweets (Total: 9)
+2025-02-12 21:26:00,529 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 21:26:00,531 - INFO - 📦 Collected 4 new tweets (Total: 13)
+2025-02-12 21:26:01,545 - INFO - 📦 Collected 6 new tweets (Total: 19)
+2025-02-12 21:26:01,977 - INFO - Final count: 0 tweets sent
+2025-02-12 21:26:02,226 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 21:26:02,226 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-12 21:26:03,708 - INFO - 📦 Collected 9 new tweets (Total: 29)
+2025-02-12 21:26:04,574 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 21:26:04,575 - INFO - 📦 Collected 2 new tweets (Total: 31)
+2025-02-12 21:26:05,878 - INFO - 📦 Collected 6 new tweets (Total: 37)
+2025-02-12 21:26:07,035 - INFO - 📦 Collected 1 new tweets (Total: 38)
+2025-02-12 21:26:08,738 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 21:26:08,740 - INFO - 📦 Collected 4 new tweets (Total: 42)
+2025-02-12 21:26:09,855 - INFO - 📦 Collected 6 new tweets (Total: 48)
+2025-02-12 21:26:11,091 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 21:26:11,091 - INFO - 📦 Collected 2 new tweets (Total: 50)
+2025-02-12 21:26:13,104 - INFO - ✅ Final count: 50/50 tweets
+2025-02-12 21:26:13,104 - INFO - 🎯 Target reached successfully
+2025-02-12 21:26:13,104 - INFO - Final count: 50 tweets sent
+2025-02-12 22:15:51,637 - INFO - Initializing pipeline
+2025-02-12 22:15:56,827 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:16:02,535 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:16:04,557 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:16:04,558 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:16:04,558 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:16:04,558 - INFO - Final count: 0 tweets sent
+2025-02-12 22:16:10,102 - INFO - Initializing pipeline
+2025-02-12 22:16:15,128 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:16:20,855 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:16:22,878 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:16:22,879 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:16:22,879 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:16:22,879 - INFO - Final count: 0 tweets sent
+2025-02-12 22:16:29,758 - INFO - Initializing pipeline
+2025-02-12 22:16:34,839 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:16:40,710 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:16:42,730 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:16:42,730 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:16:42,730 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:16:42,730 - INFO - Final count: 0 tweets sent
+2025-02-12 22:16:51,780 - INFO - Initializing pipeline
+2025-02-12 22:16:56,924 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:17:03,974 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 22:17:05,078 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-12 22:17:06,088 - INFO - 📦 Collected 2 new tweets (Total: 9)
+2025-02-12 22:17:07,366 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 22:17:07,368 - INFO - 📦 Collected 3 new tweets (Total: 12)
+2025-02-12 22:17:08,570 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-12 22:17:09,878 - INFO - 📦 Collected 4 new tweets (Total: 19)
+2025-02-12 22:17:10,921 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 22:17:10,921 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-12 22:17:12,647 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 22:17:12,647 - INFO - 📦 Collected 10 new tweets (Total: 30)
+2025-02-12 22:17:13,723 - INFO - 📦 Collected 2 new tweets (Total: 32)
+2025-02-12 22:17:15,027 - INFO - 📦 Collected 3 new tweets (Total: 35)
+2025-02-12 22:17:16,176 - INFO - 📦 Collected 4 new tweets (Total: 39)
+2025-02-12 22:17:17,895 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 22:17:17,901 - INFO - 📦 Collected 7 new tweets (Total: 46)
+2025-02-12 22:17:19,548 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:17:19,548 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:17:22,694 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 22:17:22,696 - INFO - 📦 Collected 6 new tweets (Total: 52)
+2025-02-12 22:17:23,982 - INFO - 📦 Collected 4 new tweets (Total: 56)
+2025-02-12 22:17:25,143 - INFO - 📦 Collected 2 new tweets (Total: 58)
+2025-02-12 22:17:27,062 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 22:17:27,068 - INFO - 📦 Collected 7 new tweets (Total: 65)
+2025-02-12 22:17:28,306 - INFO - 📦 Collected 3 new tweets (Total: 68)
+2025-02-12 22:17:29,132 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:17:29,132 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:17:32,195 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 22:17:32,196 - INFO - 📦 Collected 3 new tweets (Total: 71)
+2025-02-12 22:17:33,435 - INFO - 📦 Collected 2 new tweets (Total: 73)
+2025-02-12 22:17:34,589 - INFO - 📦 Collected 3 new tweets (Total: 76)
+2025-02-12 22:17:35,535 - INFO - 📦 Collected 2 new tweets (Total: 78)
+2025-02-12 22:17:36,372 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:17:36,373 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:17:39,476 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 22:17:39,477 - INFO - 📦 Collected 4 new tweets (Total: 82)
+2025-02-12 22:17:40,476 - INFO - 📦 Collected 3 new tweets (Total: 85)
+2025-02-12 22:17:41,357 - INFO - 📦 Collected 2 new tweets (Total: 87)
+2025-02-12 22:17:42,381 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 22:17:42,383 - INFO - 📦 Collected 5 new tweets (Total: 92)
+2025-02-12 22:17:43,481 - INFO - 📦 Collected 4 new tweets (Total: 96)
+2025-02-12 22:17:44,418 - INFO - 📦 Collected 2 new tweets (Total: 98)
+2025-02-12 22:17:45,131 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:17:45,131 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:17:48,058 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 22:17:48,063 - INFO - 📦 Collected 7 new tweets (Total: 105)
+2025-02-12 22:17:49,393 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 22:17:49,393 - INFO - 📦 Collected 5 new tweets (Total: 110)
+2025-02-12 22:17:50,878 - INFO - 📦 Collected 6 new tweets (Total: 116)
+2025-02-12 22:17:52,131 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:17:52,131 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:17:55,072 - INFO - 📦 Collected 2 new tweets (Total: 118)
+2025-02-12 22:17:56,148 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 22:17:56,150 - INFO - 📦 Collected 3 new tweets (Total: 121)
+2025-02-12 22:17:57,042 - INFO - 📦 Collected 2 new tweets (Total: 123)
+2025-02-12 22:17:58,184 - INFO - 📦 Collected 2 new tweets (Total: 125)
+2025-02-12 22:17:59,534 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 22:17:59,535 - INFO - 📦 Collected 6 new tweets (Total: 131)
+2025-02-12 22:18:00,846 - INFO - 📦 Collected 2 new tweets (Total: 133)
+2025-02-12 22:18:01,910 - INFO - 📦 Collected 4 new tweets (Total: 137)
+2025-02-12 22:18:03,044 - INFO - 📦 Collected 1 new tweets (Total: 138)
+2025-02-12 22:18:03,838 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:18:03,838 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:18:07,087 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 22:18:07,090 - INFO - 📦 Collected 4 new tweets (Total: 142)
+2025-02-12 22:18:08,624 - INFO - 📦 Collected 4 new tweets (Total: 146)
+2025-02-12 22:18:10,018 - INFO - 📦 Collected 1 new tweets (Total: 147)
+2025-02-12 22:18:11,156 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 22:18:11,158 - INFO - 📦 Collected 5 new tweets (Total: 152)
+2025-02-12 22:18:12,255 - INFO - 📦 Collected 4 new tweets (Total: 156)
+2025-02-12 22:18:13,051 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:18:13,052 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:18:15,829 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 22:18:15,830 - INFO - 📦 Collected 5 new tweets (Total: 161)
+2025-02-12 22:18:17,261 - INFO - 📦 Collected 6 new tweets (Total: 167)
+2025-02-12 22:18:18,283 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-12 22:18:18,284 - INFO - 📦 Collected 3 new tweets (Total: 170)
+2025-02-12 22:18:19,356 - INFO - 📦 Collected 2 new tweets (Total: 172)
+2025-02-12 22:18:20,309 - INFO - 📦 Collected 3 new tweets (Total: 175)
+2025-02-12 22:18:21,283 - INFO - 📦 Collected 1 new tweets (Total: 176)
+2025-02-12 22:18:22,178 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:18:22,178 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:18:25,009 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-12 22:18:25,016 - INFO - 📦 Collected 9 new tweets (Total: 185)
+2025-02-12 22:18:26,418 - INFO - 📦 Collected 4 new tweets (Total: 189)
+2025-02-12 22:18:27,542 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-12 22:18:27,544 - INFO - 📦 Collected 3 new tweets (Total: 192)
+2025-02-12 22:18:28,526 - INFO - 📦 Collected 2 new tweets (Total: 194)
+2025-02-12 22:18:29,412 - INFO - 📦 Collected 2 new tweets (Total: 196)
+2025-02-12 22:18:30,897 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-12 22:18:30,897 - INFO - 📦 Collected 4 new tweets (Total: 200)
+2025-02-12 22:18:32,923 - INFO - ✅ Final count: 200/200 tweets
+2025-02-12 22:18:32,923 - INFO - 🎯 Target reached successfully
+2025-02-12 22:18:32,924 - INFO - Final count: 200 tweets sent
+2025-02-12 22:23:10,926 - INFO - Initializing pipeline
+2025-02-12 22:23:16,047 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:23:21,724 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:23:23,756 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:23:23,757 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:23:23,757 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:23:23,757 - INFO - Final count: 0 tweets sent
+2025-02-12 22:23:27,239 - INFO - Initializing pipeline
+2025-02-12 22:23:32,215 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:23:37,853 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:23:39,889 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:23:39,890 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:23:39,890 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:23:39,891 - INFO - Final count: 0 tweets sent
+2025-02-12 22:23:46,245 - INFO - Initializing pipeline
+2025-02-12 22:23:51,231 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:23:57,019 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:23:59,041 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:23:59,041 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:23:59,042 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:23:59,042 - INFO - Final count: 0 tweets sent
+2025-02-12 22:24:05,453 - INFO - Initializing pipeline
+2025-02-12 22:24:10,400 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:24:15,973 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:24:17,987 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:24:17,987 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:24:17,987 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:24:17,988 - INFO - Final count: 0 tweets sent
+2025-02-12 22:24:29,162 - INFO - Initializing pipeline
+2025-02-12 22:24:34,171 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:24:40,004 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:24:42,025 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:24:42,025 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:24:42,026 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:24:42,026 - INFO - Final count: 0 tweets sent
+2025-02-12 22:24:56,914 - INFO - Initializing pipeline
+2025-02-12 22:25:03,983 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:25:09,642 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:25:11,674 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:25:11,675 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:25:11,675 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:25:11,675 - INFO - Final count: 0 tweets sent
+2025-02-12 22:25:26,434 - INFO - Initializing pipeline
+2025-02-12 22:25:33,583 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:25:39,261 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:25:41,296 - INFO - ✅ Final count: 0/200 tweets
+2025-02-12 22:25:41,297 - WARNING - ⚠️  Ended before reaching target
+2025-02-12 22:25:41,297 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF6190993D2]
+	(No symbol) [0x00007FF6190995FC]
+	(No symbol) [0x00007FF6190E3407]
+	(No symbol) [0x00007FF6190BFFEF]
+	(No symbol) [0x00007FF6190E0181]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-12 22:25:41,297 - INFO - Final count: 0 tweets sent
+2025-02-12 22:25:54,815 - INFO - Initializing pipeline
+2025-02-12 22:26:24,089 - INFO - Initializing pipeline
+2025-02-12 22:26:58,480 - INFO - Initializing pipeline
+2025-02-12 22:27:10,733 - INFO - Initializing pipeline
+2025-02-12 22:28:03,993 - INFO - Final count: 0 tweets sent
+2025-02-12 22:28:04,021 - INFO - Final count: 0 tweets sent
+2025-02-12 22:28:04,023 - INFO - Final count: 0 tweets sent
+2025-02-12 22:28:04,041 - INFO - Final count: 0 tweets sent
+2025-02-12 22:28:14,498 - INFO - Initializing pipeline
+2025-02-12 22:28:46,508 - INFO - Initializing pipeline
+2025-02-12 22:29:16,396 - INFO - Final count: 0 tweets sent
+2025-02-12 22:29:34,473 - INFO - Initializing pipeline
+2025-02-12 22:29:39,476 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-12 22:29:43,421 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-12 22:29:44,307 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-12 22:29:45,707 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-12 22:29:45,707 - INFO - 📦 Collected 3 new tweets (Total: 10)
+2025-02-12 22:29:46,991 - INFO - 📦 Collected 2 new tweets (Total: 12)
+2025-02-12 22:29:48,179 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-12 22:29:49,561 - INFO - 📦 Collected 3 new tweets (Total: 18)
+2025-02-12 22:29:49,718 - INFO - Final count: 0 tweets sent
+2025-02-12 22:29:50,783 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-12 22:29:50,784 - INFO - 📦 Collected 2 new tweets (Total: 20)
+2025-02-12 22:29:52,439 - INFO - 📦 Collected 9 new tweets (Total: 29)
+2025-02-12 22:29:53,618 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-12 22:29:53,622 - INFO - 📦 Collected 3 new tweets (Total: 32)
+2025-02-12 22:29:55,028 - INFO - 📦 Collected 4 new tweets (Total: 36)
+2025-02-12 22:29:56,167 - INFO - 📦 Collected 3 new tweets (Total: 39)
+2025-02-12 22:29:57,846 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-12 22:29:57,857 - INFO - 📦 Collected 8 new tweets (Total: 47)
+2025-02-12 22:29:58,896 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:29:58,897 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:30:02,091 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-12 22:30:02,094 - INFO - 📦 Collected 6 new tweets (Total: 53)
+2025-02-12 22:30:03,707 - INFO - 📦 Collected 4 new tweets (Total: 57)
+2025-02-12 22:30:04,756 - INFO - 📦 Collected 1 new tweets (Total: 58)
+2025-02-12 22:30:06,646 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-12 22:30:06,652 - INFO - 📦 Collected 7 new tweets (Total: 65)
+2025-02-12 22:30:07,674 - INFO - 📦 Collected 2 new tweets (Total: 67)
+2025-02-12 22:30:08,771 - INFO - 📦 Collected 2 new tweets (Total: 69)
+2025-02-12 22:30:10,133 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-12 22:30:10,136 - INFO - 📦 Collected 3 new tweets (Total: 72)
+2025-02-12 22:30:11,308 - INFO - 📦 Collected 1 new tweets (Total: 73)
+2025-02-12 22:30:12,727 - INFO - 📦 Collected 4 new tweets (Total: 77)
+2025-02-12 22:30:13,866 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-12 22:30:14,976 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-12 22:30:14,977 - INFO - 📦 Collected 3 new tweets (Total: 81)
+2025-02-12 22:30:15,947 - INFO - 📦 Collected 3 new tweets (Total: 84)
+2025-02-12 22:30:16,989 - INFO - 📦 Collected 2 new tweets (Total: 86)
+2025-02-12 22:30:18,158 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-12 22:30:18,159 - INFO - 📦 Collected 4 new tweets (Total: 90)
+2025-02-12 22:30:19,191 - INFO - 📦 Collected 4 new tweets (Total: 94)
+2025-02-12 22:30:20,336 - INFO - 📦 Collected 4 new tweets (Total: 98)
+2025-02-12 22:30:22,030 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-12 22:30:22,042 - INFO - 📦 Collected 7 new tweets (Total: 105)
+2025-02-12 22:30:23,015 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:30:23,015 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:30:25,843 - INFO - 📦 Collected 4 new tweets (Total: 109)
+2025-02-12 22:30:27,011 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-12 22:30:27,012 - INFO - 📦 Collected 4 new tweets (Total: 113)
+2025-02-12 22:30:28,156 - INFO - 📦 Collected 3 new tweets (Total: 116)
+2025-02-12 22:30:29,111 - INFO - 📦 Collected 2 new tweets (Total: 118)
+2025-02-12 22:30:30,076 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-12 22:30:30,077 - INFO - 📦 Collected 3 new tweets (Total: 121)
+2025-02-12 22:30:31,104 - INFO - 📦 Collected 3 new tweets (Total: 124)
+2025-02-12 22:30:32,427 - INFO - 📦 Collected 4 new tweets (Total: 128)
+2025-02-12 22:30:33,678 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-12 22:30:33,681 - INFO - 📦 Collected 4 new tweets (Total: 132)
+2025-02-12 22:30:35,181 - INFO - 📦 Collected 2 new tweets (Total: 134)
+2025-02-12 22:30:36,800 - INFO - 📦 Collected 4 new tweets (Total: 138)
+2025-02-12 22:30:38,364 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-12 22:30:38,366 - INFO - 📦 Collected 4 new tweets (Total: 142)
+2025-02-12 22:30:39,269 - INFO - 📦 Collected 1 new tweets (Total: 143)
+2025-02-12 22:30:40,713 - INFO - 📦 Collected 2 new tweets (Total: 145)
+2025-02-12 22:30:41,962 - INFO - 📦 Collected 3 new tweets (Total: 148)
+2025-02-12 22:30:43,208 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-12 22:30:43,211 - INFO - 📦 Collected 4 new tweets (Total: 152)
+2025-02-12 22:30:44,378 - INFO - 📦 Collected 3 new tweets (Total: 155)
+2025-02-12 22:30:45,762 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-12 22:30:45,762 - INFO - 📦 Collected 5 new tweets (Total: 160)
+2025-02-12 22:30:46,664 - INFO - 📦 Collected 1 new tweets (Total: 161)
+2025-02-12 22:30:47,999 - INFO - 📦 Collected 7 new tweets (Total: 168)
+2025-02-12 22:30:48,979 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-12 22:30:48,979 - INFO - 📦 Collected 2 new tweets (Total: 170)
+2025-02-12 22:30:50,134 - INFO - 📦 Collected 3 new tweets (Total: 173)
+2025-02-12 22:30:51,190 - INFO - 📦 Collected 3 new tweets (Total: 176)
+2025-02-12 22:30:52,155 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-12 22:30:52,155 - WARNING - ⏳ Retry #1 for 2s
+2025-02-12 22:30:55,340 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-12 22:30:55,344 - INFO - 📦 Collected 8 new tweets (Total: 184)
+2025-02-12 22:30:56,822 - INFO - 📦 Collected 4 new tweets (Total: 188)
+2025-02-12 22:30:58,254 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-12 22:30:58,255 - INFO - 📦 Collected 4 new tweets (Total: 192)
+2025-02-12 22:30:59,296 - INFO - 📦 Collected 1 new tweets (Total: 193)
+2025-02-12 22:31:00,566 - INFO - 📦 Collected 3 new tweets (Total: 196)
+2025-02-12 22:31:02,045 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-12 22:31:02,046 - INFO - 📦 Collected 4 new tweets (Total: 200)
+2025-02-12 22:31:04,081 - INFO - ✅ Final count: 200/200 tweets
+2025-02-12 22:31:04,082 - INFO - 🎯 Target reached successfully
+2025-02-12 22:31:04,083 - INFO - Final count: 200 tweets sent
+2025-02-13 00:16:27,221 - INFO - Initializing pipeline
+2025-02-13 00:16:38,880 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 00:16:40,366 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-13 00:16:42,391 - INFO - ✅ Final count: 0/200 tweets
+2025-02-13 00:16:42,391 - WARNING - ⚠️  Ended before reaching target
+2025-02-13 00:16:42,391 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6192502F5+28725]
+	(No symbol) [0x00007FF6191B2AE0]
+	(No symbol) [0x00007FF61904510A]
+	(No symbol) [0x00007FF61901EEA5]
+	(No symbol) [0x00007FF6190C6F87]
+	(No symbol) [0x00007FF6190DFA52]
+	(No symbol) [0x00007FF6190BFD53]
+	(No symbol) [0x00007FF61908A0E3]
+	(No symbol) [0x00007FF61908B471]
+	GetHandleVerifier [0x00007FF61957F30D+3366989]
+	GetHandleVerifier [0x00007FF6195912F0+3440688]
+	GetHandleVerifier [0x00007FF6195878FD+3401277]
+	GetHandleVerifier [0x00007FF61931AAAB+858091]
+	(No symbol) [0x00007FF6191BE74F]
+	(No symbol) [0x00007FF6191BA304]
+	(No symbol) [0x00007FF6191BA49D]
+	(No symbol) [0x00007FF6191A8B69]
+	BaseThreadInitThunk [0x00007FF8F344259D+29]
+	RtlUserThreadStart [0x00007FF8F496AF38+40]
+
+2025-02-13 00:16:42,392 - INFO - Final count: 0 tweets sent
+2025-02-13 00:16:52,728 - INFO - Initializing pipeline
+2025-02-13 00:16:57,729 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 00:17:01,893 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-13 00:17:02,829 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-13 00:17:04,165 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-13 00:17:05,319 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 00:17:05,322 - INFO - 📦 Collected 4 new tweets (Total: 12)
+2025-02-13 00:17:06,466 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-13 00:17:07,761 - INFO - 📦 Collected 2 new tweets (Total: 17)
+2025-02-13 00:17:09,020 - INFO - 📦 Collected 2 new tweets (Total: 19)
+2025-02-13 00:17:10,779 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 00:17:10,785 - INFO - 📦 Collected 7 new tweets (Total: 26)
+2025-02-13 00:17:12,055 - INFO - 📦 Collected 1 new tweets (Total: 27)
+2025-02-13 00:17:13,672 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 00:17:13,680 - INFO - 📦 Collected 7 new tweets (Total: 34)
+2025-02-13 00:17:14,986 - INFO - 📦 Collected 3 new tweets (Total: 37)
+2025-02-13 00:17:16,003 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 00:17:16,003 - INFO - 📦 Collected 3 new tweets (Total: 40)
+2025-02-13 00:17:17,594 - INFO - 📦 Collected 5 new tweets (Total: 45)
+2025-02-13 00:17:19,143 - INFO - 📦 Collected 4 new tweets (Total: 49)
+2025-02-13 00:17:20,515 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 00:17:20,517 - INFO - 📦 Collected 3 new tweets (Total: 52)
+2025-02-13 00:17:22,204 - INFO - 📦 Collected 6 new tweets (Total: 58)
+2025-02-13 00:17:23,571 - INFO - 📦 Collected 1 new tweets (Total: 59)
+2025-02-13 00:17:24,790 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 00:17:24,794 - INFO - 📦 Collected 6 new tweets (Total: 65)
+2025-02-13 00:17:26,102 - INFO - 📦 Collected 3 new tweets (Total: 68)
+2025-02-13 00:17:27,222 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 00:17:27,225 - INFO - 📦 Collected 4 new tweets (Total: 72)
+2025-02-13 00:17:28,289 - INFO - 📦 Collected 2 new tweets (Total: 74)
+2025-02-13 00:17:29,653 - INFO - 📦 Collected 3 new tweets (Total: 77)
+2025-02-13 00:17:30,871 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-13 00:17:32,476 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 00:17:32,481 - INFO - 📦 Collected 7 new tweets (Total: 85)
+2025-02-13 00:17:33,540 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:17:33,540 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:17:36,477 - INFO - 📦 Collected 1 new tweets (Total: 86)
+2025-02-13 00:17:37,585 - INFO - 📦 Collected 3 new tweets (Total: 89)
+2025-02-13 00:17:38,617 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 00:17:38,617 - INFO - 📦 Collected 2 new tweets (Total: 91)
+2025-02-13 00:17:39,575 - INFO - 📦 Collected 4 new tweets (Total: 95)
+2025-02-13 00:17:40,613 - INFO - 📦 Collected 3 new tweets (Total: 98)
+2025-02-13 00:17:41,914 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 00:17:41,916 - INFO - 📦 Collected 4 new tweets (Total: 102)
+2025-02-13 00:17:42,963 - INFO - 📦 Collected 3 new tweets (Total: 105)
+2025-02-13 00:17:44,152 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 00:17:44,152 - INFO - 📦 Collected 5 new tweets (Total: 110)
+2025-02-13 00:17:45,256 - INFO - 📦 Collected 4 new tweets (Total: 114)
+2025-02-13 00:17:46,592 - INFO - 📦 Collected 3 new tweets (Total: 117)
+2025-02-13 00:17:47,822 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 00:17:47,822 - INFO - 📦 Collected 3 new tweets (Total: 120)
+2025-02-13 00:17:49,327 - INFO - 📦 Collected 4 new tweets (Total: 124)
+2025-02-13 00:17:50,466 - INFO - 📦 Collected 2 new tweets (Total: 126)
+2025-02-13 00:17:51,411 - INFO - 📦 Collected 3 new tweets (Total: 129)
+2025-02-13 00:17:52,892 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 00:17:52,899 - INFO - 📦 Collected 5 new tweets (Total: 134)
+2025-02-13 00:17:54,251 - INFO - 📦 Collected 3 new tweets (Total: 137)
+2025-02-13 00:17:55,653 - INFO - 📦 Collected 1 new tweets (Total: 138)
+2025-02-13 00:17:57,246 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 00:17:57,248 - INFO - 📦 Collected 4 new tweets (Total: 142)
+2025-02-13 00:17:58,576 - INFO - 📦 Collected 3 new tweets (Total: 145)
+2025-02-13 00:17:59,899 - INFO - 📦 Collected 2 new tweets (Total: 147)
+2025-02-13 00:18:01,244 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 00:18:01,244 - INFO - 📦 Collected 3 new tweets (Total: 150)
+2025-02-13 00:18:02,614 - INFO - 📦 Collected 3 new tweets (Total: 153)
+2025-02-13 00:18:03,738 - INFO - 📦 Collected 4 new tweets (Total: 157)
+2025-02-13 00:18:04,808 - INFO - 📦 Collected 2 new tweets (Total: 159)
+2025-02-13 00:18:05,748 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 00:18:05,751 - INFO - 📦 Collected 4 new tweets (Total: 163)
+2025-02-13 00:18:06,819 - INFO - 📦 Collected 3 new tweets (Total: 166)
+2025-02-13 00:18:08,048 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 00:18:08,050 - INFO - 📦 Collected 6 new tweets (Total: 172)
+2025-02-13 00:18:09,046 - INFO - 📦 Collected 3 new tweets (Total: 175)
+2025-02-13 00:18:10,407 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 00:18:10,409 - INFO - 📦 Collected 6 new tweets (Total: 181)
+2025-02-13 00:18:11,224 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:18:11,225 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:18:14,247 - INFO - 📦 Collected 6 new tweets (Total: 187)
+2025-02-13 00:18:15,860 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 00:18:15,861 - INFO - 📦 Collected 4 new tweets (Total: 191)
+2025-02-13 00:18:17,363 - INFO - 📦 Collected 4 new tweets (Total: 195)
+2025-02-13 00:18:18,828 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 00:18:18,828 - INFO - 📦 Collected 5 new tweets (Total: 200)
+2025-02-13 00:18:20,852 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 00:18:20,853 - INFO - 🎯 Target reached successfully
+2025-02-13 00:18:20,853 - INFO - Final count: 200 tweets sent
+2025-02-13 00:24:20,193 - INFO - Initializing pipeline
+2025-02-13 00:24:25,250 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 00:24:28,663 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-13 00:24:29,471 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-13 00:24:30,305 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-13 00:24:31,212 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 00:24:31,214 - INFO - 📦 Collected 4 new tweets (Total: 12)
+2025-02-13 00:24:32,609 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-13 00:24:33,954 - INFO - 📦 Collected 2 new tweets (Total: 17)
+2025-02-13 00:24:35,097 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 00:24:35,098 - INFO - 📦 Collected 3 new tweets (Total: 20)
+2025-02-13 00:24:36,476 - INFO - 📦 Collected 3 new tweets (Total: 23)
+2025-02-13 00:24:37,712 - INFO - 📦 Collected 4 new tweets (Total: 27)
+2025-02-13 00:24:39,316 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 00:24:39,325 - INFO - 📦 Collected 7 new tweets (Total: 34)
+2025-02-13 00:24:40,514 - INFO - 📦 Collected 3 new tweets (Total: 37)
+2025-02-13 00:24:41,641 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 00:24:41,642 - INFO - 📦 Collected 3 new tweets (Total: 40)
+2025-02-13 00:24:43,388 - INFO - 📦 Collected 5 new tweets (Total: 45)
+2025-02-13 00:24:44,886 - INFO - 📦 Collected 4 new tweets (Total: 49)
+2025-02-13 00:24:46,294 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 00:24:46,295 - INFO - 📦 Collected 3 new tweets (Total: 52)
+2025-02-13 00:24:47,828 - INFO - 📦 Collected 6 new tweets (Total: 58)
+2025-02-13 00:24:48,890 - INFO - 📦 Collected 1 new tweets (Total: 59)
+2025-02-13 00:24:50,671 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 00:24:50,676 - INFO - 📦 Collected 7 new tweets (Total: 66)
+2025-02-13 00:24:52,291 - INFO - 📦 Collected 3 new tweets (Total: 69)
+2025-02-13 00:24:53,537 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 00:24:53,539 - INFO - 📦 Collected 3 new tweets (Total: 72)
+2025-02-13 00:24:54,571 - INFO - 📦 Collected 2 new tweets (Total: 74)
+2025-02-13 00:24:55,925 - INFO - 📦 Collected 3 new tweets (Total: 77)
+2025-02-13 00:24:56,974 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-13 00:24:58,119 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 00:24:58,119 - INFO - 📦 Collected 2 new tweets (Total: 80)
+2025-02-13 00:24:59,372 - INFO - 📦 Collected 4 new tweets (Total: 84)
+2025-02-13 00:25:00,584 - INFO - 📦 Collected 2 new tweets (Total: 86)
+2025-02-13 00:25:01,564 - INFO - 📦 Collected 3 new tweets (Total: 89)
+2025-02-13 00:25:02,539 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 00:25:02,540 - INFO - 📦 Collected 2 new tweets (Total: 91)
+2025-02-13 00:25:03,597 - INFO - 📦 Collected 4 new tweets (Total: 95)
+2025-02-13 00:25:04,661 - INFO - 📦 Collected 3 new tweets (Total: 98)
+2025-02-13 00:25:06,018 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 00:25:06,023 - INFO - 📦 Collected 7 new tweets (Total: 105)
+2025-02-13 00:25:06,831 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:25:06,831 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:25:09,778 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 00:25:09,778 - INFO - 📦 Collected 5 new tweets (Total: 110)
+2025-02-13 00:25:10,913 - INFO - 📦 Collected 5 new tweets (Total: 115)
+2025-02-13 00:25:12,377 - INFO - 📦 Collected 3 new tweets (Total: 118)
+2025-02-13 00:25:13,579 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 00:25:13,580 - INFO - 📦 Collected 3 new tweets (Total: 121)
+2025-02-13 00:25:14,634 - INFO - 📦 Collected 3 new tweets (Total: 124)
+2025-02-13 00:25:15,822 - INFO - 📦 Collected 2 new tweets (Total: 126)
+2025-02-13 00:25:16,911 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 00:25:16,911 - INFO - 📦 Collected 4 new tweets (Total: 130)
+2025-02-13 00:25:18,392 - INFO - 📦 Collected 5 new tweets (Total: 135)
+2025-02-13 00:25:19,539 - INFO - 📦 Collected 2 new tweets (Total: 137)
+2025-02-13 00:25:21,147 - INFO - 📦 Collected 2 new tweets (Total: 139)
+2025-02-13 00:25:22,518 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 00:25:22,521 - INFO - 📦 Collected 4 new tweets (Total: 143)
+2025-02-13 00:25:23,913 - INFO - 📦 Collected 3 new tweets (Total: 146)
+2025-02-13 00:25:25,087 - INFO - 📦 Collected 2 new tweets (Total: 148)
+2025-02-13 00:25:26,550 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 00:25:26,550 - INFO - 📦 Collected 2 new tweets (Total: 150)
+2025-02-13 00:25:27,653 - INFO - 📦 Collected 3 new tweets (Total: 153)
+2025-02-13 00:25:28,810 - INFO - 📦 Collected 4 new tweets (Total: 157)
+2025-02-13 00:25:29,905 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:25:29,905 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:25:32,727 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 00:25:32,730 - INFO - 📦 Collected 6 new tweets (Total: 163)
+2025-02-13 00:25:33,926 - INFO - 📦 Collected 3 new tweets (Total: 166)
+2025-02-13 00:25:35,244 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 00:25:35,246 - INFO - 📦 Collected 6 new tweets (Total: 172)
+2025-02-13 00:25:36,291 - INFO - 📦 Collected 3 new tweets (Total: 175)
+2025-02-13 00:25:37,623 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 00:25:37,623 - INFO - 📦 Collected 5 new tweets (Total: 180)
+2025-02-13 00:25:38,585 - INFO - 📦 Collected 1 new tweets (Total: 181)
+2025-02-13 00:25:39,619 - INFO - 📦 Collected 3 new tweets (Total: 184)
+2025-02-13 00:25:40,929 - INFO - 📦 Collected 5 new tweets (Total: 189)
+2025-02-13 00:25:42,327 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 00:25:42,331 - INFO - 📦 Collected 4 new tweets (Total: 193)
+2025-02-13 00:25:43,567 - INFO - 📦 Collected 2 new tweets (Total: 195)
+2025-02-13 00:25:44,728 - INFO - 📦 Collected 3 new tweets (Total: 198)
+2025-02-13 00:25:45,779 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 00:25:45,779 - INFO - 📦 Collected 2 new tweets (Total: 200)
+2025-02-13 00:25:47,794 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 00:25:47,794 - INFO - 🎯 Target reached successfully
+2025-02-13 00:25:47,795 - INFO - Final count: 200 tweets sent
+2025-02-13 00:30:05,607 - INFO - Initializing pipeline
+2025-02-13 00:30:10,766 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 00:30:14,839 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-13 00:30:15,631 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-13 00:30:16,484 - INFO - 📦 Collected 1 new tweets (Total: 6)
+2025-02-13 00:30:17,824 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 00:30:17,833 - INFO - 📦 Collected 11 new tweets (Total: 17)
+2025-02-13 00:30:18,611 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:30:18,611 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:30:21,440 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:30:21,440 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 00:30:26,288 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:30:26,288 - WARNING - ⏳ Retry #3 for 8s
+2025-02-13 00:30:35,136 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 00:30:35,136 - INFO - 📦 Collected 3 new tweets (Total: 20)
+2025-02-13 00:30:35,939 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:30:35,940 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:30:39,215 - INFO - 📦 Collected 4 new tweets (Total: 24)
+2025-02-13 00:30:40,744 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 00:30:40,744 - INFO - 📦 Collected 6 new tweets (Total: 30)
+2025-02-13 00:30:42,151 - INFO - 📦 Collected 6 new tweets (Total: 36)
+2025-02-13 00:30:43,320 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 00:30:43,320 - INFO - 📦 Collected 4 new tweets (Total: 40)
+2025-02-13 00:30:45,241 - INFO - 📦 Collected 6 new tweets (Total: 46)
+2025-02-13 00:30:46,444 - INFO - 📦 Collected 2 new tweets (Total: 48)
+2025-02-13 00:30:47,991 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 00:30:47,993 - INFO - 📦 Collected 4 new tweets (Total: 52)
+2025-02-13 00:30:49,427 - INFO - 📦 Collected 3 new tweets (Total: 55)
+2025-02-13 00:30:50,756 - INFO - 📦 Collected 4 new tweets (Total: 59)
+2025-02-13 00:30:52,110 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 00:30:52,113 - INFO - 📦 Collected 3 new tweets (Total: 62)
+2025-02-13 00:30:53,721 - INFO - 📦 Collected 5 new tweets (Total: 67)
+2025-02-13 00:30:54,996 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 00:30:54,996 - INFO - 📦 Collected 3 new tweets (Total: 70)
+2025-02-13 00:30:56,186 - INFO - 📦 Collected 4 new tweets (Total: 74)
+2025-02-13 00:30:57,176 - INFO - 📦 Collected 1 new tweets (Total: 75)
+2025-02-13 00:30:58,494 - INFO - 📦 Collected 3 new tweets (Total: 78)
+2025-02-13 00:30:59,381 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:30:59,381 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:31:02,473 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 00:31:02,477 - INFO - 📦 Collected 6 new tweets (Total: 84)
+2025-02-13 00:31:03,580 - INFO - 📦 Collected 1 new tweets (Total: 85)
+2025-02-13 00:31:04,773 - INFO - 📦 Collected 3 new tweets (Total: 88)
+2025-02-13 00:31:05,840 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 00:31:05,841 - INFO - 📦 Collected 2 new tweets (Total: 90)
+2025-02-13 00:31:06,993 - INFO - 📦 Collected 4 new tweets (Total: 94)
+2025-02-13 00:31:08,009 - INFO - 📦 Collected 3 new tweets (Total: 97)
+2025-02-13 00:31:09,176 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 00:31:09,177 - INFO - 📦 Collected 4 new tweets (Total: 101)
+2025-02-13 00:31:10,365 - INFO - 📦 Collected 4 new tweets (Total: 105)
+2025-02-13 00:31:11,312 - INFO - 📦 Collected 3 new tweets (Total: 108)
+2025-02-13 00:31:12,372 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 00:31:12,373 - INFO - 📦 Collected 3 new tweets (Total: 111)
+2025-02-13 00:31:13,768 - INFO - 📦 Collected 5 new tweets (Total: 116)
+2025-02-13 00:31:14,586 - INFO - 📦 Collected 2 new tweets (Total: 118)
+2025-02-13 00:31:16,245 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 00:31:16,254 - INFO - 📦 Collected 9 new tweets (Total: 127)
+2025-02-13 00:31:17,147 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:31:17,147 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:31:19,975 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:31:19,975 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 00:31:24,951 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 00:31:24,951 - INFO - 📦 Collected 3 new tweets (Total: 130)
+2025-02-13 00:31:26,553 - INFO - 📦 Collected 5 new tweets (Total: 135)
+2025-02-13 00:31:27,600 - INFO - 📦 Collected 2 new tweets (Total: 137)
+2025-02-13 00:31:28,826 - INFO - 📦 Collected 1 new tweets (Total: 138)
+2025-02-13 00:31:30,520 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 00:31:30,523 - INFO - 📦 Collected 6 new tweets (Total: 144)
+2025-02-13 00:31:31,746 - INFO - 📦 Collected 2 new tweets (Total: 146)
+2025-02-13 00:31:32,974 - INFO - 📦 Collected 2 new tweets (Total: 148)
+2025-02-13 00:31:34,374 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 00:31:34,374 - INFO - 📦 Collected 2 new tweets (Total: 150)
+2025-02-13 00:31:35,713 - INFO - 📦 Collected 4 new tweets (Total: 154)
+2025-02-13 00:31:36,890 - INFO - 📦 Collected 3 new tweets (Total: 157)
+2025-02-13 00:31:37,882 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 00:31:37,882 - INFO - 📦 Collected 3 new tweets (Total: 160)
+2025-02-13 00:31:38,814 - INFO - 📦 Collected 3 new tweets (Total: 163)
+2025-02-13 00:31:39,844 - INFO - 📦 Collected 3 new tweets (Total: 166)
+2025-02-13 00:31:41,101 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 00:31:41,103 - INFO - 📦 Collected 6 new tweets (Total: 172)
+2025-02-13 00:31:42,022 - INFO - 📦 Collected 3 new tweets (Total: 175)
+2025-02-13 00:31:43,449 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 00:31:43,450 - INFO - 📦 Collected 6 new tweets (Total: 181)
+2025-02-13 00:31:44,244 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:31:44,244 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:31:47,134 - INFO - 📦 Collected 3 new tweets (Total: 184)
+2025-02-13 00:31:48,429 - INFO - 📦 Collected 5 new tweets (Total: 189)
+2025-02-13 00:31:49,854 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 00:31:49,856 - INFO - 📦 Collected 4 new tweets (Total: 193)
+2025-02-13 00:31:51,036 - INFO - 📦 Collected 2 new tweets (Total: 195)
+2025-02-13 00:31:52,458 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 00:31:52,458 - INFO - 📦 Collected 5 new tweets (Total: 200)
+2025-02-13 00:31:54,484 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 00:31:54,484 - INFO - 🎯 Target reached successfully
+2025-02-13 00:31:54,485 - INFO - Final count: 200 tweets sent
+2025-02-13 00:34:42,907 - INFO - Initializing pipeline
+2025-02-13 00:34:48,027 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 00:34:52,237 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-13 00:34:52,971 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:34:52,971 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:34:55,736 - INFO - 📦 Collected 5 new tweets (Total: 9)
+2025-02-13 00:34:56,569 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:34:56,569 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:34:59,705 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 00:34:59,710 - INFO - 📦 Collected 6 new tweets (Total: 15)
+2025-02-13 00:35:00,854 - INFO - 📦 Collected 2 new tweets (Total: 17)
+2025-02-13 00:35:02,062 - INFO - 📦 Collected 2 new tweets (Total: 19)
+2025-02-13 00:35:03,124 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 00:35:03,124 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-13 00:35:04,833 - INFO - 📦 Collected 7 new tweets (Total: 27)
+2025-02-13 00:35:06,349 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 00:35:06,354 - INFO - 📦 Collected 7 new tweets (Total: 34)
+2025-02-13 00:35:07,745 - INFO - 📦 Collected 3 new tweets (Total: 37)
+2025-02-13 00:35:08,699 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 00:35:08,699 - INFO - 📦 Collected 3 new tweets (Total: 40)
+2025-02-13 00:35:10,573 - INFO - 📦 Collected 6 new tweets (Total: 46)
+2025-02-13 00:35:12,067 - INFO - 📦 Collected 3 new tweets (Total: 49)
+2025-02-13 00:35:13,498 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 00:35:13,500 - INFO - 📦 Collected 3 new tweets (Total: 52)
+2025-02-13 00:35:15,062 - INFO - 📦 Collected 6 new tweets (Total: 58)
+2025-02-13 00:35:16,230 - INFO - 📦 Collected 1 new tweets (Total: 59)
+2025-02-13 00:35:17,904 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 00:35:17,916 - INFO - 📦 Collected 6 new tweets (Total: 65)
+2025-02-13 00:35:19,314 - INFO - 📦 Collected 4 new tweets (Total: 69)
+2025-02-13 00:35:20,309 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 00:35:20,310 - INFO - 📦 Collected 3 new tweets (Total: 72)
+2025-02-13 00:35:21,540 - INFO - 📦 Collected 2 new tweets (Total: 74)
+2025-02-13 00:35:22,792 - INFO - 📦 Collected 3 new tweets (Total: 77)
+2025-02-13 00:35:23,984 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-13 00:35:25,264 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 00:35:25,264 - INFO - 📦 Collected 2 new tweets (Total: 80)
+2025-02-13 00:35:26,613 - INFO - 📦 Collected 5 new tweets (Total: 85)
+2025-02-13 00:35:27,633 - INFO - 📦 Collected 2 new tweets (Total: 87)
+2025-02-13 00:35:28,757 - INFO - 📦 Collected 2 new tweets (Total: 89)
+2025-02-13 00:35:29,734 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 00:35:29,736 - INFO - 📦 Collected 2 new tweets (Total: 91)
+2025-02-13 00:35:30,773 - INFO - 📦 Collected 4 new tweets (Total: 95)
+2025-02-13 00:35:31,786 - INFO - 📦 Collected 3 new tweets (Total: 98)
+2025-02-13 00:35:32,920 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 00:35:32,923 - INFO - 📦 Collected 5 new tweets (Total: 103)
+2025-02-13 00:35:34,135 - INFO - 📦 Collected 2 new tweets (Total: 105)
+2025-02-13 00:35:35,214 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 00:35:35,214 - INFO - 📦 Collected 5 new tweets (Total: 110)
+2025-02-13 00:35:36,456 - INFO - 📦 Collected 5 new tweets (Total: 115)
+2025-02-13 00:35:37,678 - INFO - 📦 Collected 3 new tweets (Total: 118)
+2025-02-13 00:35:39,039 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 00:35:39,039 - INFO - 📦 Collected 2 new tweets (Total: 120)
+2025-02-13 00:35:40,154 - INFO - 📦 Collected 4 new tweets (Total: 124)
+2025-02-13 00:35:41,273 - INFO - 📦 Collected 2 new tweets (Total: 126)
+2025-02-13 00:35:42,480 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 00:35:42,480 - INFO - 📦 Collected 4 new tweets (Total: 130)
+2025-02-13 00:35:43,842 - INFO - 📦 Collected 5 new tweets (Total: 135)
+2025-02-13 00:35:45,012 - INFO - 📦 Collected 2 new tweets (Total: 137)
+2025-02-13 00:35:46,208 - INFO - 📦 Collected 1 new tweets (Total: 138)
+2025-02-13 00:35:47,657 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 00:35:47,660 - INFO - 📦 Collected 5 new tweets (Total: 143)
+2025-02-13 00:35:49,026 - INFO - 📦 Collected 3 new tweets (Total: 146)
+2025-02-13 00:35:50,166 - INFO - 📦 Collected 2 new tweets (Total: 148)
+2025-02-13 00:35:51,622 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 00:35:51,622 - INFO - 📦 Collected 2 new tweets (Total: 150)
+2025-02-13 00:35:52,882 - INFO - 📦 Collected 4 new tweets (Total: 154)
+2025-02-13 00:35:54,050 - INFO - 📦 Collected 3 new tweets (Total: 157)
+2025-02-13 00:35:54,785 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:35:54,785 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:35:57,618 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 00:35:57,621 - INFO - 📦 Collected 6 new tweets (Total: 163)
+2025-02-13 00:35:58,665 - INFO - 📦 Collected 3 new tweets (Total: 166)
+2025-02-13 00:35:59,871 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 00:35:59,873 - INFO - 📦 Collected 6 new tweets (Total: 172)
+2025-02-13 00:36:00,954 - INFO - 📦 Collected 3 new tweets (Total: 175)
+2025-02-13 00:36:01,783 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:36:01,783 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:36:04,582 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 00:36:04,585 - INFO - 📦 Collected 6 new tweets (Total: 181)
+2025-02-13 00:36:05,663 - INFO - 📦 Collected 3 new tweets (Total: 184)
+2025-02-13 00:36:06,970 - INFO - 📦 Collected 5 new tweets (Total: 189)
+2025-02-13 00:36:08,402 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 00:36:08,406 - INFO - 📦 Collected 4 new tweets (Total: 193)
+2025-02-13 00:36:09,636 - INFO - 📦 Collected 2 new tweets (Total: 195)
+2025-02-13 00:36:11,086 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 00:36:11,086 - INFO - 📦 Collected 5 new tweets (Total: 200)
+2025-02-13 00:36:13,106 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 00:36:13,106 - INFO - 🎯 Target reached successfully
+2025-02-13 00:36:13,108 - INFO - Final count: 200 tweets sent
+2025-02-13 00:42:37,496 - INFO - Initializing pipeline
+2025-02-13 00:42:42,530 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 00:42:47,175 - INFO - 📦 Collected 2 new tweets (Total: 2)
+2025-02-13 00:42:48,361 - INFO - 📦 Collected 3 new tweets (Total: 5)
+2025-02-13 00:42:50,099 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 00:42:50,101 - INFO - 📦 Collected 7 new tweets (Total: 12)
+2025-02-13 00:42:50,890 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:42:50,891 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:42:54,022 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-13 00:42:55,299 - INFO - 📦 Collected 2 new tweets (Total: 17)
+2025-02-13 00:42:56,495 - INFO - 📦 Collected 2 new tweets (Total: 19)
+2025-02-13 00:42:57,681 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 00:42:57,683 - INFO - 📦 Collected 3 new tweets (Total: 22)
+2025-02-13 00:42:58,772 - INFO - 📦 Collected 6 new tweets (Total: 28)
+2025-02-13 00:43:00,421 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 00:43:00,425 - INFO - 📦 Collected 6 new tweets (Total: 34)
+2025-02-13 00:43:01,631 - INFO - 📦 Collected 5 new tweets (Total: 39)
+2025-02-13 00:43:03,229 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 00:43:03,236 - INFO - 📦 Collected 7 new tweets (Total: 46)
+2025-02-13 00:43:04,186 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:43:04,186 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:43:07,118 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 00:43:07,119 - INFO - 📦 Collected 4 new tweets (Total: 50)
+2025-02-13 00:43:08,571 - INFO - 📦 Collected 4 new tweets (Total: 54)
+2025-02-13 00:43:09,752 - INFO - 📦 Collected 3 new tweets (Total: 57)
+2025-02-13 00:43:11,455 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 00:43:11,462 - INFO - 📦 Collected 8 new tweets (Total: 65)
+2025-02-13 00:43:12,756 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:43:12,756 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:43:15,968 - INFO - 📦 Collected 4 new tweets (Total: 69)
+2025-02-13 00:43:17,386 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 00:43:17,392 - INFO - 📦 Collected 4 new tweets (Total: 73)
+2025-02-13 00:43:18,426 - INFO - 📦 Collected 1 new tweets (Total: 74)
+2025-02-13 00:43:19,549 - INFO - 📦 Collected 3 new tweets (Total: 77)
+2025-02-13 00:43:20,589 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:43:20,590 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:43:23,695 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 00:43:23,697 - INFO - 📦 Collected 5 new tweets (Total: 82)
+2025-02-13 00:43:24,941 - INFO - 📦 Collected 2 new tweets (Total: 84)
+2025-02-13 00:43:26,053 - INFO - 📦 Collected 3 new tweets (Total: 87)
+2025-02-13 00:43:27,114 - INFO - 📦 Collected 2 new tweets (Total: 89)
+2025-02-13 00:43:28,026 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 00:43:28,027 - INFO - 📦 Collected 2 new tweets (Total: 91)
+2025-02-13 00:43:29,198 - INFO - 📦 Collected 4 new tweets (Total: 95)
+2025-02-13 00:43:30,075 - INFO - 📦 Collected 2 new tweets (Total: 97)
+2025-02-13 00:43:31,530 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 00:43:31,535 - INFO - 📦 Collected 6 new tweets (Total: 103)
+2025-02-13 00:43:32,672 - INFO - 📦 Collected 3 new tweets (Total: 106)
+2025-02-13 00:43:33,717 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 00:43:33,717 - INFO - 📦 Collected 4 new tweets (Total: 110)
+2025-02-13 00:43:35,235 - INFO - 📦 Collected 5 new tweets (Total: 115)
+2025-02-13 00:43:36,327 - INFO - 📦 Collected 2 new tweets (Total: 117)
+2025-02-13 00:43:37,848 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 00:43:37,849 - INFO - 📦 Collected 4 new tweets (Total: 121)
+2025-02-13 00:43:38,852 - INFO - 📦 Collected 3 new tweets (Total: 124)
+2025-02-13 00:43:39,965 - INFO - 📦 Collected 2 new tweets (Total: 126)
+2025-02-13 00:43:41,345 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 00:43:41,345 - INFO - 📦 Collected 4 new tweets (Total: 130)
+2025-02-13 00:43:42,491 - INFO - 📦 Collected 5 new tweets (Total: 135)
+2025-02-13 00:43:43,916 - INFO - 📦 Collected 2 new tweets (Total: 137)
+2025-02-13 00:43:44,958 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 00:43:44,958 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 00:43:48,211 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 00:43:48,214 - INFO - 📦 Collected 6 new tweets (Total: 143)
+2025-02-13 00:43:49,619 - INFO - 📦 Collected 3 new tweets (Total: 146)
+2025-02-13 00:43:50,727 - INFO - 📦 Collected 2 new tweets (Total: 148)
+2025-02-13 00:43:52,381 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 00:43:52,382 - INFO - 📦 Collected 3 new tweets (Total: 151)
+2025-02-13 00:43:53,499 - INFO - 📦 Collected 2 new tweets (Total: 153)
+2025-02-13 00:43:54,579 - INFO - 📦 Collected 3 new tweets (Total: 156)
+2025-02-13 00:43:55,669 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 00:43:55,669 - INFO - 📦 Collected 4 new tweets (Total: 160)
+2025-02-13 00:43:56,771 - INFO - 📦 Collected 4 new tweets (Total: 164)
+2025-02-13 00:43:57,755 - INFO - 📦 Collected 3 new tweets (Total: 167)
+2025-02-13 00:43:59,044 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 00:43:59,057 - INFO - 📦 Collected 6 new tweets (Total: 173)
+2025-02-13 00:43:59,866 - INFO - 📦 Collected 1 new tweets (Total: 174)
+2025-02-13 00:44:01,622 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 00:44:01,622 - INFO - 📦 Collected 6 new tweets (Total: 180)
+2025-02-13 00:44:02,366 - INFO - 📦 Collected 1 new tweets (Total: 181)
+2025-02-13 00:44:03,786 - INFO - 📦 Collected 6 new tweets (Total: 187)
+2025-02-13 00:44:04,884 - INFO - 📦 Collected 2 new tweets (Total: 189)
+2025-02-13 00:44:06,543 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 00:44:06,546 - INFO - 📦 Collected 4 new tweets (Total: 193)
+2025-02-13 00:44:07,436 - INFO - 📦 Collected 1 new tweets (Total: 194)
+2025-02-13 00:44:08,823 - INFO - 📦 Collected 5 new tweets (Total: 199)
+2025-02-13 00:44:09,973 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 00:44:09,973 - INFO - 📦 Collected 1 new tweets (Total: 200)
+2025-02-13 00:44:11,994 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 00:44:11,995 - INFO - 🎯 Target reached successfully
+2025-02-13 00:44:11,997 - INFO - Final count: 200 tweets sent
+2025-02-13 01:48:13,559 - INFO - Initializing pipeline
+2025-02-13 01:48:20,731 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 01:48:24,654 - INFO - 📦 Collected 6 new tweets (Total: 6)
+2025-02-13 01:48:25,841 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 01:48:25,843 - INFO - 📦 Collected 5 new tweets (Total: 11)
+2025-02-13 01:48:27,270 - INFO - 📦 Collected 3 new tweets (Total: 14)
+2025-02-13 01:48:28,728 - INFO - 📦 Collected 2 new tweets (Total: 16)
+2025-02-13 01:48:30,425 - INFO - 📦 Collected 3 new tweets (Total: 19)
+2025-02-13 01:48:32,387 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 01:48:32,397 - INFO - 📦 Collected 7 new tweets (Total: 26)
+2025-02-13 01:48:33,386 - INFO - 📦 Collected 1 new tweets (Total: 27)
+2025-02-13 01:48:35,039 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 01:48:35,042 - INFO - 📦 Collected 7 new tweets (Total: 34)
+2025-02-13 01:48:36,311 - INFO - 📦 Collected 3 new tweets (Total: 37)
+2025-02-13 01:48:37,237 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 01:48:37,237 - INFO - 📦 Collected 3 new tweets (Total: 40)
+2025-02-13 01:48:39,023 - INFO - 📦 Collected 6 new tweets (Total: 46)
+2025-02-13 01:48:40,467 - INFO - 📦 Collected 3 new tweets (Total: 49)
+2025-02-13 01:48:41,997 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 01:48:41,999 - INFO - 📦 Collected 3 new tweets (Total: 52)
+2025-02-13 01:48:43,932 - INFO - 📦 Collected 6 new tweets (Total: 58)
+2025-02-13 01:48:45,166 - INFO - 📦 Collected 1 new tweets (Total: 59)
+2025-02-13 01:48:46,522 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 01:48:46,528 - INFO - 📦 Collected 6 new tweets (Total: 65)
+2025-02-13 01:48:48,015 - INFO - 📦 Collected 3 new tweets (Total: 68)
+2025-02-13 01:48:49,242 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 01:48:49,244 - INFO - 📦 Collected 3 new tweets (Total: 71)
+2025-02-13 01:48:50,450 - INFO - 📦 Collected 3 new tweets (Total: 74)
+2025-02-13 01:48:51,778 - INFO - 📦 Collected 3 new tweets (Total: 77)
+2025-02-13 01:48:52,897 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-13 01:48:54,220 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 01:48:54,220 - INFO - 📦 Collected 2 new tweets (Total: 80)
+2025-02-13 01:48:55,564 - INFO - 📦 Collected 5 new tweets (Total: 85)
+2025-02-13 01:48:56,575 - INFO - 📦 Collected 1 new tweets (Total: 86)
+2025-02-13 01:48:57,864 - INFO - 📦 Collected 3 new tweets (Total: 89)
+2025-02-13 01:48:58,771 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 01:48:58,772 - INFO - 📦 Collected 2 new tweets (Total: 91)
+2025-02-13 01:48:59,783 - INFO - 📦 Collected 4 new tweets (Total: 95)
+2025-02-13 01:49:00,749 - INFO - 📦 Collected 3 new tweets (Total: 98)
+2025-02-13 01:49:01,478 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 01:49:01,479 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 01:49:04,499 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 01:49:04,517 - INFO - 📦 Collected 7 new tweets (Total: 105)
+2025-02-13 01:49:05,523 - INFO - 📦 Collected 4 new tweets (Total: 109)
+2025-02-13 01:49:06,720 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 01:49:06,722 - INFO - 📦 Collected 3 new tweets (Total: 112)
+2025-02-13 01:49:08,166 - INFO - 📦 Collected 5 new tweets (Total: 117)
+2025-02-13 01:49:10,026 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 01:49:10,027 - INFO - 📦 Collected 5 new tweets (Total: 122)
+2025-02-13 01:49:10,986 - INFO - 📦 Collected 1 new tweets (Total: 123)
+2025-02-13 01:49:12,176 - INFO - 📦 Collected 3 new tweets (Total: 126)
+2025-02-13 01:49:13,231 - INFO - 📦 Collected 3 new tweets (Total: 129)
+2025-02-13 01:49:14,316 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 01:49:14,321 - INFO - 📦 Collected 5 new tweets (Total: 134)
+2025-02-13 01:49:15,472 - INFO - 📦 Collected 2 new tweets (Total: 136)
+2025-02-13 01:49:16,849 - INFO - 📦 Collected 2 new tweets (Total: 138)
+2025-02-13 01:49:18,308 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 01:49:18,312 - INFO - 📦 Collected 7 new tweets (Total: 145)
+2025-02-13 01:49:19,626 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 01:49:19,626 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 01:49:22,619 - INFO - 📦 Collected 2 new tweets (Total: 147)
+2025-02-13 01:49:23,955 - INFO - 📦 Collected 2 new tweets (Total: 149)
+2025-02-13 01:49:25,333 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 01:49:25,336 - INFO - 📦 Collected 4 new tweets (Total: 153)
+2025-02-13 01:49:26,490 - INFO - 📦 Collected 1 new tweets (Total: 154)
+2025-02-13 01:49:27,420 - INFO - 📦 Collected 3 new tweets (Total: 157)
+2025-02-13 01:49:28,739 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 01:49:28,741 - INFO - 📦 Collected 6 new tweets (Total: 163)
+2025-02-13 01:49:29,682 - INFO - 📦 Collected 2 new tweets (Total: 165)
+2025-02-13 01:49:30,744 - INFO - 📦 Collected 4 new tweets (Total: 169)
+2025-02-13 01:49:32,032 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 01:49:32,036 - INFO - 📦 Collected 5 new tweets (Total: 174)
+2025-02-13 01:49:32,818 - INFO - 📦 Collected 1 new tweets (Total: 175)
+2025-02-13 01:49:34,262 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 01:49:34,264 - INFO - 📦 Collected 6 new tweets (Total: 181)
+2025-02-13 01:49:35,187 - INFO - 📦 Collected 1 new tweets (Total: 182)
+2025-02-13 01:49:36,422 - INFO - 📦 Collected 6 new tweets (Total: 188)
+2025-02-13 01:49:37,815 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 01:49:37,816 - INFO - 📦 Collected 3 new tweets (Total: 191)
+2025-02-13 01:49:39,146 - INFO - 📦 Collected 4 new tweets (Total: 195)
+2025-02-13 01:49:40,098 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 01:49:40,098 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 01:49:42,937 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 01:49:42,937 - INFO - 📦 Collected 5 new tweets (Total: 200)
+2025-02-13 01:49:44,962 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 01:49:44,962 - INFO - 🎯 Target reached successfully
+2025-02-13 01:49:44,963 - INFO - Final count: 200 tweets sent
+2025-02-13 01:51:09,905 - INFO - Initializing pipeline
+2025-02-13 01:51:14,917 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 01:51:18,703 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-13 01:51:19,607 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-13 01:51:20,547 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-13 01:51:21,584 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 01:51:21,586 - INFO - 📦 Collected 4 new tweets (Total: 12)
+2025-02-13 01:51:22,940 - INFO - 📦 Collected 3 new tweets (Total: 15)
+2025-02-13 01:51:23,965 - INFO - 📦 Collected 2 new tweets (Total: 17)
+2025-02-13 01:51:25,438 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 01:51:25,438 - INFO - 📦 Collected 3 new tweets (Total: 20)
+2025-02-13 01:51:27,115 - INFO - 📦 Collected 6 new tweets (Total: 26)
+2025-02-13 01:51:28,240 - INFO - 📦 Collected 1 new tweets (Total: 27)
+2025-02-13 01:51:29,933 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 01:51:29,937 - INFO - 📦 Collected 7 new tweets (Total: 34)
+2025-02-13 01:51:31,227 - INFO - 📦 Collected 3 new tweets (Total: 37)
+2025-02-13 01:51:32,205 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 01:51:32,205 - INFO - 📦 Collected 3 new tweets (Total: 40)
+2025-02-13 01:51:34,065 - INFO - 📦 Collected 8 new tweets (Total: 48)
+2025-02-13 01:51:35,380 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 01:51:35,380 - INFO - 📦 Collected 2 new tweets (Total: 50)
+2025-02-13 01:51:36,763 - INFO - 📦 Collected 2 new tweets (Total: 52)
+2025-02-13 01:51:38,442 - INFO - 📦 Collected 6 new tweets (Total: 58)
+2025-02-13 01:51:40,092 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 01:51:40,092 - INFO - 📦 Collected 2 new tweets (Total: 60)
+2025-02-13 01:51:40,910 - INFO - 📦 Collected 5 new tweets (Total: 65)
+2025-02-13 01:51:42,647 - INFO - 📦 Collected 3 new tweets (Total: 68)
+2025-02-13 01:51:43,789 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 01:51:43,790 - INFO - 📦 Collected 4 new tweets (Total: 72)
+2025-02-13 01:51:44,782 - INFO - 📦 Collected 2 new tweets (Total: 74)
+2025-02-13 01:51:46,123 - INFO - 📦 Collected 3 new tweets (Total: 77)
+2025-02-13 01:51:47,224 - INFO - 📦 Collected 1 new tweets (Total: 78)
+2025-02-13 01:51:48,708 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 01:51:48,713 - INFO - 📦 Collected 6 new tweets (Total: 84)
+2025-02-13 01:51:49,867 - INFO - 📦 Collected 1 new tweets (Total: 85)
+2025-02-13 01:51:50,916 - INFO - 📦 Collected 1 new tweets (Total: 86)
+2025-02-13 01:51:52,126 - INFO - 📦 Collected 3 new tweets (Total: 89)
+2025-02-13 01:51:53,067 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 01:51:53,068 - INFO - 📦 Collected 2 new tweets (Total: 91)
+2025-02-13 01:51:54,123 - INFO - 📦 Collected 4 new tweets (Total: 95)
+2025-02-13 01:51:55,089 - INFO - 📦 Collected 4 new tweets (Total: 99)
+2025-02-13 01:51:56,172 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 01:51:56,175 - INFO - 📦 Collected 4 new tweets (Total: 103)
+2025-02-13 01:51:57,356 - INFO - 📦 Collected 3 new tweets (Total: 106)
+2025-02-13 01:51:58,402 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 01:51:58,403 - INFO - 📦 Collected 4 new tweets (Total: 110)
+2025-02-13 01:51:59,562 - INFO - 📦 Collected 4 new tweets (Total: 114)
+2025-02-13 01:52:00,912 - INFO - 📦 Collected 4 new tweets (Total: 118)
+2025-02-13 01:52:02,352 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 01:52:02,354 - INFO - 📦 Collected 4 new tweets (Total: 122)
+2025-02-13 01:52:03,413 - INFO - 📦 Collected 2 new tweets (Total: 124)
+2025-02-13 01:52:04,503 - INFO - 📦 Collected 2 new tweets (Total: 126)
+2025-02-13 01:52:05,613 - INFO - 📦 Collected 3 new tweets (Total: 129)
+2025-02-13 01:52:07,139 - INFO - Sent batch of 10 tweets (Total: 130)
+2025-02-13 01:52:07,144 - INFO - 📦 Collected 6 new tweets (Total: 135)
+2025-02-13 01:52:08,120 - INFO - 📦 Collected 2 new tweets (Total: 137)
+2025-02-13 01:52:09,629 - INFO - 📦 Collected 1 new tweets (Total: 138)
+2025-02-13 01:52:10,900 - INFO - Sent batch of 10 tweets (Total: 140)
+2025-02-13 01:52:10,902 - INFO - 📦 Collected 5 new tweets (Total: 143)
+2025-02-13 01:52:12,272 - INFO - 📦 Collected 2 new tweets (Total: 145)
+2025-02-13 01:52:13,464 - INFO - 📦 Collected 3 new tweets (Total: 148)
+2025-02-13 01:52:14,690 - INFO - Sent batch of 10 tweets (Total: 150)
+2025-02-13 01:52:14,691 - INFO - 📦 Collected 2 new tweets (Total: 150)
+2025-02-13 01:52:15,896 - INFO - 📦 Collected 3 new tweets (Total: 153)
+2025-02-13 01:52:17,303 - INFO - 📦 Collected 4 new tweets (Total: 157)
+2025-02-13 01:52:18,603 - INFO - Sent batch of 10 tweets (Total: 160)
+2025-02-13 01:52:18,606 - INFO - 📦 Collected 6 new tweets (Total: 163)
+2025-02-13 01:52:19,449 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 01:52:19,449 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 01:52:22,267 - INFO - 📦 Collected 3 new tweets (Total: 166)
+2025-02-13 01:52:23,525 - INFO - Sent batch of 10 tweets (Total: 170)
+2025-02-13 01:52:23,528 - INFO - 📦 Collected 7 new tweets (Total: 173)
+2025-02-13 01:52:24,590 - INFO - 📦 Collected 2 new tweets (Total: 175)
+2025-02-13 01:52:25,642 - INFO - 📦 Collected 2 new tweets (Total: 177)
+2025-02-13 01:52:26,689 - INFO - Sent batch of 10 tweets (Total: 180)
+2025-02-13 01:52:26,690 - INFO - 📦 Collected 4 new tweets (Total: 181)
+2025-02-13 01:52:27,915 - INFO - 📦 Collected 4 new tweets (Total: 185)
+2025-02-13 01:52:29,153 - INFO - 📦 Collected 4 new tweets (Total: 189)
+2025-02-13 01:52:30,323 - INFO - Sent batch of 10 tweets (Total: 190)
+2025-02-13 01:52:30,326 - INFO - 📦 Collected 4 new tweets (Total: 193)
+2025-02-13 01:52:31,522 - INFO - 📦 Collected 2 new tweets (Total: 195)
+2025-02-13 01:52:32,642 - INFO - 📦 Collected 3 new tweets (Total: 198)
+2025-02-13 01:52:33,548 - INFO - Sent batch of 10 tweets (Total: 200)
+2025-02-13 01:52:33,548 - INFO - 📦 Collected 2 new tweets (Total: 200)
+2025-02-13 01:52:35,579 - INFO - ✅ Final count: 200/200 tweets
+2025-02-13 01:52:35,580 - INFO - 🎯 Target reached successfully
+2025-02-13 01:52:35,581 - INFO - Final count: 200 tweets sent
+2025-02-13 13:40:00,218 - INFO - Initializing pipeline
+2025-02-13 13:40:34,322 - INFO - Final count: 0 tweets sent
+2025-02-13 13:40:37,408 - INFO - Initializing pipeline
+2025-02-13 13:40:42,739 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 13:40:46,884 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-13 13:40:48,031 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-13 13:40:49,031 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 13:40:49,031 - INFO - 📦 Collected 2 new tweets (Total: 10)
+2025-02-13 13:40:50,251 - INFO - 📦 Collected 3 new tweets (Total: 13)
+2025-02-13 13:40:51,387 - INFO - 📦 Collected 3 new tweets (Total: 16)
+2025-02-13 13:40:52,401 - INFO - 📦 Collected 2 new tweets (Total: 18)
+2025-02-13 13:40:53,405 - INFO - 📦 Collected 1 new tweets (Total: 19)
+2025-02-13 13:40:54,219 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:40:54,219 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 13:40:56,982 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 13:40:56,992 - INFO - 📦 Collected 9 new tweets (Total: 28)
+2025-02-13 13:40:57,893 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:40:57,893 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 13:41:00,756 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:41:00,757 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 13:41:05,507 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:41:05,507 - WARNING - ⏳ Retry #3 for 8s
+2025-02-13 13:41:14,305 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 13:41:14,315 - INFO - 📦 Collected 9 new tweets (Total: 37)
+2025-02-13 13:41:15,097 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:41:15,097 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 13:41:18,274 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 13:41:18,275 - INFO - 📦 Collected 5 new tweets (Total: 42)
+2025-02-13 13:41:19,442 - INFO - 📦 Collected 2 new tweets (Total: 44)
+2025-02-13 13:41:20,734 - INFO - 📦 Collected 3 new tweets (Total: 47)
+2025-02-13 13:41:21,982 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 13:41:21,987 - INFO - 📦 Collected 6 new tweets (Total: 53)
+2025-02-13 13:41:23,606 - INFO - 📦 Collected 6 new tweets (Total: 59)
+2025-02-13 13:41:24,454 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 13:41:24,454 - INFO - 📦 Collected 1 new tweets (Total: 60)
+2025-02-13 13:41:25,986 - INFO - 📦 Collected 7 new tweets (Total: 67)
+2025-02-13 13:41:27,315 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 13:41:27,316 - INFO - 📦 Collected 4 new tweets (Total: 71)
+2025-02-13 13:41:28,452 - INFO - 📦 Collected 3 new tweets (Total: 74)
+2025-02-13 13:41:30,053 - INFO - 📦 Collected 4 new tweets (Total: 78)
+2025-02-13 13:41:31,682 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 13:41:31,688 - INFO - 📦 Collected 7 new tweets (Total: 85)
+2025-02-13 13:41:32,732 - INFO - 📦 Collected 1 new tweets (Total: 86)
+2025-02-13 13:41:34,515 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 13:41:34,516 - INFO - 📦 Collected 4 new tweets (Total: 90)
+2025-02-13 13:41:35,558 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7878402F5+28725]
+	(No symbol) [0x00007FF7877A2AE0]
+	(No symbol) [0x00007FF78763510A]
+	(No symbol) [0x00007FF78760EEA5]
+	(No symbol) [0x00007FF7876B6F87]
+	(No symbol) [0x00007FF7876CFA52]
+	(No symbol) [0x00007FF7876AFD53]
+	(No symbol) [0x00007FF78767A0E3]
+	(No symbol) [0x00007FF78767B471]
+	GetHandleVerifier [0x00007FF787B6F30D+3366989]
+	GetHandleVerifier [0x00007FF787B812F0+3440688]
+	GetHandleVerifier [0x00007FF787B778FD+3401277]
+	GetHandleVerifier [0x00007FF78790AAAB+858091]
+	(No symbol) [0x00007FF7877AE74F]
+	(No symbol) [0x00007FF7877AA304]
+	(No symbol) [0x00007FF7877AA49D]
+	(No symbol) [0x00007FF787798B69]
+	BaseThreadInitThunk [0x00007FF87913259D+29]
+	RtlUserThreadStart [0x00007FF87AD6AF38+40]
+
+2025-02-13 13:41:37,582 - INFO - ✅ Final count: 90/200 tweets
+2025-02-13 13:41:37,582 - WARNING - ⚠️  Ended before reaching target
+2025-02-13 13:41:37,582 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7878402F5+28725]
+	(No symbol) [0x00007FF7877A2AE0]
+	(No symbol) [0x00007FF78763510A]
+	(No symbol) [0x00007FF78760EEA5]
+	(No symbol) [0x00007FF7876B6F87]
+	(No symbol) [0x00007FF7876CFA52]
+	(No symbol) [0x00007FF7876AFD53]
+	(No symbol) [0x00007FF78767A0E3]
+	(No symbol) [0x00007FF78767B471]
+	GetHandleVerifier [0x00007FF787B6F30D+3366989]
+	GetHandleVerifier [0x00007FF787B812F0+3440688]
+	GetHandleVerifier [0x00007FF787B778FD+3401277]
+	GetHandleVerifier [0x00007FF78790AAAB+858091]
+	(No symbol) [0x00007FF7877AE74F]
+	(No symbol) [0x00007FF7877AA304]
+	(No symbol) [0x00007FF7877AA49D]
+	(No symbol) [0x00007FF787798B69]
+	BaseThreadInitThunk [0x00007FF87913259D+29]
+	RtlUserThreadStart [0x00007FF87AD6AF38+40]
+
+2025-02-13 13:41:37,583 - INFO - Final count: 90 tweets sent
+2025-02-13 13:44:45,714 - INFO - Initializing pipeline
+2025-02-13 13:44:51,225 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 13:44:55,420 - INFO - 📦 Collected 2 new tweets (Total: 2)
+2025-02-13 13:44:56,121 - INFO - 📦 Collected 3 new tweets (Total: 5)
+2025-02-13 13:44:57,541 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 13:44:57,541 - INFO - 📦 Collected 5 new tweets (Total: 10)
+2025-02-13 13:44:58,716 - INFO - 📦 Collected 3 new tweets (Total: 13)
+2025-02-13 13:45:00,445 - INFO - 📦 Collected 3 new tweets (Total: 16)
+2025-02-13 13:45:01,300 - INFO - 📦 Collected 1 new tweets (Total: 17)
+2025-02-13 13:45:02,455 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 13:45:02,455 - INFO - 📦 Collected 3 new tweets (Total: 20)
+2025-02-13 13:45:03,206 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:45:03,206 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 13:45:05,962 - INFO - 📦 Collected 5 new tweets (Total: 25)
+2025-02-13 13:45:06,715 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:45:06,716 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 13:45:09,494 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:45:09,495 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 13:45:14,340 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:45:14,341 - WARNING - ⏳ Retry #3 for 8s
+2025-02-13 13:45:23,262 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 13:45:23,278 - INFO - 📦 Collected 11 new tweets (Total: 36)
+2025-02-13 13:45:24,149 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 13:45:24,150 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 13:45:27,433 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 13:45:27,436 - INFO - 📦 Collected 5 new tweets (Total: 41)
+2025-02-13 13:45:28,714 - INFO - 📦 Collected 3 new tweets (Total: 44)
+2025-02-13 13:45:30,334 - INFO - 📦 Collected 5 new tweets (Total: 49)
+2025-02-13 13:45:32,034 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 13:45:32,034 - INFO - 📦 Collected 1 new tweets (Total: 50)
+2025-02-13 13:45:34,051 - INFO - ✅ Final count: 50/50 tweets
+2025-02-13 13:45:34,051 - INFO - 🎯 Target reached successfully
+2025-02-13 13:45:34,052 - INFO - Final count: 50 tweets sent
+2025-02-13 13:57:08,983 - INFO - Initializing pipeline
+2025-02-13 13:57:14,408 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 13:57:20,814 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-13 13:57:22,341 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-13 13:57:24,273 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 13:57:24,275 - INFO - 📦 Collected 3 new tweets (Total: 11)
+2025-02-13 13:57:26,418 - INFO - 📦 Collected 2 new tweets (Total: 13)
+2025-02-13 13:57:28,781 - INFO - 📦 Collected 3 new tweets (Total: 16)
+2025-02-13 13:57:30,977 - INFO - 📦 Collected 2 new tweets (Total: 18)
+2025-02-13 13:57:32,145 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 13:57:32,146 - INFO - 📦 Collected 2 new tweets (Total: 20)
+2025-02-13 13:57:33,437 - INFO - 📦 Collected 3 new tweets (Total: 23)
+2025-02-13 13:57:34,823 - INFO - 📦 Collected 2 new tweets (Total: 25)
+2025-02-13 13:57:36,187 - INFO - 📦 Collected 3 new tweets (Total: 28)
+2025-02-13 13:57:37,695 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 13:57:37,697 - INFO - 📦 Collected 3 new tweets (Total: 31)
+2025-02-13 13:57:38,639 - INFO - 📦 Collected 2 new tweets (Total: 33)
+2025-02-13 13:57:40,013 - INFO - 📦 Collected 4 new tweets (Total: 37)
+2025-02-13 13:57:41,380 - INFO - 📦 Collected 2 new tweets (Total: 39)
+2025-02-13 13:57:42,667 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 13:57:42,667 - INFO - 📦 Collected 1 new tweets (Total: 40)
+2025-02-13 13:57:44,924 - INFO - 📦 Collected 4 new tweets (Total: 44)
+2025-02-13 13:57:47,105 - INFO - 📦 Collected 3 new tweets (Total: 47)
+2025-02-13 13:57:50,614 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 13:57:50,614 - INFO - 📦 Collected 3 new tweets (Total: 50)
+2025-02-13 13:57:52,641 - INFO - ✅ Final count: 50/50 tweets
+2025-02-13 13:57:52,641 - INFO - 🎯 Target reached successfully
+2025-02-13 13:57:52,641 - INFO - Final count: 50 tweets sent
+2025-02-14 20:50:09,398 - INFO - Initializing pipeline
+2025-02-14 20:52:31,531 - INFO - Initializing pipeline
+2025-02-14 20:52:57,069 - INFO - Initializing pipeline
+2025-02-14 20:54:53,365 - INFO - Final count: 0 tweets sent
+2025-02-14 20:56:57,418 - INFO - Initializing pipeline
+2025-02-14 20:57:16,932 - INFO - Final count: 0 tweets sent
+2025-02-14 20:58:38,080 - INFO - Initializing pipeline
+2025-02-14 20:58:50,092 - INFO - Final count: 0 tweets sent
+2025-02-14 21:03:44,078 - INFO - Initializing pipeline
+2025-02-14 21:03:48,993 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:03:55,171 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7981602F5+28725]
+	(No symbol) [0x00007FF7980C2AE0]
+	(No symbol) [0x00007FF797F5510A]
+	(No symbol) [0x00007FF797FA93D2]
+	(No symbol) [0x00007FF797FA95FC]
+	(No symbol) [0x00007FF797FF3407]
+	(No symbol) [0x00007FF797FCFFEF]
+	(No symbol) [0x00007FF797FF0181]
+	(No symbol) [0x00007FF797FCFD53]
+	(No symbol) [0x00007FF797F9A0E3]
+	(No symbol) [0x00007FF797F9B471]
+	GetHandleVerifier [0x00007FF79848F30D+3366989]
+	GetHandleVerifier [0x00007FF7984A12F0+3440688]
+	GetHandleVerifier [0x00007FF7984978FD+3401277]
+	GetHandleVerifier [0x00007FF79822AAAB+858091]
+	(No symbol) [0x00007FF7980CE74F]
+	(No symbol) [0x00007FF7980CA304]
+	(No symbol) [0x00007FF7980CA49D]
+	(No symbol) [0x00007FF7980B8B69]
+	BaseThreadInitThunk [0x00007FF87913259D+29]
+	RtlUserThreadStart [0x00007FF87AD6AF38+40]
+
+2025-02-14 21:03:57,188 - INFO - ✅ Final count: 0/50 tweets
+2025-02-14 21:03:57,188 - WARNING - ⚠️  Ended before reaching target
+2025-02-14 21:03:57,189 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7981602F5+28725]
+	(No symbol) [0x00007FF7980C2AE0]
+	(No symbol) [0x00007FF797F5510A]
+	(No symbol) [0x00007FF797FA93D2]
+	(No symbol) [0x00007FF797FA95FC]
+	(No symbol) [0x00007FF797FF3407]
+	(No symbol) [0x00007FF797FCFFEF]
+	(No symbol) [0x00007FF797FF0181]
+	(No symbol) [0x00007FF797FCFD53]
+	(No symbol) [0x00007FF797F9A0E3]
+	(No symbol) [0x00007FF797F9B471]
+	GetHandleVerifier [0x00007FF79848F30D+3366989]
+	GetHandleVerifier [0x00007FF7984A12F0+3440688]
+	GetHandleVerifier [0x00007FF7984978FD+3401277]
+	GetHandleVerifier [0x00007FF79822AAAB+858091]
+	(No symbol) [0x00007FF7980CE74F]
+	(No symbol) [0x00007FF7980CA304]
+	(No symbol) [0x00007FF7980CA49D]
+	(No symbol) [0x00007FF7980B8B69]
+	BaseThreadInitThunk [0x00007FF87913259D+29]
+	RtlUserThreadStart [0x00007FF87AD6AF38+40]
+
+2025-02-14 21:03:57,189 - INFO - Final count: 0 tweets sent
+2025-02-14 21:04:21,569 - INFO - Initializing pipeline
+2025-02-14 21:04:26,451 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:05:12,466 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7981602F5+28725]
+	(No symbol) [0x00007FF7980C2AE0]
+	(No symbol) [0x00007FF797F5510A]
+	(No symbol) [0x00007FF797FA93D2]
+	(No symbol) [0x00007FF797FA95FC]
+	(No symbol) [0x00007FF797FF3407]
+	(No symbol) [0x00007FF797FCFFEF]
+	(No symbol) [0x00007FF797FF0181]
+	(No symbol) [0x00007FF797FCFD53]
+	(No symbol) [0x00007FF797F9A0E3]
+	(No symbol) [0x00007FF797F9B471]
+	GetHandleVerifier [0x00007FF79848F30D+3366989]
+	GetHandleVerifier [0x00007FF7984A12F0+3440688]
+	GetHandleVerifier [0x00007FF7984978FD+3401277]
+	GetHandleVerifier [0x00007FF79822AAAB+858091]
+	(No symbol) [0x00007FF7980CE74F]
+	(No symbol) [0x00007FF7980CA304]
+	(No symbol) [0x00007FF7980CA49D]
+	(No symbol) [0x00007FF7980B8B69]
+	BaseThreadInitThunk [0x00007FF87913259D+29]
+	RtlUserThreadStart [0x00007FF87AD6AF38+40]
+
+2025-02-14 21:05:14,570 - INFO - Final count: 0 tweets sent
+2025-02-14 21:05:17,262 - INFO - Initializing pipeline
+2025-02-14 21:05:22,239 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:05:26,547 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-14 21:05:27,471 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-14 21:05:28,331 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-14 21:05:28,333 - INFO - 📦 Collected 4 new tweets (Total: 12)
+2025-02-14 21:05:29,133 - INFO - 📦 Collected 4 new tweets (Total: 16)
+2025-02-14 21:05:30,100 - INFO - 📦 Collected 3 new tweets (Total: 19)
+2025-02-14 21:05:31,224 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-14 21:05:31,226 - INFO - 📦 Collected 2 new tweets (Total: 21)
+2025-02-14 21:05:32,070 - INFO - 📦 Collected 3 new tweets (Total: 24)
+2025-02-14 21:05:32,865 - INFO - 📦 Collected 1 new tweets (Total: 25)
+2025-02-14 21:05:33,811 - INFO - 📦 Collected 3 new tweets (Total: 28)
+2025-02-14 21:05:34,651 - INFO - 📦 Collected 1 new tweets (Total: 29)
+2025-02-14 21:05:35,823 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-14 21:05:35,826 - INFO - 📦 Collected 6 new tweets (Total: 35)
+2025-02-14 21:05:36,730 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-14 21:05:36,730 - INFO - 📦 Collected 5 new tweets (Total: 40)
+2025-02-14 21:05:37,428 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-14 21:05:37,428 - WARNING - ⏳ Retry #1 for 2s
+2025-02-14 21:05:40,467 - INFO - 📦 Collected 7 new tweets (Total: 47)
+2025-02-14 21:05:41,521 - INFO - 📦 Collected 2 new tweets (Total: 49)
+2025-02-14 21:05:42,799 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-14 21:05:42,799 - INFO - 📦 Collected 1 new tweets (Total: 50)
+2025-02-14 21:05:44,815 - INFO - ✅ Final count: 50/50 tweets
+2025-02-14 21:05:44,815 - INFO - 🎯 Target reached successfully
+2025-02-14 21:05:44,815 - INFO - Final count: 50 tweets sent
+2025-02-14 21:06:13,287 - INFO - Initializing pipeline
+2025-02-14 21:06:18,165 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:06:21,374 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-14 21:06:22,149 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-14 21:06:23,061 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-14 21:06:23,063 - INFO - 📦 Collected 5 new tweets (Total: 13)
+2025-02-14 21:06:24,344 - INFO - 📦 Collected 3 new tweets (Total: 16)
+2025-02-14 21:06:25,229 - INFO - 📦 Collected 3 new tweets (Total: 19)
+2025-02-14 21:06:26,051 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-14 21:06:26,052 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-14 21:06:27,159 - INFO - 📦 Collected 4 new tweets (Total: 24)
+2025-02-14 21:06:27,921 - INFO - 📦 Collected 1 new tweets (Total: 25)
+2025-02-14 21:06:28,805 - INFO - 📦 Collected 3 new tweets (Total: 28)
+2025-02-14 21:06:29,744 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-14 21:06:29,744 - INFO - 📦 Collected 2 new tweets (Total: 30)
+2025-02-14 21:06:30,724 - INFO - 📦 Collected 3 new tweets (Total: 33)
+2025-02-14 21:06:31,613 - INFO - 📦 Collected 4 new tweets (Total: 37)
+2025-02-14 21:06:32,415 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-14 21:06:32,415 - INFO - 📦 Collected 3 new tweets (Total: 40)
+2025-02-14 21:06:33,445 - INFO - 📦 Collected 6 new tweets (Total: 46)
+2025-02-14 21:06:34,565 - INFO - 📦 Collected 2 new tweets (Total: 48)
+2025-02-14 21:06:36,005 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-14 21:06:36,005 - INFO - 📦 Collected 2 new tweets (Total: 50)
+2025-02-14 21:06:38,032 - INFO - ✅ Final count: 50/50 tweets
+2025-02-14 21:06:38,032 - INFO - 🎯 Target reached successfully
+2025-02-14 21:06:38,032 - INFO - Final count: 50 tweets sent
+2025-02-14 21:13:48,202 - INFO - Initializing pipeline
+2025-02-14 21:13:53,108 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:13:58,100 - INFO - 📦 Collected 4 new tweets (Total: 4)
+2025-02-14 21:13:58,831 - INFO - 📦 Collected 1 new tweets (Total: 5)
+2025-02-14 21:13:59,757 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-14 21:13:59,757 - INFO - 📦 Collected 5 new tweets (Total: 10)
+2025-02-14 21:14:00,687 - INFO - 📦 Collected 5 new tweets (Total: 15)
+2025-02-14 21:14:01,580 - INFO - 📦 Collected 3 new tweets (Total: 18)
+2025-02-14 21:14:02,385 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-14 21:14:02,385 - INFO - 📦 Collected 2 new tweets (Total: 20)
+2025-02-14 21:14:03,509 - INFO - 📦 Collected 4 new tweets (Total: 24)
+2025-02-14 21:14:04,270 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-14 21:14:04,270 - WARNING - ⏳ Retry #1 for 2s
+2025-02-14 21:14:06,986 - INFO - 📦 Collected 3 new tweets (Total: 27)
+2025-02-14 21:14:07,913 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-14 21:14:07,913 - INFO - 📦 Collected 3 new tweets (Total: 30)
+2025-02-14 21:14:08,737 - INFO - 📦 Collected 2 new tweets (Total: 32)
+2025-02-14 21:14:09,710 - INFO - 📦 Collected 2 new tweets (Total: 34)
+2025-02-14 21:14:10,617 - INFO - 📦 Collected 5 new tweets (Total: 39)
+2025-02-14 21:14:11,331 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-14 21:14:11,331 - INFO - 📦 Collected 1 new tweets (Total: 40)
+2025-02-14 21:14:12,753 - INFO - 📦 Collected 9 new tweets (Total: 49)
+2025-02-14 21:14:13,675 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-14 21:14:13,675 - INFO - 📦 Collected 1 new tweets (Total: 50)
+2025-02-14 21:14:15,695 - INFO - ✅ Final count: 50/50 tweets
+2025-02-14 21:14:15,695 - INFO - 🎯 Target reached successfully
+2025-02-14 21:14:15,695 - INFO - Final count: 50 tweets sent
+2025-02-14 21:15:33,076 - INFO - Initializing pipeline
+2025-02-14 21:15:37,952 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:15:42,330 - INFO - 📦 Collected 3 new tweets (Total: 3)
+2025-02-14 21:15:43,163 - INFO - 📦 Collected 2 new tweets (Total: 5)
+2025-02-14 21:15:44,015 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-14 21:15:44,922 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-14 21:15:44,922 - INFO - 📦 Collected 5 new tweets (Total: 12)
+2025-02-14 21:15:45,797 - INFO - 📦 Collected 4 new tweets (Total: 16)
+2025-02-14 21:15:46,601 - INFO - 📦 Collected 3 new tweets (Total: 19)
+2025-02-14 21:15:47,312 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-14 21:15:47,313 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-14 21:15:48,390 - INFO - 📦 Collected 5 new tweets (Total: 25)
+2025-02-14 21:15:49,104 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-14 21:15:49,104 - WARNING - ⏳ Retry #1 for 2s
+2025-02-14 21:15:51,830 - INFO - 📦 Collected 3 new tweets (Total: 28)
+2025-02-14 21:15:52,609 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-14 21:15:52,609 - INFO - 📦 Collected 2 new tweets (Total: 30)
+2025-02-14 21:15:53,627 - INFO - 📦 Collected 2 new tweets (Total: 32)
+2025-02-14 21:15:54,513 - INFO - 📦 Collected 3 new tweets (Total: 35)
+2025-02-14 21:15:55,669 - INFO - 📦 Collected 4 new tweets (Total: 39)
+2025-02-14 21:15:56,701 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-14 21:15:56,703 - INFO - 📦 Collected 5 new tweets (Total: 44)
+2025-02-14 21:15:57,619 - INFO - 📦 Collected 4 new tweets (Total: 48)
+2025-02-14 21:15:58,542 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-14 21:15:58,542 - INFO - 📦 Collected 2 new tweets (Total: 50)
+2025-02-14 21:16:00,575 - INFO - ✅ Final count: 50/50 tweets
+2025-02-14 21:16:00,575 - INFO - 🎯 Target reached successfully
+2025-02-14 21:16:00,576 - INFO - Final count: 50 tweets sent
+2025-02-14 21:17:31,287 - INFO - Initializing pipeline
+2025-02-14 21:17:36,217 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:17:41,468 - INFO - 📦 Collected 3 new tweets (Total: 3)
+2025-02-14 21:17:42,354 - INFO - 📦 Collected 2 new tweets (Total: 5)
+2025-02-14 21:17:43,212 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-14 21:17:44,073 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-14 21:17:44,075 - INFO - 📦 Collected 5 new tweets (Total: 12)
+2025-02-14 21:17:44,959 - INFO - 📦 Collected 4 new tweets (Total: 16)
+2025-02-14 21:17:45,840 - INFO - 📦 Collected 3 new tweets (Total: 19)
+2025-02-14 21:17:46,565 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-14 21:17:46,565 - INFO - 📦 Collected 1 new tweets (Total: 20)
+2025-02-14 21:17:47,595 - INFO - 📦 Collected 5 new tweets (Total: 25)
+2025-02-14 21:17:48,420 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-14 21:17:48,421 - WARNING - ⏳ Retry #1 for 2s
+2025-02-14 21:17:51,217 - INFO - 📦 Collected 3 new tweets (Total: 28)
+2025-02-14 21:17:52,006 - INFO - 📦 Collected 1 new tweets (Total: 29)
+2025-02-14 21:17:53,088 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-14 21:17:53,089 - INFO - 📦 Collected 3 new tweets (Total: 32)
+2025-02-14 21:17:53,960 - INFO - 📦 Collected 3 new tweets (Total: 35)
+2025-02-14 21:17:54,874 - INFO - 📦 Collected 4 new tweets (Total: 39)
+2025-02-14 21:17:55,885 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-14 21:17:55,887 - INFO - 📦 Collected 3 new tweets (Total: 42)
+2025-02-14 21:17:56,820 - INFO - 📦 Collected 5 new tweets (Total: 47)
+2025-02-14 21:17:57,781 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-14 21:17:57,781 - INFO - 📦 Collected 3 new tweets (Total: 50)
+2025-02-14 21:17:59,814 - INFO - ✅ Final count: 50/50 tweets
+2025-02-14 21:17:59,814 - INFO - 🎯 Target reached successfully
+2025-02-14 21:17:59,814 - INFO - Final count: 50 tweets sent
+2025-02-14 21:22:05,414 - INFO - Initializing pipeline
+2025-02-14 21:22:10,296 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-14 21:22:13,405 - INFO - 📦 Collected 3 new tweets (Total: 3)
+2025-02-14 21:22:14,219 - INFO - 📦 Collected 2 new tweets (Total: 5)
+2025-02-14 21:22:15,104 - INFO - 📦 Collected 3 new tweets (Total: 8)
+2025-02-14 21:22:16,070 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-14 21:22:16,072 - INFO - 📦 Collected 5 new tweets (Total: 13)
+2025-02-14 21:22:17,290 - INFO - 📦 Collected 5 new tweets (Total: 18)
+2025-02-14 21:22:18,109 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-14 21:22:18,109 - INFO - 📦 Collected 2 new tweets (Total: 20)
+2025-02-14 21:22:18,827 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-14 21:22:18,827 - WARNING - ⏳ Retry #1 for 2s
+2025-02-14 21:22:21,588 - INFO - 📦 Collected 5 new tweets (Total: 25)
+2025-02-14 21:22:22,407 - INFO - 📦 Collected 2 new tweets (Total: 27)
+2025-02-14 21:22:23,245 - INFO - 📦 Collected 2 new tweets (Total: 29)
+2025-02-14 21:22:24,165 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-14 21:22:24,165 - INFO - 📦 Collected 2 new tweets (Total: 31)
+2025-02-14 21:22:25,001 - INFO - 📦 Collected 3 new tweets (Total: 34)
+2025-02-14 21:22:26,093 - INFO - 📦 Collected 4 new tweets (Total: 38)
+2025-02-14 21:22:26,851 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-14 21:22:26,851 - INFO - 📦 Collected 2 new tweets (Total: 40)
+2025-02-14 21:22:27,823 - INFO - 📦 Collected 7 new tweets (Total: 47)
+2025-02-14 21:22:28,633 - INFO - 📦 Collected 2 new tweets (Total: 49)
+2025-02-14 21:22:29,630 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-14 21:22:29,630 - INFO - 📦 Collected 1 new tweets (Total: 50)
+2025-02-14 21:22:31,651 - INFO - ✅ Final count: 50/50 tweets
+2025-02-14 21:22:31,651 - INFO - 🎯 Target reached successfully
+2025-02-14 21:22:31,652 - INFO - Final count: 50 tweets sent
