@@ -1,4 +1,4 @@
-Project Structure
+Project Structure:
 social-media-pipeline/
 ├── src/
 │   ├── scraper/
@@ -46,7 +46,7 @@ Steps to run the project:
  -pip install -r requirements.txt (pycharm will do this step automatically and create the virtual environment .env)
  -docker compose up -d (this step has to be done everytime everything else just once, however the first time it will pull the image install and configure it from that point it will only run the image)
  -docker exec -it kafka /opt/bitnami/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic social-media-data --from-beginning (this will create the topic)
- -open windows powershell and type this command: Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe" -Argumentlist "--remote_debugging-port=9222", "--user-data-dir=C:\selenium\chrome-profile" (this is necessary for scrapping)
- -In the openned instance sign in to x.com then close it 
- -run main.py (excutes scrapper and producer)
+ -open Windows powershell and type this command: Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe" -Argumentlist "--remote_debugging-port=9222", "--user-data-dir=C:\selenium\chrome-profile" (this is necessary for scrapping)
+ -In the opened instance sign in to x.com then close it 
+ -run main.py (executes scrapper and producer)
  -run src/kafka/consumers/consumer.py to consume data from kafka
