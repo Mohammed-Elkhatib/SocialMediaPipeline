@@ -37,4 +37,9 @@ social-media-pipeline/
 
  gt clone https://github.com/Mohammed-Elkhatib/SocialMediaPipeline.git
  pip install -r requirements.txt
- docker compose up -d
+ docker compose up -d (this step has to be done everytime everything else just once)
+ docker exec -it kafka /opt/bitnami/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic social-media-data --from-beginning
+ Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe" -Argumentlist "--remotr_debugging-port=9222", "--user-data-dir=C:\selenium\chrome-profile"
+ In the openned instance sign in to x.com then close it 
+ run main.py (excutes scrapper and producer)
+ run src/kafka/consumers/consumer.py to consume data from kafka

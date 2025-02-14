@@ -1,0 +1,72 @@
+2025-02-13 17:49:24,214 - INFO - Initializing pipeline
+2025-02-13 17:49:36,599 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-13 17:49:43,871 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-02-13 17:49:45,160 - INFO - 📦 Collected 2 new tweets (Total: 7)
+2025-02-13 17:49:46,406 - INFO - 📦 Collected 2 new tweets (Total: 9)
+2025-02-13 17:49:47,864 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-02-13 17:49:47,867 - INFO - 📦 Collected 2 new tweets (Total: 11)
+2025-02-13 17:49:49,313 - INFO - 📦 Collected 3 new tweets (Total: 14)
+2025-02-13 17:49:52,384 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-02-13 17:49:52,385 - INFO - 📦 Collected 6 new tweets (Total: 20)
+2025-02-13 17:49:53,771 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:49:53,771 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 17:49:56,734 - INFO - 📦 Collected 9 new tweets (Total: 29)
+2025-02-13 17:49:58,981 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-02-13 17:49:58,986 - INFO - 📦 Collected 3 new tweets (Total: 32)
+2025-02-13 17:50:01,419 - INFO - 📦 Collected 3 new tweets (Total: 35)
+2025-02-13 17:50:02,819 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:02,819 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 17:50:05,953 - INFO - 📦 Collected 4 new tweets (Total: 39)
+2025-02-13 17:50:10,350 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-02-13 17:50:10,355 - INFO - 📦 Collected 5 new tweets (Total: 44)
+2025-02-13 17:50:11,483 - INFO - 📦 Collected 1 new tweets (Total: 45)
+2025-02-13 17:50:12,704 - INFO - 📦 Collected 2 new tweets (Total: 47)
+2025-02-13 17:50:14,325 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-02-13 17:50:14,333 - INFO - 📦 Collected 5 new tweets (Total: 52)
+2025-02-13 17:50:15,833 - INFO - 📦 Collected 2 new tweets (Total: 54)
+2025-02-13 17:50:17,666 - INFO - 📦 Collected 3 new tweets (Total: 57)
+2025-02-13 17:50:18,990 - INFO - 📦 Collected 2 new tweets (Total: 59)
+2025-02-13 17:50:20,643 - INFO - Sent batch of 10 tweets (Total: 60)
+2025-02-13 17:50:20,644 - INFO - 📦 Collected 2 new tweets (Total: 61)
+2025-02-13 17:50:22,218 - INFO - 📦 Collected 3 new tweets (Total: 64)
+2025-02-13 17:50:23,992 - INFO - 📦 Collected 2 new tweets (Total: 66)
+2025-02-13 17:50:25,420 - INFO - 📦 Collected 3 new tweets (Total: 69)
+2025-02-13 17:50:26,453 - INFO - Sent batch of 10 tweets (Total: 70)
+2025-02-13 17:50:26,454 - INFO - 📦 Collected 2 new tweets (Total: 71)
+2025-02-13 17:50:27,625 - INFO - 📦 Collected 3 new tweets (Total: 74)
+2025-02-13 17:50:28,514 - INFO - 📦 Collected 2 new tweets (Total: 76)
+2025-02-13 17:50:29,515 - INFO - 📦 Collected 3 new tweets (Total: 79)
+2025-02-13 17:50:30,949 - INFO - Sent batch of 10 tweets (Total: 80)
+2025-02-13 17:50:30,954 - INFO - 📦 Collected 6 new tweets (Total: 85)
+2025-02-13 17:50:31,810 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:31,810 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 17:50:34,624 - INFO - 📦 Collected 3 new tweets (Total: 88)
+2025-02-13 17:50:35,385 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:35,385 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 17:50:38,340 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:38,340 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 17:50:43,112 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:43,112 - WARNING - ⏳ Retry #3 for 8s
+2025-02-13 17:50:52,144 - INFO - Sent batch of 10 tweets (Total: 90)
+2025-02-13 17:50:52,165 - INFO - Sent batch of 10 tweets (Total: 100)
+2025-02-13 17:50:52,183 - INFO - 📦 Collected 17 new tweets (Total: 105)
+2025-02-13 17:50:53,228 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:53,228 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 17:50:56,363 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:50:56,363 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 17:51:01,192 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:51:01,192 - WARNING - ⏳ Retry #3 for 8s
+2025-02-13 17:51:13,228 - INFO - Sent batch of 10 tweets (Total: 110)
+2025-02-13 17:51:13,248 - INFO - Sent batch of 10 tweets (Total: 120)
+2025-02-13 17:51:13,255 - INFO - 📦 Collected 18 new tweets (Total: 123)
+2025-02-13 17:51:14,321 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:51:14,321 - WARNING - ⏳ Retry #1 for 2s
+2025-02-13 17:51:17,132 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:51:17,132 - WARNING - ⏳ Retry #2 for 4s
+2025-02-13 17:51:21,945 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:51:21,945 - WARNING - ⏳ Retry #3 for 8s
+2025-02-13 17:51:30,745 - WARNING - ⚠️  No new tweets in loaded content
+2025-02-13 17:51:30,746 - ERROR - 🔴 Max retries reached. Stopping.
+2025-02-13 17:51:32,840 - INFO - ✅ Final count: 123/200 tweets
+2025-02-13 17:51:32,840 - WARNING - ⚠️  Ended before reaching target
+2025-02-13 17:51:32,840 - INFO - Final count: 123 tweets sent
