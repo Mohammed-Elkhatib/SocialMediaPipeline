@@ -1,3 +1,4 @@
-selenium
-beautifulsoup4
+selenium~=4.28.1
+beautifulsoup4~=4.12.3
 confluent-kafka
+pandas~=2.2.3
