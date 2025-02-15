@@ -53,9 +53,11 @@ def show_bubble_chart():
     except Exception as e:
         return f"An error occurred: {str(e)}", 500
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/static/word_frequencies.json')
 def serve_json():

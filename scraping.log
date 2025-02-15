@@ -70,3 +70,172 @@
 2025-02-13 17:51:32,840 - INFO - ✅ Final count: 123/200 tweets
 2025-02-13 17:51:32,840 - WARNING - ⚠️  Ended before reaching target
 2025-02-13 17:51:32,840 - INFO - Final count: 123 tweets sent
+2025-02-15 17:50:41,198 - INFO - Initializing pipeline
+2025-02-15 17:50:51,666 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 17:50:54,268 - ERROR - 💥 Critical error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-02-15 17:50:58,827 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029DF172D1C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/80d460cb2e7941ed2168215e33a4569b
+2025-02-15 17:51:02,914 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029DF172D340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/80d460cb2e7941ed2168215e33a4569b
+2025-02-15 17:51:06,989 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029DF172D580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/80d460cb2e7941ed2168215e33a4569b
+2025-02-15 17:51:15,124 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 17:51:15,124 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 17:51:15,124 - ERROR - Pipeline failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-02-15 17:51:15,131 - INFO - Final count: 0 tweets sent
+2025-02-15 17:52:56,874 - INFO - Initializing pipeline
+2025-02-15 17:53:01,941 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 17:53:01,943 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF663976F15+28773]
+	(No symbol) [0x00007FF6638E2600]
+	(No symbol) [0x00007FF663778FAA]
+	(No symbol) [0x00007FF663751573]
+	(No symbol) [0x00007FF6637FEE3E]
+	(No symbol) [0x00007FF66381EFE2]
+	(No symbol) [0x00007FF6637F7023]
+	(No symbol) [0x00007FF6637BFF5E]
+	(No symbol) [0x00007FF6637C11E3]
+	GetHandleVerifier [0x00007FF663CC425D+3490733]
+	GetHandleVerifier [0x00007FF663CDBA43+3586963]
+	GetHandleVerifier [0x00007FF663CD147D+3544525]
+	GetHandleVerifier [0x00007FF663A3C9DA+838442]
+	(No symbol) [0x00007FF6638ED04F]
+	(No symbol) [0x00007FF6638E9614]
+	(No symbol) [0x00007FF6638E97B6]
+	(No symbol) [0x00007FF6638D8CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 17:53:03,984 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 17:53:03,984 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 17:53:03,984 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF663976F15+28773]
+	(No symbol) [0x00007FF6638E2600]
+	(No symbol) [0x00007FF663778FAA]
+	(No symbol) [0x00007FF663751573]
+	(No symbol) [0x00007FF6637FEE3E]
+	(No symbol) [0x00007FF66381EFE2]
+	(No symbol) [0x00007FF6637F7023]
+	(No symbol) [0x00007FF6637BFF5E]
+	(No symbol) [0x00007FF6637C11E3]
+	GetHandleVerifier [0x00007FF663CC425D+3490733]
+	GetHandleVerifier [0x00007FF663CDBA43+3586963]
+	GetHandleVerifier [0x00007FF663CD147D+3544525]
+	GetHandleVerifier [0x00007FF663A3C9DA+838442]
+	(No symbol) [0x00007FF6638ED04F]
+	(No symbol) [0x00007FF6638E9614]
+	(No symbol) [0x00007FF6638E97B6]
+	(No symbol) [0x00007FF6638D8CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 17:53:03,984 - INFO - Final count: 0 tweets sent
+2025-02-15 17:53:14,466 - INFO - Initializing pipeline
+2025-02-15 17:53:19,362 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 17:53:19,364 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF663976F15+28773]
+	(No symbol) [0x00007FF6638E2600]
+	(No symbol) [0x00007FF663778FAA]
+	(No symbol) [0x00007FF663751573]
+	(No symbol) [0x00007FF6637FEE3E]
+	(No symbol) [0x00007FF66381EFE2]
+	(No symbol) [0x00007FF6637F7023]
+	(No symbol) [0x00007FF6637BFF5E]
+	(No symbol) [0x00007FF6637C11E3]
+	GetHandleVerifier [0x00007FF663CC425D+3490733]
+	GetHandleVerifier [0x00007FF663CDBA43+3586963]
+	GetHandleVerifier [0x00007FF663CD147D+3544525]
+	GetHandleVerifier [0x00007FF663A3C9DA+838442]
+	(No symbol) [0x00007FF6638ED04F]
+	(No symbol) [0x00007FF6638E9614]
+	(No symbol) [0x00007FF6638E97B6]
+	(No symbol) [0x00007FF6638D8CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 17:53:21,438 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 17:53:21,438 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 17:53:21,438 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF663976F15+28773]
+	(No symbol) [0x00007FF6638E2600]
+	(No symbol) [0x00007FF663778FAA]
+	(No symbol) [0x00007FF663751573]
+	(No symbol) [0x00007FF6637FEE3E]
+	(No symbol) [0x00007FF66381EFE2]
+	(No symbol) [0x00007FF6637F7023]
+	(No symbol) [0x00007FF6637BFF5E]
+	(No symbol) [0x00007FF6637C11E3]
+	GetHandleVerifier [0x00007FF663CC425D+3490733]
+	GetHandleVerifier [0x00007FF663CDBA43+3586963]
+	GetHandleVerifier [0x00007FF663CD147D+3544525]
+	GetHandleVerifier [0x00007FF663A3C9DA+838442]
+	(No symbol) [0x00007FF6638ED04F]
+	(No symbol) [0x00007FF6638E9614]
+	(No symbol) [0x00007FF6638E97B6]
+	(No symbol) [0x00007FF6638D8CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 17:53:21,438 - INFO - Final count: 0 tweets sent
+2025-02-15 18:06:46,558 - INFO - Initializing pipeline
+2025-02-15 18:06:53,529 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:06:58,626 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED23F286]
+	(No symbol) [0x00007FF6ED23F4BC]
+	(No symbol) [0x00007FF6ED292A27]
+	(No symbol) [0x00007FF6ED26728F]
+	(No symbol) [0x00007FF6ED28F6F3]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:07:00,661 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:07:00,661 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:07:00,661 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED23F286]
+	(No symbol) [0x00007FF6ED23F4BC]
+	(No symbol) [0x00007FF6ED292A27]
+	(No symbol) [0x00007FF6ED26728F]
+	(No symbol) [0x00007FF6ED28F6F3]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:07:00,662 - INFO - Final count: 0 tweets sent
