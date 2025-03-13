@@ -1,0 +1,66 @@
+.chart-area #chart-area-tester {
+    width: 100%; /* Ensures it stays inside the container */
+    height: auto; /* Adjusts height dynamically */
+    max-width: 100%; /* Prevents overflow */
+    max-height: 400px; /* Optional: Set a max height */
+    overflow: hidden; /* Prevents content from spilling */
+}
+
+#chart-area-tester {
+    width: 100% !important; /* Force it to take full width of container */
+    height: 100% !important; /* Force it to fit the container */
+}
+html, body, #words_container {
+    width: 100%; /* Makes it responsive */
+    height: 280px; /* Adjust height as needed */
+    max-height: 500px; /* Prevents excessive growth */
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Pushes the footer down */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+#heatmapChart {
+    width: 100% !important; /* Force it to take full width of container */
+    height: 100% !important; /* Force it to fit the container */
+}
+/* Reduce Font Size */
+#dataTable {
+    font-size: 10px; /* Adjust as needed */
+}
+
+/* Reduce Padding */
+#dataTable th, 
+#dataTable td {
+    padding: 4px 8px; /* Adjust as needed */
+}
+
+/* Reduce Search & Pagination Font Size */
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_paginate .page-link {
+    font-size: 15px;
+    padding: 2px 4px;
+}
+
+.chart-bar {
+    width: 100%;  /* Make the div responsive */
+    max-width: 800px;  /* Set a max width to prevent overflow */
+    height: 400px;  /* Adjust the height to fit */
+    overflow: hidden;  /* Prevent chart from overflowing */
+}
+
+.chart-bar canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
