@@ -1,4 +1,5 @@
-from imports import *
+from .imports import *
+from .endpoints import *
 print("Initializing FastAPI app...")
 
 app.add_middleware(
@@ -7,7 +8,6 @@ app.add_middleware(
     allow_methods=["GET"],
     allow_headers=["*"],
 )
-import endpoints
 app.include_router(sse_router)
 # ✅ Keep the server running!
 if __name__ == "__main__":

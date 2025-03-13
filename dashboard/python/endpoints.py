@@ -1,4 +1,4 @@
-from sse_connect import app 
+from .sse_connect import app 
 from pydantic import BaseModel
 import random
 from random import randint
@@ -6,9 +6,11 @@ from datetime import datetime
 import json
 import re
 from fastapi.responses import JSONResponse
+from database.queries import SocialMediaQueries
+
 print("Initializing endpoints...")
 
-
+queries = SocialMediaQueries()
 # Endpoint for pie chart data
 @app.get("/api/pie-chart-data")
 async def get_pie_chart_data():
@@ -54,9 +56,9 @@ async def get_heatmap_data():
 
 
 def load_word_data():
-    with open(r'C:\Users\Yasmin\Desktop\Yasmin\ProjectDataMining\js\word_frequencies.json', 'r', encoding='utf-8') as file:
-        return json.load(file)
-    
+    word_data = queries.fetch_word_frequencies()
+    return word_data
+
 def detect_script(text):
     # Regular expressions for Arabic and English
     arabic_pattern = re.compile(r'[\u0600-\u06FF]')
@@ -165,20 +167,27 @@ async def get_social_media_data():
         total_shares=random.randint(5000, 500000)
     )
 
-def load_engagement_data():
-    with open(r'C:\Users\Yasmin\Desktop\Yasmin\ProjectDataMining\js\tweets_engagement.json', 'r', encoding='utf-8') as file:
-        return json.load(file)
+def load_engagement_data_top_comments():
+    data = queries.fetch_top_comments()
+    return data
+
+def load_engagement_data_top_likes():
+    data = queries.fetch_top_comments()
+    return data
 
 
-eng = load_engagement_data()
-print(eng)
+topComments = load_engagement_data_top_comments()
+topLikes = load_engagement_data_top_likes()
+print(topComments)
+print(topLikes)
+
 @app.get("/api/bar-chart-data")
 async def get_bar_chart_data():
-    labels = [f"{post['date']} {post['time']}" for post in eng["top_comments"]]
-    likes = [post["likes"] for post in eng["top_comments"]]
-    retweets = [post["retweets"] for post in eng["top_comments"]]
-    comments = [post["comments"] for post in eng["top_comments"]]
-    contents = [post["content"] for post in eng["top_comments"]]  # Include content for tooltips
+    labels = [f"{post['date']} {post['time']}" for post in topComments]
+    likes = [post["likes"] for post in topComments]
+    retweets = [post["retweets"] for post in topComments]
+    comments = [post["comments"] for post in topComments]
+    contents = [post["content"] for post in topComments]  # Include content for tooltips
 
     return {
         "labels": labels,
@@ -191,11 +200,11 @@ async def get_bar_chart_data():
 
 @app.get("/api/bar-chart-data-likes")
 async def get_bar_chart_data_likes():
-    labels = [f"{post['date']} {post['time']}" for post in eng["top_likes"]]
-    likes = [post["likes"] for post in eng["top_likes"]]
-    retweets = [post["retweets"] for post in eng["top_likes"]]
-    comments = [post["comments"] for post in eng["top_likes"]]
-    contents = [post["content"] for post in eng["top_likes"]]
+    labels = [f"{post['date']} {post['time']}" for post in topLikes]
+    likes = [post["likes"] for post in topLikes]
+    retweets = [post["retweets"] for post in topLikes]
+    comments = [post["comments"] for post in topLikes]
+    contents = [post["content"] for post in topLikes]
 
     return {
         "labels": labels,
@@ -218,7 +227,7 @@ async def get_bubble_chart_data():
     size_data = []
     text_data = []
 
-    for item in eng["top_likes"]:
+    for item in topLikes:
         try:
             date_str = f"{item['date']} {item['time']}"
 
