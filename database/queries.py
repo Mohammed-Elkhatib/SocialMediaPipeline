@@ -131,7 +131,7 @@ class SocialMediaQueries:
 
         insert_word_frequencies_query = """
             INSERT INTO word_frequency ( word, count)
-            VALUES (%s, %s, %s)
+            VALUES (%s, %s)
         """
         for word, frequency in word_frequencies.items():
             params = (word, frequency)
