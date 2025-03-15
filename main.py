@@ -59,9 +59,9 @@ def run_stats_consumers():
 def main():
     # Set up command line arguments
     parser = argparse.ArgumentParser(description='Run the social media data pipeline')
-    parser.add_argument('--username', '-u', default="LBCI_NEWS",
-                        help='Twitter username to scrape (default: LBCI_NEWS)')
-    parser.add_argument('--mode', '-m', choices=['scrape', 'consume', 'all', 'pipeline'], default='pipeline',
+    parser.add_argument('--username', '-u', default="ALJADEEDNEWS",
+                        help='Twitter username to scrape (default: ALJADEEDNEWS)')
+    parser.add_argument('--mode', '-m', choices=['scrape', 'consume', 'all', 'pipeline'], default='scrape',
                         help='Mode to run: scrape, consume, pipeline, or all (default: all)')
     args = parser.parse_args()
 

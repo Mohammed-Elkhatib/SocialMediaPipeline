@@ -1,0 +1,57 @@
+2025-03-15 21:56:25,803 - root - ℹ️ INFO - main.py:70 - Initializing pipeline
+2025-03-15 21:56:25,804 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @LBCI_NEWS
+2025-03-15 21:56:36,012 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @LBCI_NEWS
+2025-03-15 21:56:43,654 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 4)
+2025-03-15 21:56:45,346 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 6)
+2025-03-15 21:56:47,038 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 9)
+2025-03-15 21:56:48,377 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 10)
+2025-03-15 21:56:48,380 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 11)
+2025-03-15 21:56:49,762 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 14)
+2025-03-15 21:56:51,172 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 17)
+2025-03-15 21:56:52,591 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 19)
+2025-03-15 21:56:54,244 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 20)
+2025-03-15 21:56:54,247 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 22)
+2025-03-15 21:56:55,759 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 27)
+2025-03-15 21:56:57,358 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 30)
+2025-03-15 21:56:57,361 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 31)
+2025-03-15 21:56:58,613 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 34)
+2025-03-15 21:56:59,778 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 36)
+2025-03-15 21:57:00,987 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 39)
+2025-03-15 21:57:02,871 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 40)
+2025-03-15 21:57:02,878 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 44)
+2025-03-15 21:57:03,707 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 45)
+2025-03-15 21:57:05,084 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 49)
+2025-03-15 21:57:06,279 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 50)
+2025-03-15 21:57:06,279 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 50)
+2025-03-15 21:57:08,388 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 50/50 tweets
+2025-03-15 21:57:08,389 - root - ℹ️ INFO - core.py:95 - 🎯 Target reached successfully
+2025-03-15 21:57:08,389 - root - ℹ️ INFO - main.py:22 - Scraping completed for @LBCI_NEWS
+2025-03-15 21:57:08,390 - root - ℹ️ INFO - producer.py:29 - Final count: 50 tweets sent
+2025-03-15 21:57:08,393 - root - ℹ️ INFO - main.py:41 - Starting stats consumers
+2025-03-15 21:57:41,954 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:48 - Top 20 word frequencies saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\word_frequencies.json
+2025-03-15 21:57:42,210 - src.models.relational.tweets - ℹ️ INFO - tweets.py:157 - Word frequencies inserted successfully.
+2025-03-15 21:57:42,211 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:52 - Word frequencies saved to database
+2025-03-15 21:58:15,605 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:90 - Engagement metrics saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\tweets_engagement.json
+2025-03-15 21:58:15,642 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'استهداف سيارة في برج الملوك...' with post_date 2025-03-15 and post_time 11:43:27
+2025-03-15 21:58:15,646 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'استهداف سيارة في برج الملوك...' with post_date 2025-03-15 and post_time 11:43:27
+2025-03-15 21:58:15,650 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'استهداف سيارة في برج الملوك...' with post_date 2025-03-15 and post_time 11:43:27
+2025-03-15 21:58:15,654 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'استهداف سيارة في برج الملوك...' with post_date 2025-03-15 and post_time 11:43:27
+2025-03-15 21:58:15,658 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'استهداف سيارة في برج الملوك...' with post_date 2025-03-15 and post_time 11:43:27
+2025-03-15 21:58:15,662 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'استهداف سيارة في برج الملوك...' with post_date 2025-03-15 and post_time 11:43:27
+2025-03-15 21:58:15,666 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'عون: إعادةَ إعمارِ ما دمرتْهُ ...' with post_date 2025-03-15 and post_time 17:01:43
+2025-03-15 21:58:15,671 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'الرئيس عون: التحديات التي يواج...' with post_date 2025-03-15 and post_time 17:28:54
+2025-03-15 21:58:15,675 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'الدفاع المدنيّ في جنوب لبنان: ...' with post_date 2025-03-15 and post_time 12:14:09
+2025-03-15 21:58:15,680 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'أبو فاعور: على الحكومة إلغاء ا...' with post_date 2025-03-15 and post_time 12:32:17
+2025-03-15 21:58:15,689 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'نديم الجميل من معراب: لوجوب ال...' with post_date 2025-03-15 and post_time 08:17:38
+2025-03-15 21:58:15,693 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'نديم الجميل من معراب: لوجوب ال...' with post_date 2025-03-15 and post_time 08:17:38
+2025-03-15 21:58:15,698 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'نديم الجميل من معراب: لوجوب ال...' with post_date 2025-03-15 and post_time 08:17:38
+2025-03-15 21:58:15,702 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'نديم الجميل من معراب: لوجوب ال...' with post_date 2025-03-15 and post_time 08:17:38
+2025-03-15 21:58:15,706 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'نديم الجميل من معراب: لوجوب ال...' with post_date 2025-03-15 and post_time 08:17:38
+2025-03-15 21:58:15,711 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'نديم الجميل من معراب: لوجوب ال...' with post_date 2025-03-15 and post_time 08:17:38
+2025-03-15 21:58:15,714 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'عون: إعادةَ إعمارِ ما دمرتْهُ ...' with post_date 2025-03-15 and post_time 17:01:43
+2025-03-15 21:58:15,719 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'الناشط السياسي د. علي مراد للـ...' with post_date 2025-03-15 and post_time 08:52:15
+2025-03-15 21:58:15,722 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'الناشط السياسي د. علي مراد للـ...' with post_date 2025-03-15 and post_time 08:52:15
+2025-03-15 21:58:15,726 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'الناشط السياسي د. علي مراد للـ...' with post_date 2025-03-15 and post_time 08:52:15
+2025-03-15 21:58:15,727 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:96 - Top engagement metrics saved to database
+2025-03-15 21:58:15,727 - root - ℹ️ INFO - main.py:54 - Stats consumers finished
+2025-03-15 21:58:15,728 - root - ℹ️ INFO - main.py:92 - Pipeline run completed

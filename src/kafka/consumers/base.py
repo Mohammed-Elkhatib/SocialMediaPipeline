@@ -8,7 +8,9 @@ class BaseConsumer:
         self.consumer = Consumer({
             'bootstrap.servers': bootstrap_servers,
             'group.id': group_id,
-            'auto.offset.reset': auto_offset_reset
+            'auto.offset.reset': auto_offset_reset,
+            'enable.auto.commit': False,  # Prevent automatic offset commits
+            'max.poll.interval.ms': 300000  # 5 minutes
         })
         self.consumer.subscribe([topic])
         print(f"Subscribed to topic '{topic}' with group '{group_id}'.")

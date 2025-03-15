@@ -1,0 +1,30 @@
+2025-03-15 23:00:48,373 - root - ℹ️ INFO - main.py:70 - Initializing pipeline
+2025-03-15 23:00:48,374 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @LBCI_NEWS
+2025-03-15 23:00:56,749 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @LBCI_NEWS
+2025-03-15 23:01:05,456 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 5)
+2025-03-15 23:01:06,726 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 7)
+2025-03-15 23:01:08,098 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 10)
+2025-03-15 23:01:08,100 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 10)
+2025-03-15 23:01:09,525 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 12)
+2025-03-15 23:01:10,830 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 15)
+2025-03-15 23:01:12,143 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 18)
+2025-03-15 23:01:13,044 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 19)
+2025-03-15 23:01:14,460 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 20)
+2025-03-15 23:01:14,468 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 24)
+2025-03-15 23:01:15,530 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 26)
+2025-03-15 23:01:16,876 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 30)
+2025-03-15 23:01:16,878 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 31)
+2025-03-15 23:01:18,080 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 34)
+2025-03-15 23:01:19,247 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 38)
+2025-03-15 23:01:20,185 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 39)
+2025-03-15 23:01:21,902 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 40)
+2025-03-15 23:01:21,910 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 44)
+2025-03-15 23:01:22,730 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 46)
+2025-03-15 23:01:23,923 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 49)
+2025-03-15 23:01:25,167 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 50)
+2025-03-15 23:01:25,169 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 50)
+2025-03-15 23:01:27,269 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 50/50 tweets
+2025-03-15 23:01:27,269 - root - ℹ️ INFO - core.py:95 - 🎯 Target reached successfully
+2025-03-15 23:01:27,270 - root - ℹ️ INFO - main.py:22 - Scraping completed for @LBCI_NEWS
+2025-03-15 23:01:27,270 - root - ℹ️ INFO - producer.py:29 - Final count: 50 tweets sent
+2025-03-15 23:01:27,271 - root - ℹ️ INFO - main.py:92 - Pipeline run completed
