@@ -2,11 +2,9 @@ from .sse_connect import app
 from pydantic import BaseModel
 import random
 from random import randint
-from datetime import datetime
-import json
 import re
 from fastapi.responses import JSONResponse
-from database.queries import SocialMediaQueries
+from src.database.queries import SocialMediaQueries
 
 print("Initializing endpoints...")
 

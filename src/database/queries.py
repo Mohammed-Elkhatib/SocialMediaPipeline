@@ -1,6 +1,7 @@
-from database.connection import DatabaseConnection
+from src.database.connection import DatabaseConnection
 import mysql.connector
-from mysql.connector import Error
+
+
 class SocialMediaQueries:
     def __init__(self):
         self.db_connection = DatabaseConnection()

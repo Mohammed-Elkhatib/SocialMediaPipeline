@@ -239,3 +239,1463 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FF99870AF38+40]
 
 2025-02-15 18:07:00,662 - INFO - Final count: 0 tweets sent
+2025-02-15 18:08:18,599 - INFO - Initializing pipeline
+2025-02-15 18:08:23,442 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:08:23,443 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:08:25,482 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:08:25,482 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:08:25,482 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:08:25,482 - INFO - Final count: 0 tweets sent
+2025-02-15 18:09:57,256 - INFO - Initializing pipeline
+2025-02-15 18:10:02,097 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:10:02,099 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:10:04,144 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:10:04,144 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:10:04,144 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:10:04,144 - INFO - Final count: 0 tweets sent
+2025-02-15 18:12:47,607 - INFO - Initializing pipeline
+2025-02-15 18:12:52,567 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:12:57,678 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED23F286]
+	(No symbol) [0x00007FF6ED23F4BC]
+	(No symbol) [0x00007FF6ED292A27]
+	(No symbol) [0x00007FF6ED26728F]
+	(No symbol) [0x00007FF6ED28F6F3]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:12:59,726 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:12:59,726 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:12:59,726 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED23F286]
+	(No symbol) [0x00007FF6ED23F4BC]
+	(No symbol) [0x00007FF6ED292A27]
+	(No symbol) [0x00007FF6ED26728F]
+	(No symbol) [0x00007FF6ED28F6F3]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:12:59,726 - INFO - Final count: 0 tweets sent
+2025-02-15 18:13:11,777 - INFO - Initializing pipeline
+2025-02-15 18:13:16,684 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:13:16,685 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:13:18,737 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:13:18,737 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:13:18,737 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:13:18,737 - INFO - Final count: 0 tweets sent
+2025-02-15 18:13:39,597 - INFO - Initializing pipeline
+2025-02-15 18:13:44,491 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:13:44,492 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:13:46,542 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:13:46,542 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:13:46,542 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:13:46,542 - INFO - Final count: 0 tweets sent
+2025-02-15 18:16:10,225 - INFO - Initializing pipeline
+2025-02-15 18:16:15,656 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:16:15,657 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:16:17,693 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:16:17,693 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:16:17,693 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:16:17,693 - INFO - Final count: 0 tweets sent
+2025-02-15 18:17:25,128 - INFO - Initializing pipeline
+2025-02-15 18:17:30,607 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:17:30,608 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:17:32,654 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:17:32,654 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:17:32,654 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED1C1573]
+	(No symbol) [0x00007FF6ED26EE3E]
+	(No symbol) [0x00007FF6ED28EFE2]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:17:32,655 - INFO - Final count: 0 tweets sent
+2025-02-15 18:18:34,646 - INFO - Initializing pipeline
+2025-02-15 18:18:39,517 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:18:44,617 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED23F286]
+	(No symbol) [0x00007FF6ED23F4BC]
+	(No symbol) [0x00007FF6ED292A27]
+	(No symbol) [0x00007FF6ED26728F]
+	(No symbol) [0x00007FF6ED28F6F3]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:18:46,658 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:18:46,659 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:18:46,659 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED3E6F15+28773]
+	(No symbol) [0x00007FF6ED352600]
+	(No symbol) [0x00007FF6ED1E8FAA]
+	(No symbol) [0x00007FF6ED23F286]
+	(No symbol) [0x00007FF6ED23F4BC]
+	(No symbol) [0x00007FF6ED292A27]
+	(No symbol) [0x00007FF6ED26728F]
+	(No symbol) [0x00007FF6ED28F6F3]
+	(No symbol) [0x00007FF6ED267023]
+	(No symbol) [0x00007FF6ED22FF5E]
+	(No symbol) [0x00007FF6ED2311E3]
+	GetHandleVerifier [0x00007FF6ED73425D+3490733]
+	GetHandleVerifier [0x00007FF6ED74BA43+3586963]
+	GetHandleVerifier [0x00007FF6ED74147D+3544525]
+	GetHandleVerifier [0x00007FF6ED4AC9DA+838442]
+	(No symbol) [0x00007FF6ED35D04F]
+	(No symbol) [0x00007FF6ED359614]
+	(No symbol) [0x00007FF6ED3597B6]
+	(No symbol) [0x00007FF6ED348CE9]
+	BaseThreadInitThunk [0x00007FF996FD259D+29]
+	RtlUserThreadStart [0x00007FF99870AF38+40]
+
+2025-02-15 18:18:46,659 - INFO - Final count: 0 tweets sent
+2025-02-15 18:27:10,197 - INFO - Initializing pipeline
+2025-02-15 18:27:15,201 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:27:15,203 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:27:17,277 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:27:17,277 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:27:17,277 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:27:17,278 - INFO - Final count: 0 tweets sent
+2025-02-15 18:31:53,902 - INFO - Initializing pipeline
+2025-02-15 18:31:58,728 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:31:58,729 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:32:00,758 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:32:00,758 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:32:00,758 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:32:00,758 - INFO - Final count: 0 tweets sent
+2025-02-15 18:48:50,715 - INFO - Initializing pipeline
+2025-02-15 18:48:55,539 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:48:55,541 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:48:57,581 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:48:57,582 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:48:57,582 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:48:57,582 - INFO - Final count: 0 tweets sent
+2025-02-15 18:50:43,114 - INFO - Initializing pipeline
+2025-02-15 18:50:47,944 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:50:47,946 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:50:49,982 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:50:49,982 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:50:49,982 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:50:49,982 - INFO - Final count: 0 tweets sent
+2025-02-15 18:51:13,466 - INFO - Initializing pipeline
+2025-02-15 18:51:20,308 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:51:20,310 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:51:22,345 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:51:22,345 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:51:22,345 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:51:22,345 - INFO - Final count: 0 tweets sent
+2025-02-15 18:52:21,186 - INFO - Initializing pipeline
+2025-02-15 18:52:26,035 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:52:26,036 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:52:28,075 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:52:28,075 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:52:28,075 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:52:28,077 - INFO - Final count: 0 tweets sent
+2025-02-15 18:53:29,855 - INFO - Initializing pipeline
+2025-02-15 18:53:34,678 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:53:39,784 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:53:41,845 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:53:41,845 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:53:41,845 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:53:41,845 - INFO - Final count: 0 tweets sent
+2025-02-15 18:53:54,617 - INFO - Initializing pipeline
+2025-02-15 18:53:59,440 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:53:59,442 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:54:01,494 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:54:01,494 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:54:01,494 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:54:01,494 - INFO - Final count: 0 tweets sent
+2025-02-15 18:59:22,430 - INFO - Initializing pipeline
+2025-02-15 18:59:27,267 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 18:59:32,360 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:59:34,393 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 18:59:34,393 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 18:59:34,393 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 18:59:34,394 - INFO - Final count: 0 tweets sent
+2025-02-15 19:16:52,202 - INFO - Initializing pipeline
+2025-02-15 19:16:57,544 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:17:04,182 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:17:06,271 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:17:06,272 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:17:06,272 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:17:06,272 - INFO - Final count: 0 tweets sent
+2025-02-15 19:18:59,963 - INFO - Initializing pipeline
+2025-02-15 19:19:05,237 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:19:10,600 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:19:12,691 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:19:12,691 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:19:12,691 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:19:12,692 - INFO - Final count: 0 tweets sent
+2025-02-15 19:19:26,033 - INFO - Initializing pipeline
+2025-02-15 19:19:31,476 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:19:31,479 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:19:33,551 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:19:33,551 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:19:33,551 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:19:33,551 - INFO - Final count: 0 tweets sent
+2025-02-15 19:20:03,558 - INFO - Initializing pipeline
+2025-02-15 19:20:08,956 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:20:08,960 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:20:11,038 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:20:11,039 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:20:11,039 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:20:11,039 - INFO - Final count: 0 tweets sent
+2025-02-15 19:21:25,547 - INFO - Initializing pipeline
+2025-02-15 19:21:36,818 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:21:36,822 - ERROR - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:21:38,898 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:21:38,898 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:21:38,898 - ERROR - Pipeline failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE261573]
+	(No symbol) [0x00007FF6EE30EE3E]
+	(No symbol) [0x00007FF6EE32EFE2]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:21:38,898 - INFO - Final count: 0 tweets sent
+2025-02-15 19:31:01,109 - INFO - Initializing pipeline
+2025-02-15 19:31:12,189 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:31:18,601 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:31:20,679 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:31:20,679 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:31:20,680 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:31:20,680 - INFO - Final count: 0 tweets sent
+2025-02-15 19:35:22,170 - INFO - Initializing pipeline
+2025-02-15 19:35:27,391 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:35:32,591 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:35:34,648 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:35:34,649 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:35:34,649 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:35:34,649 - INFO - Final count: 0 tweets sent
+2025-02-15 19:37:14,267 - INFO - Initializing pipeline
+2025-02-15 19:37:20,015 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:37:25,195 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:37:27,282 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:37:27,282 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:37:27,283 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:37:27,283 - INFO - Final count: 0 tweets sent
+2025-02-15 19:37:36,512 - INFO - Initializing pipeline
+2025-02-15 19:37:42,169 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-02-15 19:37:47,373 - ERROR - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:37:49,436 - INFO - ✅ Final count: 0/50 tweets
+2025-02-15 19:37:49,436 - WARNING - ⚠️  Ended before reaching target
+2025-02-15 19:37:49,437 - ERROR - Pipeline failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EE486F15+28773]
+	(No symbol) [0x00007FF6EE3F2600]
+	(No symbol) [0x00007FF6EE288FAA]
+	(No symbol) [0x00007FF6EE2DF286]
+	(No symbol) [0x00007FF6EE2DF4BC]
+	(No symbol) [0x00007FF6EE332A27]
+	(No symbol) [0x00007FF6EE30728F]
+	(No symbol) [0x00007FF6EE32F6F3]
+	(No symbol) [0x00007FF6EE307023]
+	(No symbol) [0x00007FF6EE2CFF5E]
+	(No symbol) [0x00007FF6EE2D11E3]
+	GetHandleVerifier [0x00007FF6EE7D425D+3490733]
+	GetHandleVerifier [0x00007FF6EE7EBA43+3586963]
+	GetHandleVerifier [0x00007FF6EE7E147D+3544525]
+	GetHandleVerifier [0x00007FF6EE54C9DA+838442]
+	(No symbol) [0x00007FF6EE3FD04F]
+	(No symbol) [0x00007FF6EE3F9614]
+	(No symbol) [0x00007FF6EE3F97B6]
+	(No symbol) [0x00007FF6EE3E8CE9]
+	BaseThreadInitThunk [0x00007FFE9518259D+29]
+	RtlUserThreadStart [0x00007FFE965CAF38+40]
+
+2025-02-15 19:37:49,437 - INFO - Final count: 0 tweets sent
+2025-03-14 02:28:37,242 - INFO - Initializing pipeline
+2025-03-14 02:28:48,338 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-14 02:28:55,600 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-03-14 02:28:56,468 - INFO - 📦 Collected 1 new tweets (Total: 6)
+2025-03-14 02:28:58,268 - INFO - 📦 Collected 2 new tweets (Total: 8)
+2025-03-14 02:28:59,393 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-03-14 02:28:59,393 - INFO - 📦 Collected 2 new tweets (Total: 10)
+2025-03-14 02:29:00,508 - INFO - 📦 Collected 6 new tweets (Total: 16)
+2025-03-14 02:29:01,245 - WARNING - ⚠️  No new tweets in loaded content
+2025-03-14 02:29:01,245 - WARNING - ⏳ Retry #1 for 2s
+2025-03-14 02:29:04,705 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-03-14 02:29:04,706 - INFO - 📦 Collected 4 new tweets (Total: 20)
+2025-03-14 02:29:06,095 - INFO - 📦 Collected 3 new tweets (Total: 23)
+2025-03-14 02:29:07,165 - INFO - 📦 Collected 1 new tweets (Total: 24)
+2025-03-14 02:29:08,387 - INFO - 📦 Collected 2 new tweets (Total: 26)
+2025-03-14 02:29:09,235 - INFO - 📦 Collected 2 new tweets (Total: 28)
+2025-03-14 02:29:10,371 - INFO - 📦 Collected 1 new tweets (Total: 29)
+2025-03-14 02:29:11,234 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-03-14 02:29:11,236 - INFO - 📦 Collected 5 new tweets (Total: 34)
+2025-03-14 02:29:12,716 - INFO - 📦 Collected 4 new tweets (Total: 38)
+2025-03-14 02:29:13,852 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-03-14 02:29:13,852 - INFO - 📦 Collected 2 new tweets (Total: 40)
+2025-03-14 02:29:14,700 - WARNING - ⚠️  No new tweets in loaded content
+2025-03-14 02:29:14,700 - WARNING - ⏳ Retry #1 for 2s
+2025-03-14 02:29:18,065 - INFO - 📦 Collected 5 new tweets (Total: 45)
+2025-03-14 02:29:19,882 - INFO - 📦 Collected 4 new tweets (Total: 49)
+2025-03-14 02:29:21,567 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-03-14 02:29:21,567 - INFO - 📦 Collected 1 new tweets (Total: 50)
+2025-03-14 02:29:23,741 - INFO - ✅ Final count: 50/50 tweets
+2025-03-14 02:29:23,741 - INFO - 🎯 Target reached successfully
+2025-03-14 02:35:09,935 - INFO - Initializing pipeline
+2025-03-14 02:35:15,012 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-14 02:35:20,818 - INFO - 📦 Collected 5 new tweets (Total: 5)
+2025-03-14 02:35:21,645 - INFO - 📦 Collected 1 new tweets (Total: 6)
+2025-03-14 02:35:22,776 - INFO - 📦 Collected 3 new tweets (Total: 9)
+2025-03-14 02:35:23,830 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-03-14 02:35:23,832 - INFO - 📦 Collected 2 new tweets (Total: 11)
+2025-03-14 02:35:24,961 - INFO - 📦 Collected 3 new tweets (Total: 14)
+2025-03-14 02:35:26,258 - INFO - 📦 Collected 5 new tweets (Total: 19)
+2025-03-14 02:35:27,197 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-03-14 02:35:27,198 - INFO - 📦 Collected 3 new tweets (Total: 22)
+2025-03-14 02:35:28,386 - INFO - 📦 Collected 2 new tweets (Total: 24)
+2025-03-14 02:35:29,317 - INFO - 📦 Collected 1 new tweets (Total: 25)
+2025-03-14 02:35:30,133 - INFO - 📦 Collected 2 new tweets (Total: 27)
+2025-03-14 02:35:31,041 - INFO - 📦 Collected 2 new tweets (Total: 29)
+2025-03-14 02:35:31,978 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-03-14 02:35:31,980 - INFO - 📦 Collected 4 new tweets (Total: 33)
+2025-03-14 02:35:32,775 - INFO - 📦 Collected 3 new tweets (Total: 36)
+2025-03-14 02:35:33,689 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-03-14 02:35:33,689 - INFO - 📦 Collected 4 new tweets (Total: 40)
+2025-03-14 02:35:34,813 - INFO - 📦 Collected 4 new tweets (Total: 44)
+2025-03-14 02:35:36,039 - INFO - 📦 Collected 4 new tweets (Total: 48)
+2025-03-14 02:35:37,119 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-03-14 02:35:37,119 - INFO - 📦 Collected 2 new tweets (Total: 50)
+2025-03-14 02:35:39,169 - INFO - ✅ Final count: 50/50 tweets
+2025-03-14 02:35:39,169 - INFO - 🎯 Target reached successfully
+2025-03-14 02:35:39,169 - INFO - Final count: 50 tweets sent
+2025-03-15 02:24:40,591 - INFO - Initializing pipeline
+2025-03-15 02:25:05,832 - INFO - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-15 02:25:13,093 - INFO - 📦 Collected 6 new tweets (Total: 6)
+2025-03-15 02:25:14,347 - INFO - Sent batch of 10 tweets (Total: 10)
+2025-03-15 02:25:14,347 - INFO - 📦 Collected 4 new tweets (Total: 10)
+2025-03-15 02:25:15,528 - INFO - 📦 Collected 4 new tweets (Total: 14)
+2025-03-15 02:25:16,698 - INFO - 📦 Collected 2 new tweets (Total: 16)
+2025-03-15 02:25:17,936 - INFO - Sent batch of 10 tweets (Total: 20)
+2025-03-15 02:25:17,936 - INFO - 📦 Collected 4 new tweets (Total: 20)
+2025-03-15 02:25:19,797 - INFO - 📦 Collected 7 new tweets (Total: 27)
+2025-03-15 02:25:20,968 - INFO - 📦 Collected 2 new tweets (Total: 29)
+2025-03-15 02:25:22,287 - INFO - Sent batch of 10 tweets (Total: 30)
+2025-03-15 02:25:22,295 - INFO - 📦 Collected 4 new tweets (Total: 33)
+2025-03-15 02:25:23,896 - INFO - 📦 Collected 6 new tweets (Total: 39)
+2025-03-15 02:25:24,832 - WARNING - ⚠️  No new tweets in loaded content
+2025-03-15 02:25:24,832 - WARNING - ⏳ Retry #1 for 2s
+2025-03-15 02:25:28,140 - INFO - Sent batch of 10 tweets (Total: 40)
+2025-03-15 02:25:28,146 - INFO - 📦 Collected 4 new tweets (Total: 43)
+2025-03-15 02:25:29,213 - INFO - 📦 Collected 3 new tweets (Total: 46)
+2025-03-15 02:25:30,535 - INFO - 📦 Collected 2 new tweets (Total: 48)
+2025-03-15 02:25:32,271 - INFO - Sent batch of 10 tweets (Total: 50)
+2025-03-15 02:25:32,272 - INFO - 📦 Collected 2 new tweets (Total: 50)
+2025-03-15 02:25:34,398 - INFO - ✅ Final count: 50/50 tweets
+2025-03-15 02:25:34,398 - INFO - 🎯 Target reached successfully
+2025-03-15 02:25:34,399 - INFO - Final count: 50 tweets sent
