@@ -1,0 +1,156 @@
+2025-03-15 15:01:49,239 - root - ℹ️ INFO - main.py:69 - Initializing pipeline
+2025-03-15 15:01:49,239 - root - ℹ️ INFO - main.py:13 - Starting Twitter scraper for @ALJADEEDNEWS
+2025-03-15 15:01:54,546 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-15 15:02:01,898 - root - ℹ️ INFO - core.py:75 - 📦 Collected 7 new tweets (Total: 7)
+2025-03-15 15:02:03,159 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 10)
+2025-03-15 15:02:03,162 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 11)
+2025-03-15 15:02:04,485 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 14)
+2025-03-15 15:02:06,291 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 18)
+2025-03-15 15:02:07,674 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 20)
+2025-03-15 15:02:07,674 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 20)
+2025-03-15 15:02:09,133 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 22)
+2025-03-15 15:02:10,729 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 25)
+2025-03-15 15:02:11,971 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 28)
+2025-03-15 15:02:13,293 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 30)
+2025-03-15 15:02:13,299 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 33)
+2025-03-15 15:02:14,516 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 37)
+2025-03-15 15:02:15,776 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 40)
+2025-03-15 15:02:15,776 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 40)
+2025-03-15 15:02:17,417 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 45)
+2025-03-15 15:02:18,885 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 49)
+2025-03-15 15:02:19,901 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 50)
+2025-03-15 15:02:19,903 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 50)
+2025-03-15 15:02:21,972 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 50/50 tweets
+2025-03-15 15:02:21,973 - root - ℹ️ INFO - core.py:95 - 🎯 Target reached successfully
+2025-03-15 15:02:21,973 - root - ℹ️ INFO - main.py:21 - Scraping completed for @ALJADEEDNEWS
+2025-03-15 15:02:21,973 - root - ℹ️ INFO - producer.py:29 - Final count: 50 tweets sent
+2025-03-15 15:02:21,975 - root - ℹ️ INFO - main.py:28 - Starting storage consumer
+2025-03-15 15:02:21,978 - root - ℹ️ INFO - main.py:40 - Starting stats consumers
+2025-03-15 15:02:25,049 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,053 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,060 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,064 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,068 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,071 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,075 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,080 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,084 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,088 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,093 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,097 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,102 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,106 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,111 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,115 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,120 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,124 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,127 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,132 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,136 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,141 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,146 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,149 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,154 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,159 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,162 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,167 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,171 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,174 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,179 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,183 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,188 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,192 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,197 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,202 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,205 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,210 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,215 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,219 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,224 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,228 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,232 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,236 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,241 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,245 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,249 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,254 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,259 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,264 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,267 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,273 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,277 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,281 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,287 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,291 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,297 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,302 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,306 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,311 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,316 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,321 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,326 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,331 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,335 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,340 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,346 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,351 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,356 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,359 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,365 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,370 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,376 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,380 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,385 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,390 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,394 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,399 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,403 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,408 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,412 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,416 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,420 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,423 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,428 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,432 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,436 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,440 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,446 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,450 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,454 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,458 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,463 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,467 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,472 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,476 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,480 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,485 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:25,490 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 15:02:25,494 - src.kafka.consumers.storage - ❌ ERROR - storage.py:51 - Error processing message: Commands out of sync; you can't run this command now
+2025-03-15 15:02:35,583 - root - ℹ️ INFO - main.py:33 - Storage consumer finished
+2025-03-15 15:02:55,299 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:48 - Top 20 word frequencies saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\word_frequencies.json
+2025-03-15 15:02:55,299 - src.models.relational.tweets - ℹ️ INFO - tweets.py:157 - Word frequencies inserted successfully.
+2025-03-15 15:02:55,300 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:52 - Word frequencies saved to database
+2025-03-15 15:03:28,602 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:90 - Engagement metrics saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\tweets_engagement.json
+2025-03-15 15:03:28,609 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'الرئاسة السورية: الرئيس الشرع ...' with post_date 2025-03-15 and post_time 10:51:41
+2025-03-15 15:03:28,612 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'وزير الخارجية التركي: الأحداث ...' with post_date 2025-03-14 and post_time 18:43:57
+2025-03-15 15:03:28,615 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'وزير الخارجية التركي: مقترحنا ...' with post_date 2025-03-14 and post_time 19:11:14
+2025-03-15 15:03:28,618 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'أ ف ب: واشنطن تطرد سفير جنوب إ...' with post_date 2025-03-14 and post_time 21:12:34
+2025-03-15 15:03:28,622 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like '#غازي_العريضيلـ#الجديد: إسرائي...' with post_date 2025-03-15 and post_time 09:52:21
+2025-03-15 15:03:28,626 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'وزير الخارجية التركية: أنقرة س...' with post_date 2025-03-14 and post_time 21:27:03
+2025-03-15 15:03:28,629 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'الوزير السابق#غازي_العريضيلـ#ا...' with post_date 2025-03-15 and post_time 09:50:01
+2025-03-15 15:03:28,633 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'القناة 13 الإسرائيلية: نتنياهو...' with post_date 2025-03-14 and post_time 21:37:40
+2025-03-15 15:03:28,636 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'ماكرون يعلن انه سيستقبل الرئيس...' with post_date 2025-03-14 and post_time 22:34:19
+2025-03-15 15:03:28,639 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:208 - Error: Post not found for like 'غازي العريضي: إسرائيل تريد تحج...' with post_date 2025-03-15 and post_time 09:29:27
+2025-03-15 15:03:28,645 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'الرئاسة السورية: الرئيس الشرع ...' with post_date 2025-03-15 and post_time 10:51:41
+2025-03-15 15:03:28,649 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment '#غازي_العريضيلـ#الجديد: إسرائي...' with post_date 2025-03-15 and post_time 09:52:21
+2025-03-15 15:03:28,652 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'السيدة عون التقت أبناء الجالية...' with post_date 2025-03-14 and post_time 21:52:54
+2025-03-15 15:03:28,655 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'غازي العريضي: إسرائيل تريد تحج...' with post_date 2025-03-15 and post_time 09:29:27
+2025-03-15 15:03:28,659 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'وزير الخارجية التركي: الأحداث ...' with post_date 2025-03-14 and post_time 18:43:57
+2025-03-15 15:03:28,663 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'زوّد إسرائيل بداتا الضاحية وبي...' with post_date 2025-03-15 and post_time 06:50:43
+2025-03-15 15:03:28,666 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'ماكرون: اتصلت برئيس الحكومة نو...' with post_date 2025-03-14 and post_time 22:27:13
+2025-03-15 15:03:28,670 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'عدد من المالكين في مجمع السماي...' with post_date 2025-03-15 and post_time 10:14:49
+2025-03-15 15:03:28,673 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'رسالة من الحريري لـ جنبلاط.. و...' with post_date 2025-03-15 and post_time 09:43:46
+2025-03-15 15:03:28,679 - src.models.relational.tweets - ⚠️ WARNING - tweets.py:182 - Error: Post not found for comment 'إيلون ماسك يعلن موعد هبوط البش...' with post_date 2025-03-15 and post_time 06:59:25
+2025-03-15 15:03:28,679 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:96 - Top engagement metrics saved to database
+2025-03-15 15:03:28,679 - root - ℹ️ INFO - main.py:53 - Stats consumers finished
+2025-03-15 15:03:28,680 - root - ℹ️ INFO - main.py:87 - Pipeline run completed

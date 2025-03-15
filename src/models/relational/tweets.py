@@ -1,4 +1,4 @@
-from connection import DatabaseConnection
+from src.models.relational.connection import DatabaseConnection
 import mysql.connector
 import logging
 

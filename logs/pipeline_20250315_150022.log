@@ -1,0 +1,63 @@
+2025-03-15 15:00:22,358 - root - ℹ️ INFO - main.py:69 - Initializing pipeline
+2025-03-15 15:00:22,358 - root - ℹ️ INFO - main.py:13 - Starting Twitter scraper for @ALJADEEDNEWS
+2025-03-15 15:00:27,607 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-15 15:00:34,919 - root - ❌ ERROR - core.py:88 - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73AA4FE45+26629]
+	(No symbol) [0x00007FF73A9B6010]
+	(No symbol) [0x00007FF73A84931A]
+	(No symbol) [0x00007FF73A89F8E7]
+	(No symbol) [0x00007FF73A89FB1C]
+	(No symbol) [0x00007FF73A8F34A7]
+	(No symbol) [0x00007FF73A8C7AEF]
+	(No symbol) [0x00007FF73A8F0169]
+	(No symbol) [0x00007FF73A8C7883]
+	(No symbol) [0x00007FF73A890550]
+	(No symbol) [0x00007FF73A891803]
+	GetHandleVerifier [0x00007FF73ADA72BD+3529853]
+	GetHandleVerifier [0x00007FF73ADBDA22+3621858]
+	GetHandleVerifier [0x00007FF73ADB24D3+3575443]
+	GetHandleVerifier [0x00007FF73AB1B77A+860474]
+	(No symbol) [0x00007FF73A9C088F]
+	(No symbol) [0x00007FF73A9BCBC4]
+	(No symbol) [0x00007FF73A9BCD66]
+	(No symbol) [0x00007FF73A9AC2C9]
+	BaseThreadInitThunk [0x00007FF9E900259D+29]
+	RtlUserThreadStart [0x00007FF9EB0AAF38+40]
+
+2025-03-15 15:00:36,987 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 0/50 tweets
+2025-03-15 15:00:36,988 - root - ⚠️ WARNING - core.py:97 - ⚠️  Ended before reaching target
+2025-03-15 15:00:36,988 - root - ❌ ERROR - main.py:23 - Scraping failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73AA4FE45+26629]
+	(No symbol) [0x00007FF73A9B6010]
+	(No symbol) [0x00007FF73A84931A]
+	(No symbol) [0x00007FF73A89F8E7]
+	(No symbol) [0x00007FF73A89FB1C]
+	(No symbol) [0x00007FF73A8F34A7]
+	(No symbol) [0x00007FF73A8C7AEF]
+	(No symbol) [0x00007FF73A8F0169]
+	(No symbol) [0x00007FF73A8C7883]
+	(No symbol) [0x00007FF73A890550]
+	(No symbol) [0x00007FF73A891803]
+	GetHandleVerifier [0x00007FF73ADA72BD+3529853]
+	GetHandleVerifier [0x00007FF73ADBDA22+3621858]
+	GetHandleVerifier [0x00007FF73ADB24D3+3575443]
+	GetHandleVerifier [0x00007FF73AB1B77A+860474]
+	(No symbol) [0x00007FF73A9C088F]
+	(No symbol) [0x00007FF73A9BCBC4]
+	(No symbol) [0x00007FF73A9BCD66]
+	(No symbol) [0x00007FF73A9AC2C9]
+	BaseThreadInitThunk [0x00007FF9E900259D+29]
+	RtlUserThreadStart [0x00007FF9EB0AAF38+40]
+
+2025-03-15 15:00:36,988 - root - ℹ️ INFO - producer.py:29 - Final count: 0 tweets sent
+2025-03-15 15:00:36,990 - root - ℹ️ INFO - main.py:28 - Starting storage consumer
+2025-03-15 15:00:36,993 - root - ℹ️ INFO - main.py:40 - Starting stats consumers
+2025-03-15 15:00:47,111 - root - ℹ️ INFO - main.py:33 - Storage consumer finished
+2025-03-15 15:01:07,303 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:48 - Top 20 word frequencies saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\word_frequencies.json
+2025-03-15 15:01:07,303 - src.models.relational.tweets - ℹ️ INFO - tweets.py:157 - Word frequencies inserted successfully.
+2025-03-15 15:01:07,303 - src.kafka.consumers.stats - ℹ️ INFO - stats.py:52 - Word frequencies saved to database
+2025-03-15 15:01:37,599 - src.kafka.consumers.stats - ⚠️ WARNING - stats.py:98 - No engagement data collected to save.
+2025-03-15 15:01:37,600 - root - ℹ️ INFO - main.py:53 - Stats consumers finished
+2025-03-15 15:01:37,601 - root - ℹ️ INFO - main.py:87 - Pipeline run completed

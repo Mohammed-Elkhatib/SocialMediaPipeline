@@ -1,0 +1,291 @@
+2025-03-15 16:16:57,944 - root - ℹ️ INFO - main.py:70 - Initializing pipeline
+2025-03-15 16:16:57,944 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @LBCI_NEWS
+2025-03-15 16:17:02,826 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @LBCI_NEWS
+2025-03-15 16:17:06,969 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 5)
+2025-03-15 16:17:07,651 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 6)
+2025-03-15 16:17:08,398 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 9)
+2025-03-15 16:17:09,098 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 10)
+2025-03-15 16:17:09,099 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 11)
+2025-03-15 16:17:09,896 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 13)
+2025-03-15 16:17:10,726 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 17)
+2025-03-15 16:17:11,549 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 20)
+2025-03-15 16:17:11,549 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 20)
+2025-03-15 16:17:12,503 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 24)
+2025-03-15 16:17:13,332 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 28)
+2025-03-15 16:17:14,329 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 29)
+2025-03-15 16:17:15,515 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 30)
+2025-03-15 16:17:15,518 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 33)
+2025-03-15 16:17:16,391 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 35)
+2025-03-15 16:17:17,291 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 37)
+2025-03-15 16:17:18,166 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 40)
+2025-03-15 16:17:18,167 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 41)
+2025-03-15 16:17:19,169 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 45)
+2025-03-15 16:17:19,963 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 47)
+2025-03-15 16:17:20,698 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 49)
+2025-03-15 16:17:21,500 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 50)
+2025-03-15 16:17:21,500 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 50)
+2025-03-15 16:17:23,543 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 50/50 tweets
+2025-03-15 16:17:23,543 - root - ℹ️ INFO - core.py:95 - 🎯 Target reached successfully
+2025-03-15 16:17:23,543 - root - ℹ️ INFO - main.py:22 - Scraping completed for @LBCI_NEWS
+2025-03-15 16:17:23,544 - root - ℹ️ INFO - producer.py:29 - Final count: 50 tweets sent
+2025-03-15 16:17:23,544 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:216 - Starting Storage Consumer...
+2025-03-15 16:17:26,587 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,588 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,588 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,588 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,589 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,589 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,589 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,589 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,589 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,591 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,592 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,592 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,592 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,592 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,593 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,593 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,593 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,594 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,594 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,594 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,594 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,594 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,595 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,595 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,595 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,595 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,596 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,596 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,596 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,596 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,596 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,596 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,597 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,599 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,599 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,599 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,599 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,600 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,600 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,600 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,600 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,600 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:26,601 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:17:56,879 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:220 - Storage Consumer finished.
+2025-03-15 16:17:56,879 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:223 - Starting Word Frequency Consumer...
+2025-03-15 16:18:30,195 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:128 - Top 20 word frequencies saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\word_frequencies.json
+2025-03-15 16:18:30,245 - src.models.relational.tweets - ℹ️ INFO - tweets.py:157 - Word frequencies inserted successfully.
+2025-03-15 16:18:30,245 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:132 - Word frequencies saved to database
+2025-03-15 16:18:30,246 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:229 - Starting Engagement Metrics Consumer...
+2025-03-15 16:18:30,246 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:149 - No messages in shared store to process
+2025-03-15 16:18:30,246 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:177 - No engagement data collected to save.
+2025-03-15 16:18:30,246 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:235 - Pipeline run completed
+2025-03-15 16:18:30,267 - root - ℹ️ INFO - main.py:92 - Pipeline run completed
