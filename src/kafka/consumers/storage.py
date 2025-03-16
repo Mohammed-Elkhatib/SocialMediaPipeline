@@ -1,5 +1,3 @@
-import os
-import json
 import logging
 from src.kafka.consumers.base import BaseConsumer
 from src.models.relational.tweets import TweetModel
@@ -32,12 +30,18 @@ class StorageConsumer(BaseConsumer):
 
             # Validate required fields
             if not all([tweet_id, date, time, content]):
-                self.logger.warning(f"Skipping message due to missing required fields: {message}")
+                missing_fields = []
+                if not tweet_id: missing_fields.append('id')
+                if not date: missing_fields.append('date')
+                if not time: missing_fields.append('time')
+                if not content: missing_fields.append('content')
+
+                self.logger.warning(f"Skipping message due to missing required fields {missing_fields}: {message}")
                 return
 
             # Store tweet data in the database
-            self.tweet_model.insert_post_and_engagement_metrics(
-                platform='x',  # Hardcoded for now, could be dynamic in the future
+            self.tweet_model.insert_post(
+                post_id=tweet_id,  # Changed from platform to match the updated method signature
                 post_date=date,
                 post_time=time,
                 content=content,
@@ -48,7 +52,8 @@ class StorageConsumer(BaseConsumer):
             self.logger.info(f"Stored tweet {tweet_id} from {date} {time}")
 
         except Exception as e:
-            self.logger.error(f"Error processing message: {e}")
+            self.logger.error(f"Error processing message: {e}", exc_info=True)
+            # Adding exc_info=True to log the full stack trace for better debugging
 
 
 if __name__ == "__main__":
@@ -63,7 +68,12 @@ if __name__ == "__main__":
     logger.info("Starting Storage Consumer...")
 
     consumer = StorageConsumer()
-    consumer.consume_messages(consumer.process_message)
-
-    logger.info("Storage Consumer finished.")
-    
+    # Adding a timeout to make the process more robust
+    try:
+        consumer.consume_messages(consumer.process_message, timeout_seconds=3600)  # 1 hour timeout
+    except KeyboardInterrupt:
+        logger.info("Storage Consumer stopped by user.")
+    except Exception as e:
+        logger.error(f"Storage Consumer encountered an error: {e}", exc_info=True)
+    finally:
+        logger.info("Storage Consumer finished.")
