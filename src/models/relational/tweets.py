@@ -1,6 +1,8 @@
+from datetime import datetime, timedelta
 from src.models.relational.connection import DatabaseConnection
 import mysql.connector
 import logging
+from decimal import Decimal
 
 
 class TweetModel:
@@ -229,11 +231,10 @@ class TweetModel:
                 p.likes, 
                 p.retweets, 
                 p.comments, 
-                t.comments_count,  
                 t.created_at
             FROM top_comments t
             JOIN posts p ON t.post_id = p.id
-            ORDER BY t.comments_count DESC
+            ORDER BY p.comments DESC
             LIMIT %s;
         """
         return self.execute_query(fetch_top_comments_query, (limit,))
@@ -249,11 +250,10 @@ class TweetModel:
                 p.likes, 
                 p.retweets, 
                 p.comments, 
-                t.likes_count,
                 t.created_at
             FROM top_likes t
             JOIN posts p ON t.post_id = p.id
-            ORDER BY t.likes_count DESC
+            ORDER BY p.likes DESC
             LIMIT %s;
         """
         return self.execute_query(fetch_top_likes_query, (limit,))
@@ -269,14 +269,51 @@ class TweetModel:
                 p.likes, 
                 p.retweets, 
                 p.comments, 
-                t.retweets_count,
                 t.created_at
             FROM top_retweets t
             JOIN posts p ON t.post_id = p.id
-            ORDER BY t.retweets_count DESC
+            ORDER BY p.retweets DESC
             LIMIT %s;
         """
         return self.execute_query(fetch_top_retweets_query, (limit,))
+    def fetch_total_retweets(self):
+        """Fetch total count of retweets from posts."""
+        fetch_total_retweets_query = """
+            SELECT sum(p.retweets) 
+            FROM posts p;
+        """
+        result = self.execute_query(fetch_total_retweets_query)
+        # Ensure you handle the case where the result might be empty or None
+        return result[0]['sum(p.retweets)'] if result and result[0]['sum(p.retweets)'] is not None else 0
+
+    def fetch_total_comments(self):
+        """Fetch total count of comments from posts."""
+        fetch_total_comments_query = """
+            SELECT sum(p.comments) 
+            FROM posts p;
+        """
+        result = self.execute_query(fetch_total_comments_query)
+        # Ensure it returns an integer value
+        return int(result[0]['sum(p.comments)']) if result and result[0]['sum(p.comments)'] is not None else 0
+
+    def fetch_total_posts(self):
+        """Fetch total count of posts."""
+        fetch_total_posts_query = """
+            SELECT count(p.id) 
+            FROM posts p;
+        """
+        result = self.execute_query(fetch_total_posts_query)
+        return result[0]['count(p.id)'] if result and result[0]['count(p.id)'] is not None else 0
+
+    def fetch_total_likes(self):
+        """Fetch total count of likes from posts."""
+        fetch_total_likes_query = """
+            SELECT sum(p.likes) 
+            FROM posts p;
+        """
+        result = self.execute_query(fetch_total_likes_query)
+        # Ensure it returns an integer value, not a dict or list
+        return int(result[0]['sum(p.likes)']) if result and result[0]['sum(p.likes)'] is not None else 0
 
     def fetch_word_frequencies(self, platform=None, limit=100):
         """Fetch the word frequencies, optionally filtered by platform."""
@@ -314,3 +351,108 @@ class TweetModel:
         """
         results = self.execute_query(fetch_post_query, (post_id,))
         return results[0] if results else None
+    
+    def fetch_engagement_data(self):
+        # Query to fetch data for the past 5 days
+        query = """
+        SELECT 
+            DATE(p.post_date) AS day,
+            COUNT(p.id) AS post_count,
+            SUM(p.likes) AS total_likes,
+            SUM(p.retweets) AS total_retweets,
+            SUM(p.comments) AS total_comments
+        FROM posts p
+        WHERE p.post_date >= CURRENT_DATE - INTERVAL 5 DAY
+        GROUP BY day
+        ORDER BY day DESC;
+        """
+
+        results = self.execute_query(query)
+
+        engagement_data = []
+        for row in results:
+            # Now use dictionary keys instead of tuple indices
+            total_engagement = row["total_likes"] + row["total_retweets"] + row["total_comments"]
+            engagement_per_post = total_engagement / row["post_count"] if row["post_count"] > 0 else 0
+            engagement_data.append({
+                "day": row["day"],
+                "post_count": row["post_count"],
+                "total_likes": row["total_likes"],
+                "total_retweets": row["total_retweets"],
+                "total_comments": row["total_comments"],
+                "total_engagement": total_engagement,
+                "engagement_per_post": engagement_per_post
+            })
+            
+        return engagement_data
+    
+    def fetch_heatmap_raw_data(self):
+        query = """
+        SELECT
+            DATE(p.post_date) AS day,
+            CASE 
+                WHEN HOUR(p.post_time) >= 6 AND HOUR(p.post_time) < 12 THEN 'Morning'
+                WHEN HOUR(p.post_time) >= 12 AND HOUR(p.post_time) < 18 THEN 'Afternoon'
+                ELSE 'Evening'
+            END AS time_of_day,
+            COUNT(p.id) AS count
+        FROM posts p
+        GROUP BY day, time_of_day
+        ORDER BY day ASC;
+        """
+        # Execute the query – assumes your execute_query returns a list of dictionaries
+        raw_data = self.execute_query(query)
+        return raw_data
+    
+    def fetch_virality_data(self):
+        query = """
+        SELECT 
+            p.id,
+            p.post_date,
+            p.post_time,
+            p.likes,
+            p.retweets,
+            p.comments
+        FROM posts p
+        """
+        results = self.execute_query(query)
+        
+        virality_data = []
+        current_time = datetime.now()  # Get the current date and time
+        
+        for row in results:
+            # Get engagement metrics
+            total_engagement = row["likes"] + row["retweets"] + row["comments"]
+            avg_engagement_per_post = Decimal(total_engagement) / 3  # Calculate average engagement
+
+            # Check if post_time is a timedelta, and convert it into time format
+            if isinstance(row["post_time"], timedelta):
+                total_seconds = row["post_time"].total_seconds()
+                hours = int(total_seconds // 3600)
+                minutes = int((total_seconds % 3600) // 60)
+                seconds = int(total_seconds % 60)
+                post_time = datetime.min.replace(hour=hours, minute=minutes, second=seconds).time()
+            else:
+                post_time = row["post_time"]  # In case it's already a time object
+
+            # Combine 'post_date' and 'post_time' into a single datetime object
+            post_datetime = datetime.combine(row["post_date"], post_time)
+
+            # Get time difference in seconds
+            time_diff = (current_time - post_datetime).total_seconds()
+
+            # Prevent division by zero (if time_diff is 0)
+            if time_diff == 0:
+                time_diff = 1  # To avoid dividing by zero
+
+            # Calculate virality score, convert avg_engagement_per_post to float
+            virality_score = float(avg_engagement_per_post) / time_diff
+
+            # Store the results
+            virality_data.append({
+                "post_id": row["id"],
+                "post_date": row["post_date"],
+                "virality_score": virality_score,
+            })
+        
+        return virality_data

@@ -24,7 +24,7 @@ function setupChart() {
         console.log("Fetched Data:", data);  // Debugging timestamps
 
         let trace1 = {
-            x: data.x.map(ts => new Date(ts * 1000)),  // ✅ FIX: Convert UNIX timestamps properly
+            x: data.x.map(ts => new Date(ts * 1000)),  // Convert UNIX timestamps to Date objects
             y: data.y || [],
             mode: 'markers',
             marker: { size: data.size || [] },
@@ -33,18 +33,18 @@ function setupChart() {
         };
 
         const chartLayout = {
-            title: { text: 'Virality vs Date' },
+            title: { text: 'Engagement vs Date' },
             showlegend: false,
             autosize: true,
             margin: { l: 40, r: 40, t: 40, b: 40 },
             xaxis: {
                 title: "Time",
-                type: "date",  // ✅ FIX: Ensure Plotly treats it as date values
-                tickformat: "%Y-%m-%d %H:%M",  // ✅ FIX: Proper date format
+                type: "date",              // Treat x-axis values as dates
+                tickformat: "%Y-%m-%d %H:%M", // Format for the date labels
                 tickangle: 10
             },
             yaxis: {
-                title: 'Virality',
+                title: 'Engagement',
                 rangemode: 'tozero'
             }
         };

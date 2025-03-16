@@ -1,21 +1,8 @@
 function UpdateAllForHome(){
     setupChart();
-    //updateChart();
-    //updatePieChart();
-    //reloadTable();
     updateHeatmap();
-    //createProgressBars();
-    //updateSocialData();
-    //updateBarChart();
+    createProgressBars();
+    updateSocialData();
     updateWordCloud();
-}
-function UpdateAllForTwitter(){
-    //setupChart();
-    //updateChart();
-    //updatePieChart();
-    //reloadTable();
-    //updateHeatmap();
-    //createProgressBars();
-    //updateSocialData();
     updateBarChart();
 }

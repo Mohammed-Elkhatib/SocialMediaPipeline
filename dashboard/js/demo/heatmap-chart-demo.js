@@ -11,7 +11,8 @@ async function updateHeatmap() {
         type: 'heatmap',
         hoverongaps: false
     }];
-
+ console.log("inside heap")
     // Update the chart with the new data
     Plotly.react('heatmapChart', heatmapData);
 }
+updateHeatmap();

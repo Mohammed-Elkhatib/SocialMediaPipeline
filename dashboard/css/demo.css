@@ -12,7 +12,7 @@
 }
 html, body, #words_container {
     width: 100%; /* Makes it responsive */
-    height: 280px; /* Adjust height as needed */
+    height: 380px; /* Adjust height as needed */
     max-height: 500px; /* Prevents excessive growth */
 }
 html, body {
@@ -32,6 +32,7 @@ footer {
 #heatmapChart {
     width: 100% !important; /* Force it to take full width of container */
     height: 100% !important; /* Force it to fit the container */
+    overflow: hidden;
 }
 /* Reduce Font Size */
 #dataTable {
@@ -63,4 +64,17 @@ footer {
     width: 100% !important;
     height: 100% !important;
     display: block;
+}
+/* Ensure the parent container is set to take full width and height */
+#myAreaChart {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+}
+#words_container{
+    height:430px;
+}
+
+#bubble-div{
+    height: 440px;
 }
