@@ -20,7 +20,7 @@ class TweetAPI:
         Returns:
             list: List of tweets with engagement metrics
         """
-        tweets = self.tweet_model.fetch_posts(platform=platform)
+        tweets = self.tweet_model.fetch_posts(sort_by="scraped_at")
 
         # Limit the results
         if tweets and limit:
