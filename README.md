@@ -73,7 +73,7 @@ A project to scrape social media data, process it with Kafka, and store it in a 
 3. **Database Setup:**
 
    - **Start XAMPP:** Start the Apache and MySQL services.
-   - **Create Database:** Open `http://localhost/phpmyadmin/` in your browser and create a new database named `social_media`.
+   - **Create Database:** Open `http://localhost/phpmyadmin/` in your browser and create a new database named `social_media_pipeline`.
    - **Import Schema:** Import the `database_mariadb.sql` file to create the necessary tables.
    
    *Note: You can use any other database management tool to create the database and tables.*
