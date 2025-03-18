@@ -40,7 +40,7 @@ A project to scrape social media data, process it with Kafka, and store it in a 
 │
 ├── tests/                    # Future test cases
 ├── requirements.txt          # Python dependencies
-├── database_mariadb.sql       Persistant storage schema
+├── database_mariadb.sql      # Persistant storage schema
 ├── docker-compose.yml        # Docker configuration
 ├── README.md                 # Project documentation
 ├── .gitignore                # Git ignore file
