@@ -21,6 +21,15 @@ A project to scrape social media data, process it with Kafka, and store it in a 
 │   │       ├── storage.py    # Database writer
 │   │       └── stats.py      # Real-time statistics
 │   │
+│   ├── analytics/        # NEW directory
+│   │   ├── processors/
+│   │   │   ├── word_frequency.py   # Word frequency analysis logic
+│   │   │   └── engagement.py       # Engagement metrics analysis
+│   │   ├── exporters/
+│   │   │   ├── json_exporter.py    # Format data for dashboard JSON 
+│   │   │   └── db_exporter.py      # Format data for database
+│   │   ├── scheduler.py            # Triggers analyses at intervals
+│   │   └── service.py              # Core analytics service
 │   │
 │   ├── models/               # Database interaction
 │   │   ├── relational/       # SQL tables
