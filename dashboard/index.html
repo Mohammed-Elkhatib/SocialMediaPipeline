@@ -177,9 +177,7 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body" id="bubble-div">
-                                    <div class="chart-area">
                                         <div id="chart-area-tester"></div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -203,9 +201,10 @@
                                 <!-- Card Body with Chart -->
                                 <div class="card-body">
                                     <div class="chart-bar">
-                                        <canvas id="myBarChart"></canvas>
+                                        <div id="myPlotlyChart"></div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
 
@@ -269,7 +268,7 @@
     <div class="card shadow mb-4">
         <!-- Card Header - Dropdown -->
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary p-0">Users Activity</h6>
+            <h6 class="m-0 font-weight-bold text-primary p-0">Posting Activity</h6>
             
         </div>
         <!-- Card Body -->
@@ -326,13 +325,11 @@
     <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>
 
-    <script src="js/config/bar-chart.js"></script>
     <script src="js/config/line-chart.js"></script>
     <script src="js/config/progress-bar.js"></script>
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     
-    <script src="js/demo/chart-bar-demo.js"></script>
 
         <!-- Page level plugins -->
         <script src="vendor/datatables/jquery.dataTables.min.js"></script>
@@ -351,6 +348,10 @@
         <script src="js/demo/heatmap-chart-demo.js"></script>
         <script src="js/demo/social-data-demo.js"></script> 
         <script src="js/demo/progress-bar-demo.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+        
+    <script src="js/demo/chart-bar-demo.js"></script>
         <script src="js/start.js"></script>
         
     <script src="js/sse-listener-home.js"></script>

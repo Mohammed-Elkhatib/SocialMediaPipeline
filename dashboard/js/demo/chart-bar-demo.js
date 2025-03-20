@@ -1,64 +1,29 @@
-
 // Global chart data
-let chartData1 = null;  // Store chart data for top comments
-let chartData2 = null;  // Store chart data for top likes
-let chartData3 = null;  // Store chart data for top retweets
+let chartData1 = null;
+let chartData2 = null;
+let chartData3 = null;
 
-// Set up Chart.js Bar chart
-function setupBarChart(canvasId) {
-    var canvas = document.getElementById(canvasId);
-    if (!canvas) {
-        console.error(`Canvas for ${canvasId} not found!`);
+// Function to setup Plotly Bar Chart
+function setupBarChart(divId) {
+    var chartDiv = document.getElementById(divId);
+    if (!chartDiv) {
+        console.error(`Chart div ${divId} not found!`);
         return null;
     }
 
-    var ctx = canvas.getContext("2d");
-    if (!ctx) {
-        console.error(`Failed to get 2D context for ${canvasId}!`);
-        return null;
-    }
+    var layout = {
+        title: 'Top 10 Posts',
+        barmode: 'group',
+        xaxis: { title: 'Post Date & Time', type: 'category' },
+        yaxis: { title: 'Count' },
+        hovermode: 'x',  // Ensures tooltips appear on X-axis
+        responsive: true
+    };
 
-    return new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: [],  // Data labels
-            datasets: []  // Chart datasets
-        },
-        options: {
-            responsive: true,
-            scales: { 
-                y: {
-                    beginAtZero: true
-                }
-            },
-            plugins: {
-                tooltip: {
-                    callbacks: {
-                        title: function (tooltipItems) {
-                            return tooltipItems[0].label;
-                        },
-                        label: function (tooltipItem) {
-                            const datasetLabel = tooltipItem.dataset.label || "";
-                            const value = tooltipItem.raw;
-
-                            // Check which chart data is being used and display accordingly
-                            const chartData = chartData1 || chartData2 || chartData3;
-                            const postIndex = tooltipItem.dataIndex;
-                            const content = chartData?.contents ? chartData.contents[postIndex] : "No content available";
-
-                            return [`${datasetLabel}: ${value}`, `Post: ${content}`];
-                        }
-                    }
-                }
-            }
-        }
-    });
+    Plotly.newPlot(divId, [], layout);
 }
 
-// Initialize chart
-const myBarChart = setupBarChart("myBarChart");
-
-// Fetch and update chart data based on selected filter
+// Fetch and update chart data
 async function updateChartData(chartType) {
     let url = '';
     switch (chartType) {
@@ -79,40 +44,86 @@ async function updateChartData(chartType) {
     try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(`Fetched ${chartType} data:`, data);  // Debugging
 
-        // Store data globally so tooltips can access it
-        if (chartType === 'comments') {
-            chartData1 = data;
-        } else if (chartType === 'likes') {
-            chartData2 = data;
-        } else if (chartType === 'retweets') {
-            chartData3 = data;
-        }
+        if (chartType === 'comments') chartData1 = data;
+        if (chartType === 'likes') chartData2 = data;
+        if (chartType === 'retweets') chartData3 = data;
 
-        // Update chart data
-        const currentChartData = chartType === 'comments' ? chartData1 : chartType === 'likes' ? chartData2 : chartData3;
+        const currentChartData = chartType === 'comments' ? chartData1 : 
+                                 chartType === 'likes' ? chartData2 : chartData3;
 
-        myBarChart.data.labels = currentChartData.labels;
-        myBarChart.data.datasets = currentChartData.datasets;
+        const postLabels = currentChartData.labels;
+        const postContents = currentChartData.datasets[0].content;  // Content is the same across datasets
 
-        // Update tooltips to show correct content
-        myBarChart.options.plugins.tooltip.callbacks.label = function (tooltipItem) {
-            const datasetLabel = tooltipItem.dataset.label || "";
-            const value = tooltipItem.raw;
-
-            const content = currentChartData?.contents ? currentChartData.contents[tooltipItem.dataIndex] : "No content available";
-
-            return [`${datasetLabel}: ${value}`, `Post: ${content}`];
+        // Create traces for Likes, Retweets, and Comments
+        const traceLikes = {
+            x: postLabels,
+            y: currentChartData.datasets[0].data,
+            name: "Likes",
+            type: 'bar',
+            marker: { color: '#4e73df' },
+            hovertemplate: '<b>Likes</b>: %{y}<extra></extra>',
+            customdata: postContents
         };
 
-        myBarChart.update();
+        const traceRetweets = {
+            x: postLabels,
+            y: currentChartData.datasets[1].data,
+            name: "Retweets",
+            type: 'bar',
+            marker: { color: '#1cc88a' },
+            hovertemplate: '<b>Retweets</b>: %{y}<extra></extra>',
+            customdata: postContents
+        };
+
+        const traceComments = {
+            x: postLabels,
+            y: currentChartData.datasets[2].data,
+            name: "Comments",
+            type: 'bar',
+            marker: { color: '#e74a3b' },
+            hovertemplate: '<b>Comments</b>: %{y}<extra></extra>',
+            customdata: postContents
+        };
+
+        // Invisible scatter trace for showing content on X-axis hover
+        const traceHover = {
+            x: postLabels,
+            y: new Array(postLabels.length).fill(0), // Invisible trace
+            text: postContents,
+            mode: "markers",
+            hoverinfo: "text",
+            marker: { opacity: 0 },
+            showlegend: false
+        };
+
+        const layout = {
+            title: `Top 10 ${chartType.charAt(0).toUpperCase() + chartType.slice(1)}`,
+            barmode: 'group',
+            xaxis: {
+                title: 'Post Date & Time',
+                tickangle: -20,
+                type: 'category',
+                tickmode: 'array',
+                tickvals: postLabels,
+                ticktext: postLabels
+            },
+            yaxis: { title: 'Count' },
+            hovermode: 'x unified', // Unifies tooltips
+            hoverlabel: { bgcolor: "#fff", font: { color: "#000" } }
+        };
+
+        Plotly.react("myPlotlyChart", [traceLikes, traceRetweets, traceComments, traceHover], layout);
+
     } catch (error) {
         console.error("Error fetching chart data:", error);
     }
 }
 
-// Event listeners for dropdown items
+// Setup initial chart
+setupBarChart("myPlotlyChart");
+
+// Add event listeners for filter buttons
 document.getElementById("topCommentsDropdown").addEventListener('click', function() {
     updateChartData('comments');
 });
@@ -125,5 +136,5 @@ document.getElementById("topRetweetsDropdown").addEventListener('click', functio
     updateChartData('retweets');
 });
 
-// Initial data load
-updateChartData('comments');  // Default to "Top Comments" chart data
+// Load default data
+updateChartData('comments');

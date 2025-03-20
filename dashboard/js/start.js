@@ -5,4 +5,5 @@ function UpdateAllForHome(){
     updateSocialData();
     updateWordCloud();
     updateBarChart();
+    updateBubbleChart();
 }

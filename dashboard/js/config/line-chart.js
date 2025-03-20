@@ -7,7 +7,6 @@ async function fetchChartData() {
         }
         const data = await response.json();
         
-        console.log("Raw data from API:", data);  // Debugging backend response
         return data;
     } catch (error) {
         console.error('Error fetching chart data:', error);

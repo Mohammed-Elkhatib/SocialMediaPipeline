@@ -91,6 +91,28 @@ class TweetModel:
         self.execute_many(insert_word_frequencies_query, params)
         self.logger.info(f"Word frequencies batch inserted successfully: {len(params)} words processed.")
 
+    def insert_hashtag_frequencies(self, word_frequencies):
+        """Insert hashtag frequency data into the database using batch processing."""
+
+        if not word_frequencies:
+            self.logger.info("No hashtag frequencies to insert.")
+            return
+
+        # Prepare batch parameters for efficient insertion
+        params = []
+        for word, frequency in word_frequencies.items():
+            params.append(('x', word, frequency))
+
+        # Use executemany for batch processing
+        insert_word_frequencies_query = """
+            INSERT INTO hashtag_frequency (id, word, count)
+            VALUES (%s, %s, %s)
+            ON DUPLICATE KEY UPDATE count = count + VALUES(count)
+        """
+
+        self.execute_many(insert_word_frequencies_query, params)
+        self.logger.info(f"Word frequencies batch inserted successfully: {len(params)} words processed.")
+
     def update_top_comments(self, comments_data):
         """Update top comments using REPLACE INTO to handle both inserts and updates."""
 
@@ -332,6 +354,24 @@ class TweetModel:
         params.append(limit)
 
         return self.execute_query(query, tuple(params))
+    
+    def fetch_hashtag_frequencies(self, platform=None, limit=100):
+        """Fetch the hashtag frequencies, optionally filtered by platform."""
+        query = """
+            SELECT word, count
+            FROM hashtag_frequency
+            WHERE 1=1
+        """
+        params = []
+
+        if platform:
+            query += " AND id = %s"
+            params.append(platform)
+
+        query += " ORDER BY count DESC LIMIT %s"
+        params.append(limit)
+
+        return self.execute_query(query, tuple(params))
 
     def fetch_post_by_id(self, post_id):
         """Fetch a specific post by its ID."""
@@ -423,8 +463,6 @@ class TweetModel:
         for row in results:
             # Get engagement metrics
             total_engagement = row["likes"] + row["retweets"] + row["comments"]
-            avg_engagement_per_post = Decimal(total_engagement) / 3  # Calculate average engagement
-
             # Check if post_time is a timedelta, and convert it into time format
             if isinstance(row["post_time"], timedelta):
                 total_seconds = row["post_time"].total_seconds()
@@ -439,14 +477,14 @@ class TweetModel:
             post_datetime = datetime.combine(row["post_date"], post_time)
 
             # Get time difference in seconds
-            time_diff = (current_time - post_datetime).total_seconds()
+            time_diff = (current_time - post_datetime).total_seconds()/3600
 
             # Prevent division by zero (if time_diff is 0)
             if time_diff == 0:
                 time_diff = 1  # To avoid dividing by zero
 
             # Calculate virality score, convert avg_engagement_per_post to float
-            virality_score = float(avg_engagement_per_post) / time_diff
+            virality_score = float(total_engagement) / time_diff
 
             # Store the results
             virality_data.append({

@@ -43,8 +43,6 @@
         fetch('/static/word_frequencies.json')
             .then(response => response.json())
             .then(data => {
-                // Log the data to check its structure
-                console.log('Loaded JSON data:', data);
 
                 // Extract words and frequencies from the JSON data
                 const words = data.map(item => item.word); // Extract words

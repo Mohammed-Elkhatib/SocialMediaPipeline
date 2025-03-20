@@ -14,15 +14,7 @@ def calculate_engagement(likes: int, retweets: int, comments: int) -> float:
     # Example formula to calculate virality based on likes, retweets, and comments
     return likes + (retweets * 2) + (comments * 1.5)
 
-def calculate_virality(engagement_avg, timestamp):
-    current_time = time.time()  # Get current timestamp
-    time_difference = current_time - timestamp  # Time difference in seconds
-    if time_difference == 0:
-        return engagement_avg  # To handle the case where timestamp is very recent
-    virality = engagement_avg / time_difference  # Normalize virality by time
-    return virality
-
-# Endpoint to get initial chart data
+# Endpoint to get chart data
 @app.get("/api/chart-data")
 async def get_virality_over_time():
     # Fetch engagement data
@@ -42,12 +34,6 @@ async def get_virality_over_time():
         'y': virality_scores  # Virality scores for the y-axis
     }
 
-# Endpoint to get updated chart data at intervals
-@app.get("/api/chart-update")
-async def update_chart_data():
-    return {
-        "data": [random.randint(5000, 40000) for _ in range(12)]
-    }
 
 def process_heatmap_data(raw_data):
     # Build a dictionary mapping day -> {time_of_day: count, ...}
@@ -90,6 +76,10 @@ def load_word_data():
     word_data = queries.fetch_word_frequencies()
     return word_data
 
+def load_hashtag_data():
+    word_data = queries.fetch_hashtag_frequencies()
+    return word_data
+
 def detect_script(text):
     # Regular expressions for Arabic and English
     arabic_pattern = re.compile(r'[\u0600-\u06FF]')
@@ -106,6 +96,13 @@ def detect_script(text):
 @app.get("/api/language-data")
 async def get_word_data():
     word_data = load_word_data()  # Load data from JSON file
+    for word_item in word_data:
+        word_item["category"] = detect_script(word_item["word"])
+    return {"data": word_data}
+
+@app.get("/api/hashtag-data")
+async def get_hashtag_data():
+    word_data = load_hashtag_data()  # Load data from JSON file
     for word_item in word_data:
         word_item["category"] = detect_script(word_item["word"])
     return {"data": word_data}
@@ -178,8 +175,7 @@ def load_engagement_data_top_retweets():
 topComments = load_engagement_data_top_comments()
 topLikes = load_engagement_data_top_likes()
 topRetweets = load_engagement_data_top_retweets()
-print(topComments)
-print(topLikes)
+
 
 @app.get("/api/bar-chart-data-comments")
 async def get_bar_chart_data():
@@ -187,7 +183,7 @@ async def get_bar_chart_data():
     likes = [post["likes"] for post in topComments]
     retweets = [post["retweets"] for post in topComments]
     comments = [post["comments"] for post in topComments]
-    contents = [post["content"] for post in topComments]  # Include content for tooltips
+    contents = [post["content"] for post in topComments]  # Include content for tooltipssq;
 
     return {
         "labels": labels,
@@ -237,40 +233,3 @@ async def get_bar_chart_data_likes():
 from datetime import datetime, time
 def to_unix_timestamp(date_str):
     return int(datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").timestamp())  # Convert to UNIX timestamp
-
-@app.get("/api/bubble-chart-data")
-async def get_bubble_chart_data():
-    x_data = []
-    y_data = []
-    size_data = []
-    text_data = []
-
-    for item in topLikes:
-        try:
-            date_str = f"{item['post_date']} {item['post_time']}"
-
-            # Virality calculation
-            virality = calculate_engagement(item['likes'], item['retweets'], item['comments'])
-
-            if virality > 0:
-                scaled_virality = virality * 0.1
-                scaled_size = (item['likes'] + item['retweets'] + item['comments']) * 0.09
-
-                x_data.append(to_unix_timestamp(date_str))  # Store adjusted timestamp
-                y_data.append(scaled_virality)
-                size_data.append(scaled_size)
-                text_data.append(item['content'])
-
-                print(f"Processed: {date_str} -> {to_unix_timestamp(date_str)}")  # Debugging output
-
-        except Exception as e:
-            print(f"Error processing item {item['post_id']}: {e}")
-
-    return JSONResponse(content={
-        'x': x_data,
-        'y': y_data,
-        'size': size_data,
-        'text': text_data
-    })
-
-
