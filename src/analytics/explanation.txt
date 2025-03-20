@@ -1,0 +1,65 @@
+Let me break down what each file in the proposed analytics module would do:
+
+### Core Files:
+
+**1. analytics/service.py**
+- Acts as the main entry point for all analytics operations
+- Coordinates between processors and exporters
+- Provides high-level methods like `run_word_frequency_analysis()` or `run_engagement_analysis()`
+- Handles exceptions and ensures data flows correctly from processors to exporters
+
+**2. analytics/scheduler.py**
+- Manages when analytics processes should run
+- Could implement time-based scheduling (hourly, daily)
+- Could also support event-based triggers (e.g., run analysis when data volume reaches a threshold)
+- Handles locking to prevent concurrent analysis runs
+
+### Processors:
+
+**3. analytics/processors/word_frequency.py**
+- Contains the `WordFrequencyProcessor` class
+- Fetches tweet data from the database via TweetModel
+- Extracts and counts keywords from tweet content
+- Identifies trending terms and their frequency
+- Performs analysis operations like finding trending terms over time
+- Returns processed data structures, not raw database records
+
+**4. analytics/processors/engagement.py**
+- Contains the `EngagementProcessor` class
+- Analyzes likes, comments, retweets patterns
+- Identifies top performing content
+- Calculates engagement rates and trends
+- May segment engagement by time periods (daily, weekly)
+- Returns processed metrics rather than raw data
+
+### Exporters:
+
+**5. analytics/exporters/json_exporter.py**
+- Takes processed data from processors
+- Formats it specifically for dashboard consumption
+- Handles file operations (saving to disk with proper paths)
+- May include data transformations specific to visualization needs
+- Ensures consistent JSON structure
+
+**6. analytics/exporters/db_exporter.py**
+- Takes processed data from processors
+- Maps it to database schema for storage
+- Calls appropriate TweetModel methods to save results
+- Handles batching for performance
+- Manages update vs. insert logic
+
+### Dashboard Integration:
+
+**7. dashboard/data_providers.py**
+- Fetches pre-processed analytics from database or JSON files
+- May perform light transformations for specific visualizations
+- Provides consistent interfaces for dashboard components
+- Handles caching to improve dashboard performance
+
+**8. dashboard/api.py**
+- Exposes REST endpoints for the dashboard frontend
+- May trigger on-demand analytics if needed
+- Returns data in formats ready for visualization libraries
+- Manages authentication/authorization for dashboard access
+
+This modular approach allows each component to have a specific responsibility while working together to provide analyzed data to your dashboard. The processors focus on the analysis logic, exporters handle output formatting, and the service coordinates the overall flow.

@@ -6,7 +6,6 @@ from src.scraper.core import scrape_twitter
 from src.kafka.producer import KafkaSender
 from src.kafka.consumers.storage import StorageConsumer
 from src.kafka.consumers.stats import WordFrequencyConsumer, EngagementConsumer
-from src.kafka.consumers.pipeline import run_pipeline
 
 
 def run_scraper(username):
@@ -61,8 +60,8 @@ def main():
     parser = argparse.ArgumentParser(description='Run the social media data pipeline')
     parser.add_argument('--username', '-u', default="ALJADEEDNEWS",
                         help='Twitter username to scrape (default: ALJADEEDNEWS)')
-    parser.add_argument('--mode', '-m', choices=['scrape', 'consume', 'all', 'pipeline'], default='scrape',
-                        help='Mode to run: scrape, consume, pipeline, or all (default: all)')
+    parser.add_argument('--mode', '-m', choices=['scrape', 'consume', 'all'], default='scrape',
+                        help='Mode to run: scrape, consume, or all (default: scrape)')
     args = parser.parse_args()
 
     # Configure logging
@@ -70,7 +69,7 @@ def main():
     logging.info("Initializing pipeline")
 
     # Run in the specified mode
-    if args.mode in ['scrape', 'pipeline', 'all']:
+    if args.mode in ['scrape', 'all']:
         run_scraper(args.username)
 
     if args.mode in ['consume', 'all']:
@@ -84,12 +83,6 @@ def main():
         # Wait for consumers to finish
         storage_thread.join()
         stats_thread.join()
-
-    if args.mode == 'pipeline':
-        # Run the coordinated pipeline
-        run_pipeline()
-
-    logging.info("Pipeline run completed")
 
 
 if __name__ == '__main__':

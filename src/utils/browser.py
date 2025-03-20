@@ -1,21 +1,102 @@
 import time
 import random
 import logging
-from selenium.webdriver.remote.webdriver import WebDriver
+import subprocess
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
+from src.config import Config
 
 
-def smooth_scroll(driver: WebDriver, scroll_pixels: int = 300, max_scrolls: int = 100,
-                  random_delay: bool = True, scroll_pause_time: float = 0.5) -> int:
+def create_driver_options():
+    """
+    Create Chrome driver options with settings to avoid detection.
+
+    Returns:
+        Options: Configured Chrome options
+    """
+    options = Options()
+    options.add_experimental_option("debuggerAddress", f"127.0.0.1:{Config.DEBUGGER_PORT}")
+    options.add_argument(f"user-data-dir={Config.USER_DATA_DIR}")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument(f"user-agent={get_random_user_agent()}")
+    return options
+
+
+def start_chrome():
+    """Launch Chrome with debugging enabled for Selenium to connect."""
+    command = [
+        Config.CHROME_PATH,
+        f"--remote-debugging-port={Config.DEBUGGER_PORT}",
+        f"--user-data-dir={Config.USER_DATA_DIR}",
+        "--disable-dev-shm-usage",
+        "--no-default-browser-check"
+    ]
+    subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    logging.info(f"Chrome started with debugging port {Config.DEBUGGER_PORT}")
+
+
+def initialize_driver():
+    """
+    Initialize and return a configured Chrome WebDriver.
+
+    Returns:
+        WebDriver: Configured Chrome WebDriver
+    """
+    options = create_driver_options()
+    driver = webdriver.Chrome(options=options)
+    return driver
+
+
+def wait_for_element(driver, by_method, selector, timeout=10):
+    """
+    Wait for an element to be present on the page.
+
+    Args:
+        driver: Selenium WebDriver
+        by_method: By method (e.g., By.XPATH)
+        selector: Element selector
+        timeout: Maximum wait time in seconds
+
+    Returns:
+        WebElement: The found element
+
+    Raises:
+        TimeoutException: If element is not found within timeout
+    """
+    return WebDriverWait(driver, timeout).until(
+        ec.presence_of_element_located((by_method, selector))
+    )
+
+
+def wait_for_tweets(driver, timeout=5):
+    """
+    Wait for tweets to load on the page.
+
+    Args:
+        driver: Selenium WebDriver
+        timeout: Maximum wait time in seconds
+
+    Returns:
+        WebElement: The first tweet element found
+    """
+    return wait_for_element(driver, By.XPATH, "//article[@data-testid='tweet']", timeout)
+
+
+def smooth_scroll(driver, scroll_pixels=300, max_scrolls=10,
+                  random_delay=True, scroll_pause_time=0.5):
     """
     Smoothly scroll down a page with random delays to mimic human behavior.
 
     Args:
-        driver (WebDriver): Selenium WebDriver instance
-        scroll_pixels (int): Number of pixels to scroll each time
-        max_scrolls (int): Maximum number of scroll operations
-        random_delay (bool): Whether to add random delays between scrolls
-        scroll_pause_time (float): Base time to pause between scrolls in seconds
+        driver: Selenium WebDriver instance
+        scroll_pixels: Number of pixels to scroll each time
+        max_scrolls: Maximum number of scroll operations
+        random_delay: Whether to add random delays between scrolls
+        scroll_pause_time: Base time to pause between scrolls in seconds
 
     Returns:
         int: Number of scrolls performed
@@ -57,14 +138,14 @@ def smooth_scroll(driver: WebDriver, scroll_pixels: int = 300, max_scrolls: int 
     return scroll_count
 
 
-def retry_on_stale_element(func, retries: int = 3, delay: float = 1.0):
+def retry_on_stale_element(func, retries=3, delay=1.0):
     """
     Decorator to retry a function when StaleElementReferenceException occurs.
 
     Args:
         func: Function to retry
-        retries (int): Number of retries
-        delay (float): Delay between retries in seconds
+        retries: Number of retries
+        delay: Delay between retries in seconds
 
     Returns:
         Function result or raises the last exception
@@ -82,17 +163,16 @@ def retry_on_stale_element(func, retries: int = 3, delay: float = 1.0):
     return wrapper
 
 
-def wait_for_element_visibility(driver: WebDriver, by_method, selector: str,
-                                timeout: int = 10, check_interval: float = 0.5) -> bool:
+def wait_for_element_visibility(driver, by_method, selector, timeout=10, check_interval=0.5):
     """
     Wait for an element to be visible on the page.
 
     Args:
-        driver (WebDriver): Selenium WebDriver instance
+        driver: Selenium WebDriver instance
         by_method: Selenium By method (e.g., By.ID, By.CSS_SELECTOR)
-        selector (str): Element selector
-        timeout (int): Maximum time to wait in seconds
-        check_interval (float): Time between checks in seconds
+        selector: Element selector
+        timeout: Maximum time to wait in seconds
+        check_interval: Time between checks in seconds
 
     Returns:
         bool: True if element became visible, False if timeout
@@ -114,7 +194,7 @@ def wait_for_element_visibility(driver: WebDriver, by_method, selector: str,
     return False
 
 
-def get_random_user_agent() -> str:
+def get_random_user_agent():
     """
     Return a random user agent string to help avoid detection.
 
