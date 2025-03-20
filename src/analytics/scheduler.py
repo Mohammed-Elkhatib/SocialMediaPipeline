@@ -166,6 +166,45 @@ class AnalyticsScheduler:
             raise ValueError(f"Unsupported interval: {interval}")
             
         logger.info(f"Scheduled {task_name} to run every {interval} at {at}")
+
+    def schedule_hashtag_frequency_analysis(self, 
+                                        interval: str = 'day', 
+                                        at: str = '00:00',
+                                        time_period: Optional[int] = 7,
+                                        platform: str = 'x',
+                                        top_n: int = 100) -> None:
+        """
+        Schedule regular hashtag frequency analysis.
+        
+        Args:
+            interval: Interval type ('day', 'hour', 'week', 'month')
+            at: Time to run (format depends on interval)
+            time_period: Number of days to analyze
+            platform: Platform to analyze
+            top_n: Number of top words to include
+        """
+        task_name = f"hashtag_frequency_analysis_{platform}"
+        task_func = lambda: self._run_task_with_lock(
+            task_name,
+            self.analytics_service.run_hashtag_frequency_analysis,
+            time_period=time_period,
+            platform=platform,
+            top_n=top_n
+        )
+        
+        # Schedule based on the interval
+        if interval == 'day':
+            schedule.every().day.at(at).do(task_func)
+        elif interval == 'hour':
+            schedule.every().hour.at(at).do(task_func)
+        elif interval == 'week':
+            schedule.every().week.at(at).do(task_func)
+        elif interval == 'month':
+            schedule.every().month.at(at).do(task_func)
+        else:
+            raise ValueError(f"Unsupported interval: {interval}")
+            
+        logger.info(f"Scheduled {task_name} to run every {interval} at {at}")
     
     def schedule_all_analyses(self,
                             interval: str = 'day',
@@ -185,6 +224,22 @@ class AnalyticsScheduler:
         self.schedule_word_frequency_analysis(
             interval=interval,
             at=at,
+            time_period=time_period,
+            platform=platform
+        )
+        
+        # Schedule engagement analysis 5 minutes later to avoid resource contention
+        at_parts = at.split(':')
+        hour = int(at_parts[0])
+        minute = int(at_parts[1]) + 5
+        if minute >= 60:
+            minute -= 60
+            hour = (hour + 1) % 24
+        hashtag_time = f"{hour:02d}:{minute:02d}"
+        # Schedule individual analyses
+        self.schedule_hashtag_frequency_analysis(
+            interval=interval,
+            at=hashtag_time,
             time_period=time_period,
             platform=platform
         )

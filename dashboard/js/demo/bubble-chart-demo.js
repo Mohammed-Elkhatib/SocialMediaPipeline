@@ -34,7 +34,7 @@ const [shuffledWords, shuffledFrequencies] = shuffleArray(words, frequencies);
 const validFrequencies = shuffledFrequencies.map(f => !isNaN(f) ? f : 1); // Default to 1 if NaN
 
 // Calculate bubble sizes (scaled from frequencies)
-const sizes = validFrequencies.map(f => f*4 ); // Scale up sizes for better visibility
+const sizes = validFrequencies.map(f => f*10 ); // Scale up sizes for better visibility
 
 const trace = {
     x: shuffledWords, // Word labels (x-axis)

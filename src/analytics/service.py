@@ -2,11 +2,12 @@ import logging
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional, Tuple
 
-from src.models.tweet_model import TweetModel
+from src.models.relational.tweets import TweetModel
 from src.analytics.processors.word_frequency import WordFrequencyProcessor
 from src.analytics.processors.engagement import EngagementProcessor
+from src.analytics.processors.hashtag_frequency import HashtagFrequencyProcessor
 from src.analytics.exporters.json_exporter import JsonExporter
-from src.analytics.exporters.db_exporter import DatabaseExporter
+from src.analytics.exporters.db_exporter import DbExporter
 
 class AnalyticsService:
     def __init__(self):
@@ -17,11 +18,12 @@ class AnalyticsService:
         
         # Initialize processors
         self.word_frequency_processor = WordFrequencyProcessor(self.tweet_model)
+        self.hashtag_frequency_processor = HashtagFrequencyProcessor(self.tweet_model)
         self.engagement_processor = EngagementProcessor(self.tweet_model)
         
         # Initialize exporters
         self.json_exporter = JsonExporter()
-        self.db_exporter = DatabaseExporter()
+        self.db_exporter = DbExporter()
     
     def run_all_analyses(self, time_period: str = "day", platform: Optional[str] = None) -> bool:
         """Run all analytics processors and export results"""
@@ -41,6 +43,16 @@ class AnalyticsService:
             # Export word frequency results
             self.json_exporter.export(word_freq_results, "word_frequency")
             self.db_exporter.export(word_freq_results, "word_frequency")
+
+            hashtag_freq_results = self.hashtag_frequency_processor.process(
+                start_date=start_date,
+                end_date=end_date,
+                platform=platform
+            )
+            
+            # Export word frequency results
+            self.json_exporter.export(hashtag_freq_results, "hashtag_frequency")
+            self.db_exporter.export(hashtag_freq_results, "hashtag_frequency")
             
             # Run engagement analysis
             engagement_results = self.engagement_processor.process(

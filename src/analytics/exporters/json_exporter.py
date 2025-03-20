@@ -77,6 +77,48 @@ class JsonExporter:
             logger.error(f"Error exporting word frequencies to JSON: {str(e)}", exc_info=True)
             return False
     
+    def export_hashtag_frequencies(self, word_freq_data: Dict[str, Any]) -> bool:
+        """
+        Export hashtag frequency data to JSON for dashboard visualization.
+        
+        Args:
+            word_freq_data: Processed word frequency data from HashFrequencyProcessor
+            
+        Returns:
+            Boolean indicating success/failure
+        """
+        try:
+            # Format data specifically for visualization
+            dashboard_data = {
+                'words': word_freq_data.get('words', []),
+                'total_words': word_freq_data.get('total_words', 0),
+                'unique_words': word_freq_data.get('unique_words', 0),
+                'period': word_freq_data.get('period', {}),
+                'updated_at': datetime.now().isoformat()
+            }
+            
+            # Save to file
+            with open(self.word_freq_file, 'w', encoding='utf-8') as f:
+                json.dump(dashboard_data, f, ensure_ascii=False, indent=4)
+                
+            # If trending data is available, save it separately
+            if 'trending' in word_freq_data and word_freq_data['trending']:
+                trending_data = {
+                    'trending_words': word_freq_data['trending'],
+                    'period': word_freq_data.get('period', {}),
+                    'updated_at': datetime.now().isoformat()
+                }
+                
+                with open(self.word_trends_file, 'w', encoding='utf-8') as f:
+                    json.dump(trending_data, f, ensure_ascii=False, indent=4)
+                
+            logger.info(f"hashtag frequency data exported to {self.word_freq_file}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error exporting word frequencies to JSON: {str(e)}", exc_info=True)
+            return False
+    
     def export_engagement_data(self, engagement_data: Dict[str, Any]) -> bool:
         """
         Export engagement data to JSON for dashboard visualization.
@@ -113,13 +155,15 @@ class JsonExporter:
         General method to export any type of analysis results.
         
         Args:
-            analysis_type: Type of analysis ('word_frequency', 'engagement', etc.)
+            analysis_type: Type of analysis ('word_frequency', 'engagement', 'hashtag_frequency' etc.)
             data: Processed analysis data
             
         Returns:
             Boolean indicating success/failure
         """
         if analysis_type == 'word_frequency':
+            return self.export_word_frequencies(data)
+        if analysis_type == 'hashtag_frequency':
             return self.export_word_frequencies(data)
         elif analysis_type == 'engagement':
             return self.export_engagement_data(data)
