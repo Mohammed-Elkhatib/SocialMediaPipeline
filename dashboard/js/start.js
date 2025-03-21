@@ -4,6 +4,6 @@ function UpdateAllForHome(){
     createProgressBars();
     updateSocialData();
     updateWordCloud();
-    updateBarChart();
+    updateBarChart("comments");
     updateBubbleChart();
 }

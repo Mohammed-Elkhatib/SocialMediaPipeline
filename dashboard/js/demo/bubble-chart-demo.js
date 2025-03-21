@@ -15,8 +15,6 @@ async function updateBubbleChart() {
         const response = await fetch('http://127.0.0.1:8000/api/hashtag-data');
         let jsonData = await response.json();
 
-
-        // ✅ Extract the actual array from the response object
         let data = jsonData.data;
 
         if (!Array.isArray(data)) {
@@ -24,50 +22,48 @@ async function updateBubbleChart() {
             return;
         }
 
-        // Extract words and counts
+        // Extract words and frequencies
         const words = data.map(item => item.word);
         const frequencies = data.map(item => item.count);
-// Shuffle words and frequencies together while keeping correspondence intact
-const [shuffledWords, shuffledFrequencies] = shuffleArray(words, frequencies);
 
-// Ensure all frequencies are numbers and not NaN
-const validFrequencies = shuffledFrequencies.map(f => !isNaN(f) ? f : 1); // Default to 1 if NaN
+        // Ensure all frequencies are numbers
+        const validFrequencies = frequencies.map(f => !isNaN(f) ? f : 1);
 
-// Calculate bubble sizes (scaled from frequencies)
-const sizes = validFrequencies.map(f => f*10 ); // Scale up sizes for better visibility
+        // Scale bubble sizes
+        const sizes = validFrequencies.map(f => f * 10);
 
-const trace = {
-    x: shuffledWords, // Word labels (x-axis)
-    y: validFrequencies, // Frequencies (y-axis)
-    text: shuffledWords, // Hover text
-    mode: 'markers', // Markers for the bubble chart
-    marker: {
-        size: sizes, // Bubble size based on frequency
-        color: validFrequencies, // Color the bubbles based on frequency
-        colorscale: 'Viridis', // Color scale
-        showscale: true // Show color scale
-    }
-};
+        const trace = {
+            x: words, // Word labels (x-axis)
+            y: validFrequencies, // Frequencies (y-axis)
+            text: words, // Hover text
+            mode: 'markers',
+            marker: {
+                size: sizes, // Bubble size based on frequency
+                color: validFrequencies, // Color the bubbles based on frequency
+                colorscale: 'Viridis',
+                showscale: true
+            }
+        };
 
-const layout = {
-    title: 'Hashtag Frequencies',
-    xaxis: {
-        title: 'Words',
-        type: 'category', // Treat words as categorical data
-        categoryorder: 'array', // Prevent Plotly from sorting the words
-        tickangle: 45, // Rotate the x-axis labels for better visibility
-        tickvals: shuffledWords, // Ensure Plotly uses the shuffled words as ticks
-        ticktext: shuffledWords // Ensure the shuffled words are used as labels
-    },
-    yaxis: {
-        title: 'Frequency',
-    },
-    showlegend: false
-};
+        const layout = {
+            title: 'Hashtag Frequencies',
+            xaxis: {
+                title: 'Words',
+                type: 'category',
+                tickangle: 45,
+                tickvals: words,
+                ticktext: words
+            },
+            yaxis: {
+                title: 'Frequency'
+            },
+            showlegend: false
+        };
 
-const chartData = [trace];
-Plotly.newPlot('chart-area-tester', chartData, layout);
-        // (Rest of your existing logic)
+        const chartData = [trace];
+
+        // ✅ Efficiently update chart instead of re-creating it
+        Plotly.react('chart-area-tester', chartData, layout);
     } catch (error) {
         console.error("Error updating bubble chart:", error);
     }
