@@ -1,5 +1,5 @@
 function UpdateAllForHome(){
-    setupChart();
+    updateChart();
     updateHeatmap();
     createProgressBars();
     updateSocialData();

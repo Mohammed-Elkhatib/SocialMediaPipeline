@@ -1,3 +1,4 @@
+from fastapi import Query
 from .sse_connect import app 
 from pydantic import BaseModel
 import random
@@ -16,23 +17,26 @@ def calculate_engagement(likes: int, retweets: int, comments: int) -> float:
 
 # Endpoint to get chart data
 @app.get("/api/chart-data")
-async def get_virality_over_time():
-    # Fetch engagement data
-    engagement_data = queries.fetch_virality_data()
+async def get_virality_over_time(filter_by: str = Query("date", enum=["date", "post"])):
+    """Fetch virality data filtered by either 'date' (aggregated) or 'post' (individual posts)."""
+    engagement_data = queries.fetch_virality_data(filter_by=filter_by)
 
-    # Extract days and virality scores for the response
-    days = []
-    for entry in engagement_data:
-        if 'post_date' in entry:
-            days.append(entry['post_date'])
-        else:
-            print(f"Missing 'day' key in entry: {entry}")  # Log the missing key issue
-    virality_scores = [entry['virality_score'] for entry in engagement_data]
+    if filter_by == "date":
+        date_aggregated = {}
+        for entry in engagement_data:
+            post_date = entry["post_date"].strftime('%Y-%m-%d')  # Convert to string for JSON
+            virality_score = entry["virality_score"]
+            date_aggregated[post_date] = date_aggregated.get(post_date, 0) + virality_score
 
-    return {
-        'x': days,  # Dates for the x-axis
-        'y': virality_scores  # Virality scores for the y-axis
-    }
+        x_data, y_data = zip(*sorted(date_aggregated.items())) if date_aggregated else ([], [])
+
+    elif filter_by == "post":
+        # Use both Date and Time for better distribution
+        x_data = [entry["post_date"].strftime('%Y-%m-%d %H:%M:%S') for entry in engagement_data]
+        y_data = [entry["virality_score"] for entry in engagement_data]
+
+    return {"x": x_data, "y": y_data}
+
 
 
 def process_heatmap_data(raw_data):
@@ -126,8 +130,11 @@ def get_color_for_percentage(percentage: int) -> str:
 
 @app.get("/api/progress-data")
 async def get_progress_data():
+    # Calculate start_date (5 days ago) and end_date (today)
+    end_date = datetime.now().date()  # Today's date
+    start_date = end_date - timedelta(days=5)  # 5 days ago
     # Fetch the engagement data from the database
-    results = queries.fetch_engagement_data()
+    results = queries.fetch_engagement_data(start_date=start_date,end_date=end_date)
 
     # Calculate the maximum engagement per post across the returned results for normalization
     if results:
@@ -152,11 +159,12 @@ class SocialMediaData(BaseModel):
 
 @app.get("/api/social-media-data", response_model=SocialMediaData)
 async def get_social_media_data():
+    results = queries.fetch_engagement_metrics()
     return SocialMediaData(
-        total_likes=queries.fetch_total_likes(),  # Ensure this returns an int
-        total_posts=queries.fetch_total_posts(),  # Should be an int
-        total_comments=queries.fetch_total_comments(),  # Ensure this is an int
-        total_shares=queries.fetch_total_retweets()  # Ensure this is an int
+        total_likes=results["total_likes"],
+        total_posts=results["total_posts"],
+        total_comments=results["total_comments"],
+        total_shares=results["total_retweets"]
     )
 
 def load_engagement_data_top_comments():
@@ -230,6 +238,6 @@ async def get_bar_chart_data_likes():
 
 
 
-from datetime import datetime, time
+from datetime import datetime, time, timedelta
 def to_unix_timestamp(date_str):
     return int(datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").timestamp())  # Convert to UNIX timestamp
