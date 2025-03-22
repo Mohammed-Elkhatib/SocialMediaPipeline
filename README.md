@@ -25,6 +25,7 @@ A project to scrape social media data, process it with Kafka, and store it in a 
 │   │   ├── processors/
 │   │   │   ├── word_frequency.py   # Word frequency analysis logic
 │   │   │   └── engagement.py       # Engagement metrics analysis
+|   |   |   └── hashtag_frequency.py # Hashtag frequency analysis logic
 │   │   ├── exporters/
 │   │   │   ├── json_exporter.py    # Format data for dashboard JSON 
 │   │   │   └── db_exporter.py      # Format data for database
@@ -168,6 +169,7 @@ To add support for a new platform:
 
 The existing database schema supports:
 - Word frequency analysis
+- Hashtag frequency analysis
 - Engagement metrics tracking
 - Temporal analysis of posts
 

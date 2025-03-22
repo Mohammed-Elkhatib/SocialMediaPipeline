@@ -1,6 +1,8 @@
+from datetime import datetime, timedelta
 from src.models.relational.connection import DatabaseConnection
 import mysql.connector
 import logging
+from decimal import Decimal
 
 
 class TweetModel:
@@ -82,6 +84,28 @@ class TweetModel:
         # Use executemany for batch processing
         insert_word_frequencies_query = """
             INSERT INTO word_frequency (id, word, count)
+            VALUES (%s, %s, %s)
+            ON DUPLICATE KEY UPDATE count = count + VALUES(count)
+        """
+
+        self.execute_many(insert_word_frequencies_query, params)
+        self.logger.info(f"Word frequencies batch inserted successfully: {len(params)} words processed.")
+
+    def insert_hashtag_frequencies(self, word_frequencies):
+        """Insert hashtag frequency data into the database using batch processing."""
+
+        if not word_frequencies:
+            self.logger.info("No hashtag frequencies to insert.")
+            return
+
+        # Prepare batch parameters for efficient insertion
+        params = []
+        for word, frequency in word_frequencies.items():
+            params.append(('x', word, frequency))
+
+        # Use executemany for batch processing
+        insert_word_frequencies_query = """
+            INSERT INTO hashtag_frequency (id, word, count)
             VALUES (%s, %s, %s)
             ON DUPLICATE KEY UPDATE count = count + VALUES(count)
         """
@@ -225,8 +249,14 @@ class TweetModel:
             query += " ORDER BY total_engagement DESC"
         elif sort_by == "scraped_at":
             query += " ORDER BY scraped_at DESC"
+        elif sort_by == "retweets":
+            query += " ORDER BY retweets DESC"
+        elif sort_by == "comments":
+            query += " ORDER BY comments DESC"
+        elif sort_by == "likes":
+            query += " ORDER BY likes DESC"
         else:  # Default to post_date, post_time
-            query += " ORDER BY post_date DESC, post_time DESC"
+            query += " ORDER BY post_date DESC"
 
         # Add limit if provided
         if limit:
@@ -236,70 +266,41 @@ class TweetModel:
         return self.execute_query(query, tuple(params))
 
     def fetch_top_comments(self, limit=10):
-        """Fetch the top commented posts."""
-        fetch_top_comments_query = """
-            SELECT 
-                t.post_id, 
-                p.content, 
-                p.post_date, 
-                p.post_time,
-                p.likes, 
-                p.retweets, 
-                p.comments, 
-                t.comments_count,  
-                t.created_at
-            FROM top_comments t
-            JOIN posts p ON t.post_id = p.id
-            ORDER BY t.comments_count DESC
-            LIMIT %s;
-        """
-        return self.execute_query(fetch_top_comments_query, (limit,))
+        
+        return self.fetch_posts(sort_by="comments", limit= limit)
 
     def fetch_top_likes(self, limit=10):
-        """Fetch the top liked posts."""
-        fetch_top_likes_query = """
-            SELECT 
-                t.post_id, 
-                p.content, 
-                p.post_date, 
-                p.post_time,
-                p.likes, 
-                p.retweets, 
-                p.comments, 
-                t.likes_count,
-                t.created_at
-            FROM top_likes t
-            JOIN posts p ON t.post_id = p.id
-            ORDER BY t.likes_count DESC
-            LIMIT %s;
-        """
-        return self.execute_query(fetch_top_likes_query, (limit,))
+        
+        return self.fetch_posts(sort_by="likes", limit= limit)
 
     def fetch_top_retweets(self, limit=10):
-        """Fetch the top retweeted posts."""
-        fetch_top_retweets_query = """
-            SELECT 
-                t.post_id, 
-                p.content, 
-                p.post_date, 
-                p.post_time,
-                p.likes, 
-                p.retweets, 
-                p.comments, 
-                t.retweets_count,
-                t.created_at
-            FROM top_retweets t
-            JOIN posts p ON t.post_id = p.id
-            ORDER BY t.retweets_count DESC
-            LIMIT %s;
-        """
-        return self.execute_query(fetch_top_retweets_query, (limit,))
+        
+        return self.fetch_posts(sort_by="retweets", limit= limit)
+
 
     def fetch_word_frequencies(self, platform=None, limit=100):
         """Fetch the word frequencies, optionally filtered by platform."""
         query = """
             SELECT word, count
             FROM word_frequency
+            WHERE 1=1
+        """
+        params = []
+
+        if platform:
+            query += " AND id = %s"
+            params.append(platform)
+
+        query += " ORDER BY count DESC LIMIT %s"
+        params.append(limit)
+
+        return self.execute_query(query, tuple(params))
+    
+    def fetch_hashtag_frequencies(self, platform=None, limit=100):
+        """Fetch the hashtag frequencies, optionally filtered by platform."""
+        query = """
+            SELECT word, count
+            FROM hashtag_frequency
             WHERE 1=1
         """
         params = []
@@ -331,25 +332,6 @@ class TweetModel:
         """
         results = self.execute_query(fetch_post_query, (post_id,))
         return results[0] if results else None
-
-    def _build_base_posts_query(self, platform=None, start_date=None, end_date=None):
-        """Helper to build the common WHERE clause for posts queries."""
-        query_fragment = "WHERE 1=1"
-        params = []
-
-        if platform:
-            query_fragment += " AND platform = %s"
-            params.append(platform)
-
-        if start_date:
-            query_fragment += " AND post_date >= %s"
-            params.append(start_date)
-
-        if end_date:
-            query_fragment += " AND post_date <= %s"
-            params.append(end_date)
-
-        return query_fragment, params
 
     def fetch_engagement_metrics(self, platform=None, start_date=None, end_date=None):
         """Fetch aggregated engagement metrics for the given criteria."""
@@ -416,3 +398,118 @@ class TweetModel:
         params.append(limit)
 
         return self.execute_query(query, tuple(params))
+    
+    def fetch_engagement_data(self, platform=None, start_date=None, end_date=None):
+        """Fetch engagement data for the past 5 days using existing trends method."""
+        
+        # Fetch engagement trends using existing method
+        daily_engagement = self.fetch_daily_engagement_trends(platform, start_date, end_date)
+
+        engagement_data = []
+        
+        for row in daily_engagement:
+            total_engagement = row["likes"] + row["retweets"] + row["comments"]
+            engagement_per_post = total_engagement / row["posts"] if row["posts"] > 0 else 0  # Avoid division by zero
+            
+            engagement_data.append({
+                "day": row["date"],  # Keeping `day` naming for consistency
+                "post_count": row["posts"],
+                "total_likes": row["likes"],
+                "total_retweets": row["retweets"],
+                "total_comments": row["comments"],
+                "total_engagement": total_engagement,
+                "engagement_per_post": engagement_per_post
+            })
+        
+        return engagement_data
+    def fetch_heatmap_raw_data(self):
+        query = """
+        SELECT
+            DATE(p.post_date) AS day,
+            CASE 
+                WHEN HOUR(p.post_time) >= 6 AND HOUR(p.post_time) < 12 THEN 'Morning'
+                WHEN HOUR(p.post_time) >= 12 AND HOUR(p.post_time) < 18 THEN 'Afternoon'
+                ELSE 'Evening'
+            END AS time_of_day,
+            COUNT(p.id) AS count
+        FROM posts p
+        GROUP BY day, time_of_day
+        ORDER BY day ASC;
+        """
+        # Execute the query – assumes your execute_query returns a list of dictionaries
+        raw_data = self.execute_query(query)
+        return raw_data
+    
+    def fetch_virality_data(self, platform=None, start_date=None, end_date=None, filter_by="date"):
+        """Fetch virality scores filtered by 'date' or 'date-time'."""
+
+        virality_data = []
+        current_time = datetime.now()  # Get current timestamp
+
+        if filter_by == "date":
+            # Use daily engagement trends (existing logic)
+            daily_engagement = self.fetch_daily_engagement_trends(platform, start_date, end_date)
+
+            for row in daily_engagement:
+                post_date = row["date"]
+                total_engagement = row["likes"] + row["retweets"] + row["comments"]
+
+                # Calculate time difference in hours from the post date to now
+                time_diff = (current_time - datetime.combine(post_date, datetime.min.time())).total_seconds() / 3600
+                time_diff = max(time_diff, 1)  # Avoid division by zero
+
+                # Calculate virality score
+                virality_score = float(total_engagement) / time_diff
+
+                virality_data.append({
+                    "post_date": post_date,
+                    "virality_score": virality_score,
+                })
+
+        elif filter_by == "post":
+            # Fetch posts sorted by engagement
+            posts = self.fetch_posts(platform, start_date, end_date, sort_by="id")
+
+            for post in posts:
+                post_id = post["id"]
+                total_engagement = post["likes"] + post["retweets"] + post["comments"]
+
+                # Combine date and time into a datetime object
+                post_time = (datetime.min + post["post_time"]).time() if isinstance(post["post_time"], timedelta) else post["post_time"]
+                post_datetime = datetime.combine(post["post_date"], post_time)
+
+                # Calculate time difference in hours from the post datetime to now
+                time_diff = (current_time - post_datetime).total_seconds() / 3600
+                time_diff = max(time_diff, 1)  # Avoid division by zero
+
+                # Calculate virality score
+                virality_score = float(total_engagement) / time_diff
+
+                virality_data.append({
+                    "post_date": post["post_date"],  # You still want the post date here
+                    "virality_score": virality_score,
+                })
+
+        return virality_data
+
+
+
+    
+    def _build_base_posts_query(self, platform=None, start_date=None, end_date=None):
+        """Helper to build the common WHERE clause for posts queries."""
+        query_fragment = "WHERE 1=1"
+        params = []
+
+        if platform:
+            query_fragment += " AND platform = %s"
+            params.append(platform)
+
+        if start_date:
+            query_fragment += " AND post_date >= %s"
+            params.append(start_date)
+
+        if end_date:
+            query_fragment += " AND post_date <= %s"
+            params.append(end_date)
+
+        return query_fragment, params
