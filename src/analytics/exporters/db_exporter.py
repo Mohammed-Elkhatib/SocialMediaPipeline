@@ -162,7 +162,7 @@ class DbExporter:
         handlers = {
             'word_frequency': self.store_word_frequencies,
             'engagement': self.store_engagement_data,
-            'hashtag_frequency': self.store_hashtag_frequencies(data),
+            'hashtag_frequency': self.store_hashtag_frequencies,
             # Add more handlers as needed
         }
 
