@@ -74,7 +74,7 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
-def extract_keywords(text: str, min_length: int = 3, stop_words: List[str] = None) -> List[str]:
+def extract_keywords(text: str, min_length: int = 2, stop_words: List[str] = None) -> List[str]:
     """
     Extract keywords from text by removing stop words and short words.
 

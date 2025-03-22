@@ -167,20 +167,23 @@ class TweetModel:
             else:
                 self.logger.warning(f"Skipping invalid retweets data: {retweet}")
 
-    def fetch_posts(self, platform='x', start_date=None, end_date=None, sort_by="post_date"):
-        """Fetch posts for a specific platform or all platforms.
+    def fetch_posts(self, platform='x', start_date=None, end_date=None, sort_by="post_date", limit=None):
+        """Fetch posts with flexible sorting options.
 
         Args:
-            platform (str, optional): Filter by platform name ('x' or 'facebook')
-            start_date (date, optional): Filter posts on or after this date
-            end_date (date, optional): Filter posts on or before this date
-            sort_by (str, optional): Field to sort by ('post_date' or 'scraped_at')
+            platform (str): Filter by platform name ('x' or 'facebook')
+            start_date (date): Filter posts on or after this date
+            end_date (date): Filter posts on or before this date
+            sort_by (str): Field to sort by ('post_date', 'scraped_at', or 'engagement')
+            limit (int): Maximum number of records to return
 
         Returns:
             list: List of posts matching the criteria
         """
+        # Determine if we need to calculate engagement
+        calculate_engagement = (sort_by == "engagement")
 
-        # Build the base query
+        # Build the base query with conditional total_engagement field
         query = """
             SELECT 
                 id, 
@@ -192,6 +195,13 @@ class TweetModel:
                 retweets,
                 comments,
                 scraped_at
+        """
+
+        # Only add total_engagement to the SELECT if we're sorting by it
+        if calculate_engagement:
+            query += ", (likes + retweets + comments) as total_engagement"
+
+        query += """
             FROM posts
             WHERE 1=1
         """
@@ -211,10 +221,17 @@ class TweetModel:
             params.append(end_date)
 
         # Apply sorting based on user preference
-        if sort_by == "scraped_at":
+        if sort_by == "engagement":
+            query += " ORDER BY total_engagement DESC"
+        elif sort_by == "scraped_at":
             query += " ORDER BY scraped_at DESC"
         else:  # Default to post_date, post_time
             query += " ORDER BY post_date DESC, post_time DESC"
+
+        # Add limit if provided
+        if limit:
+            query += " LIMIT %s"
+            params.append(limit)
 
         return self.execute_query(query, tuple(params))
 
@@ -314,3 +331,88 @@ class TweetModel:
         """
         results = self.execute_query(fetch_post_query, (post_id,))
         return results[0] if results else None
+
+    def _build_base_posts_query(self, platform=None, start_date=None, end_date=None):
+        """Helper to build the common WHERE clause for posts queries."""
+        query_fragment = "WHERE 1=1"
+        params = []
+
+        if platform:
+            query_fragment += " AND platform = %s"
+            params.append(platform)
+
+        if start_date:
+            query_fragment += " AND post_date >= %s"
+            params.append(start_date)
+
+        if end_date:
+            query_fragment += " AND post_date <= %s"
+            params.append(end_date)
+
+        return query_fragment, params
+
+    def fetch_engagement_metrics(self, platform=None, start_date=None, end_date=None):
+        """Fetch aggregated engagement metrics for the given criteria."""
+        where_clause, params = self._build_base_posts_query(platform, start_date, end_date)
+
+        query = f"""
+            SELECT 
+                COUNT(*) as total_posts,
+                SUM(likes) as total_likes,
+                SUM(retweets) as total_retweets,
+                SUM(comments) as total_comments,
+                AVG(likes) as avg_likes_per_post,
+                AVG(retweets) as avg_retweets_per_post,
+                AVG(comments) as avg_comments_per_post
+            FROM posts
+            {where_clause}
+        """
+
+        results = self.execute_query(query, tuple(params))
+        return results[0] if results else None
+
+    def fetch_daily_engagement_trends(self, platform=None, start_date=None, end_date=None):
+        """Fetch daily engagement trends grouped by post date."""
+        where_clause, params = self._build_base_posts_query(platform, start_date, end_date)
+
+        query = f"""
+            SELECT 
+                post_date as date,
+                COUNT(*) as posts,
+                SUM(likes) as likes,
+                SUM(retweets) as retweets,
+                SUM(comments) as comments,
+                AVG(likes) as avg_likes,
+                AVG(retweets) as avg_retweets,
+                AVG(comments) as avg_comments
+            FROM posts
+            {where_clause}
+            GROUP BY post_date 
+            ORDER BY post_date
+        """
+
+        return self.execute_query(query, tuple(params))
+
+    def fetch_top_posts_by_engagement(self, platform=None, start_date=None, end_date=None, limit=10):
+        """Fetch top posts by total engagement (likes + retweets + comments)."""
+        where_clause, params = self._build_base_posts_query(platform, start_date, end_date)
+
+        query = f"""
+            SELECT 
+                id,
+                platform,
+                post_date,
+                post_time,
+                content,
+                likes,
+                retweets,
+                comments,
+                (likes + retweets + comments) as total_engagement
+            FROM posts
+            {where_clause}
+            ORDER BY total_engagement DESC 
+            LIMIT %s
+        """
+        params.append(limit)
+
+        return self.execute_query(query, tuple(params))
