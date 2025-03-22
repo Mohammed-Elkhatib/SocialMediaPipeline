@@ -23,7 +23,7 @@ class JsonExporter:
             data_folder: Path to folder where JSON files should be stored
         """
         # Use the provided folder or default to project data folder
-        self.base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
+        self.base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
         self.data_folder = data_folder or os.path.join(self.base_dir, 'data')
 
         # Ensure the data folder exists
