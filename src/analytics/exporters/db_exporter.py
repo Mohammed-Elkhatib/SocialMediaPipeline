@@ -47,7 +47,57 @@ class DbExporter:
         except Exception as e:
             logger.error(f"Error storing word frequencies in database: {str(e)}", exc_info=True)
             return False
-
+        
+    def store_hashtag_frequencies(self, word_freq_data: Dict[str, Any]) -> bool:
+        """
+        Store hashtag frequency data in the database.
+        
+        Args:
+            hashtag_freq_data: Processed hashtag frequency data from HashtagFrequencyProcessor
+            
+        Returns:
+            Boolean indicating success/failure
+        """
+        try:
+            if not word_freq_data.get('words'):
+                logger.warning("No word frequency data to store")
+                return False
+                
+            # Extract period information
+            period_start = word_freq_data.get('period', {}).get('start')
+            period_end = word_freq_data.get('period', {}).get('end')
+            
+            # Prepare data for database storage
+            timestamp = datetime.now().isoformat()
+            analysis_id = f"word_freq_{timestamp}"
+            
+            # Convert the list of word dictionaries to format expected by database
+            word_dict = {item['word']: item['count'] for item in word_freq_data['words']}
+            
+            # Store in database
+            self.tweet_model.insert_hashtag_frequencies(
+                word_dict, 
+                analysis_id=analysis_id,
+                period_start=period_start,
+                period_end=period_end
+            )
+            
+            # Store metadata about this analysis run
+            self.tweet_model.insert_analysis_metadata(
+                analysis_id=analysis_id,
+                analysis_type='word_frequency',
+                parameters=word_freq_data.get('period', {}),
+                total_processed=word_freq_data.get('total_processed', 0),
+                timestamp=timestamp
+            )
+            
+            logger.info(f"Stored {len(word_freq_data['words'])} word frequencies in database")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error storing word frequencies in database: {str(e)}", exc_info=True)
+            return False
+    
     def store_engagement_data(self, engagement_data: Dict[str, Any]) -> bool:
         """
         Store engagement data in the database.
@@ -112,6 +162,7 @@ class DbExporter:
         handlers = {
             'word_frequency': self.store_word_frequencies,
             'engagement': self.store_engagement_data,
+            'hashtag_frequency': self.store_hashtag_frequencies(data),
             # Add more handlers as needed
         }
 

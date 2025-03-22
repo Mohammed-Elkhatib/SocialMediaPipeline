@@ -1,57 +1,71 @@
-// Function to fetch data from the backend
-async function fetchChartData() {
-    try {
-        const response = await fetch('http://127.0.0.1:8000/api/bubble-chart-data');
-        const data = await response.json();
-        
-        console.log("Raw data from API:", data);  // Debugging backend response
-
-        return data;
-    } catch (error) {
-        console.error('Error fetching chart data:', error);
-        return null;
+function shuffleArray(arr1, arr2) {
+    const shuffled1 = [...arr1];
+    const shuffled2 = [...arr2];
+    for (let i = shuffled1.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        // Swap both word and frequency values together
+        [shuffled1[i], shuffled1[j]] = [shuffled1[j], shuffled1[i]];
+        [shuffled2[i], shuffled2[j]] = [shuffled2[j], shuffled2[i]];
     }
+    return [shuffled1, shuffled2];
 }
 
-// Function to set up the initial chart
-function setupChart() {
-    fetchChartData().then(data => {
-        if (!data) {
-            console.error('No data available');
+async function updateBubbleChart() {
+    try {
+        const response = await fetch('http://127.0.0.1:8000/api/hashtag-data');
+        let jsonData = await response.json();
+
+        let data = jsonData.data;
+
+        if (!Array.isArray(data)) {
+            console.error("Error: 'data' is not an array. Check the backend.");
             return;
         }
 
-        console.log("Fetched Data:", data);  // Debugging timestamps
+        // Extract words and frequencies
+        const words = data.map(item => item.word);
+        const frequencies = data.map(item => item.count);
 
-        let trace1 = {
-            x: data.x.map(ts => new Date(ts * 1000)),  // ✅ FIX: Convert UNIX timestamps properly
-            y: data.y || [],
+        // Ensure all frequencies are numbers
+        const validFrequencies = frequencies.map(f => !isNaN(f) ? f : 1);
+
+        // Scale bubble sizes
+        const sizes = validFrequencies.map(f => f * 10);
+
+        const trace = {
+            x: words, // Word labels (x-axis)
+            y: validFrequencies, // Frequencies (y-axis)
+            text: words, // Hover text
             mode: 'markers',
-            marker: { size: data.size || [] },
-            text: data.text || [],
-            hoverinfo: 'text'
-        };
-
-        const chartLayout = {
-            title: { text: 'Virality vs Date' },
-            showlegend: false,
-            autosize: true,
-            margin: { l: 40, r: 40, t: 40, b: 40 },
-            xaxis: {
-                title: "Time",
-                type: "date",  // ✅ FIX: Ensure Plotly treats it as date values
-                tickformat: "%Y-%m-%d %H:%M",  // ✅ FIX: Proper date format
-                tickangle: 10
-            },
-            yaxis: {
-                title: 'Virality',
-                rangemode: 'tozero'
+            marker: {
+                size: sizes, // Bubble size based on frequency
+                color: validFrequencies, // Color the bubbles based on frequency
+                colorscale: 'Viridis',
+                showscale: true
             }
         };
 
-        Plotly.newPlot("chart-area-tester", [trace1], chartLayout);
-    });
-}
+        const layout = {
+            title: 'Hashtag Frequencies',
+            xaxis: {
+                title: 'Words',
+                type: 'category',
+                tickangle: 45,
+                tickvals: words,
+                ticktext: words
+            },
+            yaxis: {
+                title: 'Frequency'
+            },
+            showlegend: false
+        };
 
-// Initialize chart
-setupChart();
+        const chartData = [trace];
+
+        // ✅ Efficiently update chart instead of re-creating it
+        Plotly.react('chart-area-tester', chartData, layout);
+    } catch (error) {
+        console.error("Error updating bubble chart:", error);
+    }
+}
+updateBubbleChart();

@@ -11,7 +11,7 @@ async function updateHeatmap() {
         type: 'heatmap',
         hoverongaps: false
     }];
-
     // Update the chart with the new data
     Plotly.react('heatmapChart', heatmapData);
 }
+updateHeatmap();
