@@ -3,16 +3,16 @@ import logging
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from src.config import Config
-from .browser.driver import create_driver_options, start_chrome
-from .browser.navigation import smooth_scroll, wait_for_tweets
-from .parser.tweet import get_tweet_id, get_tweet_time
-from .parser.interactions import extract_interactions, parse_counts
+from src.scraper.browser.driver import create_driver_options, start_chrome, stop_chrome
+from src.scraper.browser.navigation import smooth_scroll, wait_for_tweets
+from src.scraper.parser.tweet import get_tweet_id, get_tweet_time
+from src.scraper.parser.interactions import extract_interactions, parse_counts
 
 
 def scrape_twitter(username: str, kafka_sender) -> None:
     """Main scraping workflow with progressive backoff and smart waiting"""
     # Initialize browser
-    start_chrome()
+    chrome_process = start_chrome()
     time.sleep(4)
 
     options = create_driver_options()
@@ -90,6 +90,7 @@ def scrape_twitter(username: str, kafka_sender) -> None:
 
     finally:
         driver.quit()
+        stop_chrome(chrome_process)  # Terminate the manually launched Chrome process
         logging.info(f"✅ Final count: {len(seen_ids)}/{Config.MAX_TWEETS} tweets")
         if len(seen_ids) >= Config.MAX_TWEETS:
             logging.info("🎯 Target reached successfully")

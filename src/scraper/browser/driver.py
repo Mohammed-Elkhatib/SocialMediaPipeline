@@ -1,4 +1,5 @@
 import subprocess
+import time
 from selenium.webdriver.chrome.options import Options
 from src.config import Config
 
@@ -20,4 +21,12 @@ def start_chrome():
         "--disable-dev-shm-usage",
         "--no-default-browser-check"
     ]
-    subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    chrome_process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    time.sleep(5)  # Wait for Chrome to start up
+    return chrome_process  # Return the process instance
+
+
+def stop_chrome(chrome_process):
+    """Stop the Chrome process after scraping is done."""
+    chrome_process.terminate()  # Terminates the process
+    chrome_process.wait()  # Wait for the process to terminate
