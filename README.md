@@ -157,19 +157,19 @@ You can run different components of the pipeline:
 1. **Scrape Twitter data:**
 
    ```bash
-   python src/main.py --mode scrape --username ALJADEEDNEWS
+   python main.py --mode scrape --username ALJADEEDNEWS
    ```
 
 2. **Process data with consumers:**
 
    ```bash
-   python src/main.py --mode consume
+   python main.py --mode consume
    ```
 
 3. **Run the full pipeline:**
 
    ```bash
-   python src/main.py --mode all --username ALJADEEDNEWS
+   python main.py --mode all --username ALJADEEDNEWS
    ```
 
 ### View Kafka Messages
