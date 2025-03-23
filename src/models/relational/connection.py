@@ -9,7 +9,7 @@ class DatabaseConnection:
     Provides connection pooling and error handling functionality.
     """
 
-    def __init__(self, host='localhost', user='root', password='root', database='social_media_pipeline', pool_size=5):
+    def __init__(self, host='localhost', user='root', password='', database='social_media_pipeline', pool_size=5):
         """
         Initialize the database connection with configurable parameters.
 
