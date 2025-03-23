@@ -1,10 +1,7 @@
 from fastapi import Query
 from .sse_connect import app 
 from pydantic import BaseModel
-import random
-from random import randint
 import re
-from fastapi.responses import JSONResponse
 from src.models.relational.tweets import TweetModel
 
 print("Initializing endpoints...")
@@ -110,12 +107,6 @@ async def get_hashtag_data():
     for word_item in word_data:
         word_item["category"] = detect_script(word_item["word"])
     return {"data": word_data}
-
-
-class ProgressData(BaseModel):
-    label: str
-    percentage: int
-    color: str
 
 def get_color_for_percentage(percentage: int) -> str:
     """Function to return a color based on the percentage value."""
