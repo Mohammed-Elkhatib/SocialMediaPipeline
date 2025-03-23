@@ -5,7 +5,7 @@ function updateSocialData() {
         success: function(data) {
             // Update the values in the HTML with the fetched data
             $('#totalLikes').text(data.total_likes.toLocaleString());
-            $('#totalFollowers').text(data.total_followers.toLocaleString());
+            $('#totalPosts').text(data.total_posts.toLocaleString());
             $('#totalComments').text(data.total_comments.toLocaleString());
             $('#totalShares').text(data.total_shares.toLocaleString());
         },

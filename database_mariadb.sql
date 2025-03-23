@@ -56,3 +56,12 @@ CREATE TABLE `word_frequency` (
   `count` INT(11) DEFAULT 1,
   PRIMARY KEY (`id`, `word`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Table structure for table `hashtag_frequency`
+DROP TABLE IF EXISTS `hashtag_frequency`;
+CREATE TABLE `hashtag_frequency` (
+  `id` enum('x','facebook') COLLATE utf8mb4_unicode_ci NOT NULL,
+  `word` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `count` int NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`,`word`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

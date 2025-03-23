@@ -4,6 +4,40 @@ A project to scrape social media data, process it with Kafka, and store it in a 
 
 ## Project Structure
 ```social-media-pipeline/
+├── dashboard/
+│   ├── css/
+│   │   ├── demo.css           # customised styling stylesheet
+│   │   ├── sb-admin-2.css     # template css
+│   │   ├── sb-admin-2.min.css # template minified css
+|   ├── js/
+│   │   ├── config/          # Front-end related set-up
+│   │   │   └──  progress-bar.js     # dynamic creation of progress bar
+│   │   ├── demo/           # Components set-up
+│   │   │   ├── bubble-chart-demo.js      # bubble chart componenet initializer
+|   |   |   ├── chart-bar-demo.js         # bar chart componenet initializer
+|   |   |   ├── heatmap-chart-demo.js         # heatmap chart componenet initializer
+|   |   |   ├── line-chart-demo.js         # line chart componenet initializer
+|   |   |   ├── progress-bar-demo.js         # progress bar componenet initializer
+|   |   |   ├── social-data-demo.js         # social data componenet initializer
+|   |   |   └── word-cloud-demo.js         # word cloud componenet initializer
+|   |   |   
+|   |   ├── plotly/   #js package for plotly charts
+|   |   | 
+|   |   ├── sb-admin-2.js  #template js
+|   |   ├── sb-admin-2.min.js  #template minified js
+|   |   ├── sse-listener-home.js  #Client-side SSE session handler
+|   |   └── start.js #dashboard initialiser
+|   |  
+|   ├── python/ #template styling
+│   │   ├── enpoints.py/   #define endpoints for each chart component in dahsboard
+│   │   ├── imports.py/    #define all library imports used
+│   │   ├── sse_connect.py/  #server side SSE connection handler
+│   │   └── see_router.py/  #SSE router for real-time client updates
+|   |
+|   ├── scss/ #template styling
+|   ├── vendor/ #template styling
+│   └── index.html/ #home page
+│   
 ├── src/
 │   ├── scraper/
 │   │   ├── browser/          # Browser-related operations
@@ -25,6 +59,7 @@ A project to scrape social media data, process it with Kafka, and store it in a 
 │   │   ├── processors/
 │   │   │   ├── word_frequency.py   # Word frequency analysis logic
 │   │   │   └── engagement.py       # Engagement metrics analysis
+|   |   |   └── hashtag_frequency.py # Hashtag frequency analysis logic
 │   │   ├── exporters/
 │   │   │   ├── json_exporter.py    # Format data for dashboard JSON 
 │   │   │   └── db_exporter.py      # Format data for database
@@ -155,6 +190,21 @@ You can connect to the MySQL database through phpMyAdmin:
 - Login with your XAMPP MySQL credentials (default username: root, no password)
 - Select the `social_media_pipeline` database to view the tables
 
+## Running the Dashboard
+
+### Run Python server to expose FastAPI endpoints
+
+1. Open a new terminal.
+2. Run the command:
+
+   ```bash
+   python -m dashboard.python.sse_connect
+   ```
+
+### Start the Client Dashboard for Data Visualization
+
+Open index.html in your browser
+
 ## Extending the Project
 
 ### Adding New Social Media Platforms
@@ -168,6 +218,7 @@ To add support for a new platform:
 
 The existing database schema supports:
 - Word frequency analysis
+- Hashtag frequency analysis
 - Engagement metrics tracking
 - Temporal analysis of posts
 
