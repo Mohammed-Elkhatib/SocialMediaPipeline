@@ -1,5 +1,5 @@
-from .imports import *
-from .endpoints import *
+from dashboard.python.imports import *
+from dashboard.python.endpoints import *
 print("Initializing FastAPI app...")
 
 app.add_middleware(
