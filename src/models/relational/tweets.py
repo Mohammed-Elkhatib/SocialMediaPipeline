@@ -1,3 +1,4 @@
+from collections import defaultdict
 from datetime import datetime, timedelta
 from src.models.relational.connection import DatabaseConnection
 import mysql.connector
@@ -441,60 +442,40 @@ class TweetModel:
         return raw_data
     
     def fetch_virality_data(self, platform=None, start_date=None, end_date=None, filter_by="date"):
-        """Fetch virality scores filtered by 'date' or 'date-time'."""
-
-        virality_data = []
+        """Fetch virality scores filtered by 'date' or 'post', using a single fetch method efficiently."""
+        
         current_time = datetime.now()  # Get current timestamp
+        posts = self.fetch_posts(platform, start_date, end_date, sort_by="post_date")
 
+        virality_data = defaultdict(lambda: {"total_engagement": 0, "count": 0}) if filter_by == "date" else []
+
+        for post in posts:
+            post_date = post["post_date"]
+            total_engagement = post["likes"] + post["retweets"] + post["comments"]
+
+            # Combine date and time into a datetime object
+            post_time = (datetime.min + post["post_time"]).time() if isinstance(post["post_time"], timedelta) else post["post_time"]
+            post_datetime = datetime.combine(post_date, post_time)
+
+            # Calculate time difference in hours
+            time_diff = max((current_time - post_datetime).total_seconds() / 3600, 1)  # Avoid division by zero
+
+            # Virality score calculation
+            virality_score = float(total_engagement) / time_diff
+
+            if filter_by == "date":
+                virality_data[post_date]["total_engagement"] += total_engagement
+                virality_data[post_date]["count"] += 1
+            else:
+                virality_data.append({"post_date": post_date, "virality_score": virality_score})
+
+        # Convert aggregated daily data if filtering by "date"
         if filter_by == "date":
-            # Use daily engagement trends (existing logic)
-            daily_engagement = self.fetch_daily_engagement_trends(platform, start_date, end_date)
-
-            for row in daily_engagement:
-                post_date = row["date"]
-                total_engagement = row["likes"] + row["retweets"] + row["comments"]
-
-                # Calculate time difference in hours from the post date to now
-                time_diff = (current_time - datetime.combine(post_date, datetime.min.time())).total_seconds() / 3600
-                time_diff = max(time_diff, 1)  # Avoid division by zero
-
-                # Calculate virality score
-                virality_score = float(total_engagement) / time_diff
-
-                virality_data.append({
-                    "post_date": post_date,
-                    "virality_score": virality_score,
-                })
-
-        elif filter_by == "post":
-            # Fetch posts sorted by engagement
-            posts = self.fetch_posts(platform, start_date, end_date, sort_by="id")
-
-            for post in posts:
-                post_id = post["id"]
-                total_engagement = post["likes"] + post["retweets"] + post["comments"]
-
-                # Combine date and time into a datetime object
-                post_time = (datetime.min + post["post_time"]).time() if isinstance(post["post_time"], timedelta) else post["post_time"]
-                post_datetime = datetime.combine(post["post_date"], post_time)
-
-                # Calculate time difference in hours from the post datetime to now
-                time_diff = (current_time - post_datetime).total_seconds() / 3600
-                time_diff = max(time_diff, 1)  # Avoid division by zero
-
-                # Calculate virality score
-                virality_score = float(total_engagement) / time_diff
-
-                virality_data.append({
-                    "post_date": post["post_date"],  # You still want the post date here
-                    "virality_score": virality_score,
-                })
+            return [{"post_date": date, "virality_score": data["total_engagement"] / max((current_time - datetime.combine(date, datetime.min.time())).total_seconds() / 3600, 1)}
+                    for date, data in virality_data.items()]
 
         return virality_data
-
-
-
-    
+  
     def _build_base_posts_query(self, platform=None, start_date=None, end_date=None):
         """Helper to build the common WHERE clause for posts queries."""
         query_fragment = "WHERE 1=1"
