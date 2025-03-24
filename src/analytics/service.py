@@ -17,8 +17,8 @@ class AnalyticsService:
         self.tweet_model = TweetModel()
         
         # Initialize processors
-        self.word_frequency_processor = WordFrequencyProcessor(self.tweet_model)
-        self.hashtag_frequency_processor = HashtagFrequencyProcessor(self.tweet_model)
+        self.word_frequency_processor = WordFrequencyProcessor()
+        self.hashtag_frequency_processor = HashtagFrequencyProcessor()
         self.engagement_processor = EngagementProcessor(self.tweet_model)
         
         # Initialize exporters
@@ -41,27 +41,27 @@ class AnalyticsService:
             )
             
             # Export word frequency results
-            self.json_exporter.export(word_freq_results, "word_frequency")
-            self.db_exporter.export(word_freq_results, "word_frequency")
+            self.json_exporter.export_word_frequencies(word_freq_results)
+            self.db_exporter.store_word_frequencies(word_freq_results)
 
             hashtag_freq_results = self.hashtag_frequency_processor.process(
                 start_date=start_date,
                 end_date=end_date,
                 platform=platform
             )
-            
+            print
             # Export word frequency results
-            self.json_exporter.export(hashtag_freq_results, "hashtag_frequency")
-            self.db_exporter.export(hashtag_freq_results, "hashtag_frequency")
+            self.json_exporter.export_hashtag_frequencies(hashtag_freq_results)
+            self.db_exporter.store_hashtag_frequencies(hashtag_freq_results)
             
             # Run engagement analysis
             engagement_results = self.engagement_processor.process(
-                start_date=start_date,
-                end_date=end_date,
-                platform=platform
-            )
-            self.json_exporter.export(engagement_results, "engagement")
-            self.db_exporter.export(engagement_results, "engagement")
+                 start_date=start_date,
+                 end_date=end_date,
+                 platform=platform
+             )
+            self.json_exporter.export_engagement_data(engagement_results)
+            self.db_exporter.store_engagement_data(engagement_results)
             
             self.logger.info("All analyses completed successfully")
             return True

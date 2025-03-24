@@ -31,6 +31,7 @@ class JsonExporter:
 
         # Define file paths
         self.word_freq_file = os.path.join(self.data_folder, 'word_frequencies.json')
+        self.hashtag_freq_file = os.path.join(self.data_folder, 'hashtag_frequencies.json')
         self.word_trends_file = os.path.join(self.data_folder, 'word_trends.json')
         self.engagement_file = os.path.join(self.data_folder, 'tweets_engagement.json')
 
@@ -78,7 +79,7 @@ class JsonExporter:
             logger.error(f"Error exporting word frequencies to JSON: {str(e)}", exc_info=True)
             return False
     
-    def export_hashtag_frequencies(self, word_freq_data: Dict[str, Any]) -> bool:
+    def export_hashtag_frequencies(self, hashtag_freq_data: Dict[str, Any]) -> bool:
         """
         Export hashtag frequency data to JSON for dashboard visualization.
         
@@ -91,27 +92,18 @@ class JsonExporter:
         try:
             # Format data specifically for visualization
             dashboard_data = {
-                'words': word_freq_data.get('words', []),
-                'total_words': word_freq_data.get('total_words', 0),
-                'unique_words': word_freq_data.get('unique_words', 0),
-                'period': word_freq_data.get('period', {}),
+                'hashtags': hashtag_freq_data.get('hashtags', []), 
+                'total_hashtags': hashtag_freq_data.get('total_hashtags', 0), 
+                'unique_hashtags': hashtag_freq_data.get('unique_hashtags', 0),  
+                'total_processed': hashtag_freq_data.get('total_processed', 0), 
+                'period': hashtag_freq_data.get('period', {}),  
                 'updated_at': datetime.now().isoformat()
             }
+
             
             # Save to file
-            with open(self.word_freq_file, 'w', encoding='utf-8') as f:
+            with open(self.hashtag_freq_file, 'w', encoding='utf-8') as f:
                 json.dump(dashboard_data, f, ensure_ascii=False, indent=4)
-                
-            # If trending data is available, save it separately
-            if 'trending' in word_freq_data and word_freq_data['trending']:
-                trending_data = {
-                    'trending_words': word_freq_data['trending'],
-                    'period': word_freq_data.get('period', {}),
-                    'updated_at': datetime.now().isoformat()
-                }
-                
-                with open(self.word_trends_file, 'w', encoding='utf-8') as f:
-                    json.dump(trending_data, f, ensure_ascii=False, indent=4)
                 
             logger.info(f"hashtag frequency data exported to {self.word_freq_file}")
             return True

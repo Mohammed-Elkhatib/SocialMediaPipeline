@@ -1,0 +1,54 @@
+2025-03-24 22:04:00,056 - root - ℹ️ INFO - main.py:80 - Initializing pipeline
+2025-03-24 22:04:00,060 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @ALJADEEDNEWS
+2025-03-24 22:04:10,587 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-24 22:04:18,864 - root - ❌ ERROR - core.py:88 - 💥 Critical error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF650D74C25+3179557]
+	(No symbol) [0x00007FF6509D88A0]
+	(No symbol) [0x00007FF6508691CA]
+	(No symbol) [0x00007FF6508BFA67]
+	(No symbol) [0x00007FF6508BFC9C]
+	(No symbol) [0x00007FF650913627]
+	(No symbol) [0x00007FF6508E7C6F]
+	(No symbol) [0x00007FF6509102F3]
+	(No symbol) [0x00007FF6508E7A03]
+	(No symbol) [0x00007FF6508B06D0]
+	(No symbol) [0x00007FF6508B1983]
+	GetHandleVerifier [0x00007FF650DD67CD+3579853]
+	GetHandleVerifier [0x00007FF650DED1D2+3672530]
+	GetHandleVerifier [0x00007FF650DE2153+3627347]
+	GetHandleVerifier [0x00007FF650B4092A+868650]
+	(No symbol) [0x00007FF6509E2FFF]
+	(No symbol) [0x00007FF6509DF4A4]
+	(No symbol) [0x00007FF6509DF646]
+	(No symbol) [0x00007FF6509CEAA9]
+	BaseThreadInitThunk [0x00007FFA4207E8D7+23]
+	RtlUserThreadStart [0x00007FFA43C7BF6C+44]
+
+2025-03-24 22:04:20,954 - root - ℹ️ INFO - core.py:94 - ✅ Final count: 0/1000 tweets
+2025-03-24 22:04:20,958 - root - ⚠️ WARNING - core.py:98 - ⚠️  Ended before reaching target
+2025-03-24 22:04:20,961 - root - ❌ ERROR - main.py:24 - Scraping failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF650D74C25+3179557]
+	(No symbol) [0x00007FF6509D88A0]
+	(No symbol) [0x00007FF6508691CA]
+	(No symbol) [0x00007FF6508BFA67]
+	(No symbol) [0x00007FF6508BFC9C]
+	(No symbol) [0x00007FF650913627]
+	(No symbol) [0x00007FF6508E7C6F]
+	(No symbol) [0x00007FF6509102F3]
+	(No symbol) [0x00007FF6508E7A03]
+	(No symbol) [0x00007FF6508B06D0]
+	(No symbol) [0x00007FF6508B1983]
+	GetHandleVerifier [0x00007FF650DD67CD+3579853]
+	GetHandleVerifier [0x00007FF650DED1D2+3672530]
+	GetHandleVerifier [0x00007FF650DE2153+3627347]
+	GetHandleVerifier [0x00007FF650B4092A+868650]
+	(No symbol) [0x00007FF6509E2FFF]
+	(No symbol) [0x00007FF6509DF4A4]
+	(No symbol) [0x00007FF6509DF646]
+	(No symbol) [0x00007FF6509CEAA9]
+	BaseThreadInitThunk [0x00007FFA4207E8D7+23]
+	RtlUserThreadStart [0x00007FFA43C7BF6C+44]
+
+2025-03-24 22:04:20,965 - root - ℹ️ INFO - producer.py:29 - Final count: 0 tweets sent

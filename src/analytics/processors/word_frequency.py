@@ -56,7 +56,7 @@ class WordFrequencyProcessor:
                 start_date=start_date,
                 end_date=end_date
             )
-
+            
             if not tweets:
                 logger.warning(f"No tweets found for {platform} {date_range}")
                 return {"words": [], "total_processed": 0, "status": "no_data"}

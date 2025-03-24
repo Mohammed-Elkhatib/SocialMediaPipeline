@@ -1,5 +1,6 @@
 from collections import defaultdict
 from datetime import datetime, timedelta
+from typing import Dict, Optional
 from src.models.relational.connection import DatabaseConnection
 import mysql.connector
 import logging
@@ -92,27 +93,31 @@ class TweetModel:
         self.execute_many(insert_word_frequencies_query, params)
         self.logger.info(f"Word frequencies batch inserted successfully: {len(params)} words processed.")
 
-    def insert_hashtag_frequencies(self, word_frequencies):
+    def insert_hashtag_frequencies(self, hashtag_frequencies: Dict[str, int], period_start: Optional[str] = None, period_end: Optional[str] = None):
         """Insert hashtag frequency data into the database using batch processing."""
-
-        if not word_frequencies:
+        
+        if not hashtag_frequencies:
             self.logger.info("No hashtag frequencies to insert.")
             return
 
         # Prepare batch parameters for efficient insertion
         params = []
-        for word, frequency in word_frequencies.items():
-            params.append(('x', word, frequency))
+        for hashtag, frequency in hashtag_frequencies.items():
+            # Here, 'x' is a placeholder for the 'id' field.
+            # Replace 'x' with whatever platform you are using (e.g., 'facebook' or 'twitter')
+            params.append(('x', hashtag, frequency))  # 'x' is used for the enum type 'id'
 
         # Use executemany for batch processing
-        insert_word_frequencies_query = """
+        insert_hashtag_frequencies_query = """
             INSERT INTO hashtag_frequency (id, word, count)
             VALUES (%s, %s, %s)
             ON DUPLICATE KEY UPDATE count = count + VALUES(count)
         """
-
-        self.execute_many(insert_word_frequencies_query, params)
-        self.logger.info(f"Word frequencies batch inserted successfully: {len(params)} words processed.")
+        
+        # Execute the batch insert
+        self.execute_many(insert_hashtag_frequencies_query, params)
+        
+        self.logger.info(f"Hashtag frequencies batch inserted successfully: {len(params)} hashtags processed.")
 
     def update_top_comments(self, comments_data):
         """Update top comments using REPLACE INTO to handle both inserts and updates."""

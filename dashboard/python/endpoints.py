@@ -3,6 +3,7 @@ from .sse_connect import app
 from pydantic import BaseModel
 import re
 from src.models.relational.tweets import TweetModel
+from datetime import datetime, time, timedelta
 
 print("Initializing endpoints...")
 
@@ -226,9 +227,3 @@ async def get_bar_chart_data_likes():
             {"label": "Comments", "backgroundColor": "#e74a3b", "data": comments, "content": contents},
         ]
     }
-
-
-
-from datetime import datetime, time, timedelta
-def to_unix_timestamp(date_str):
-    return int(datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").timestamp())  # Convert to UNIX timestamp

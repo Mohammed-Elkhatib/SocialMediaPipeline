@@ -4,6 +4,7 @@ import os
 from fastapi import APIRouter, BackgroundTasks
 from starlette.responses import StreamingResponse
 from datetime import datetime
+from src.analytics.service import AnalyticsService
 from dashboard.python.scheduler import get_scheduler
 
 router = APIRouter()
@@ -56,6 +57,13 @@ def sse_home():
             current_update = get_trigger_time()
 
             if current_update > last_update:
+                analytics_service = AnalyticsService()
+                success = analytics_service.run_all_analyses(time_period="day", platform="x")
+
+                if success:
+                    print("Analytics successfully completed.")
+                else:
+                    print("Analytics failed. Check logs for details.")
                 # Data has been updated, send notification to client
                 yield f"data: Data refreshed at {datetime.fromtimestamp(current_update).isoformat()}\n\n"
                 last_update = current_update

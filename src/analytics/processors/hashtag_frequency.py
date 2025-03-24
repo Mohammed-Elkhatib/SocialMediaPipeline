@@ -94,10 +94,10 @@ class HashtagFrequencyProcessor:
             }
     
     def _count_hashtags(self, 
-                        posts: List[Dict], 
-                        exclude_hashtags: List[str] = None) -> Counter:
+                    posts: List[Dict], 
+                    exclude_hashtags: List[str] = None) -> Counter:
         """
-        Count hashtag frequencies across all post content.
+        Count hashtag frequencies across all post content, excluding empty or invalid hashtags.
         
         Args:
             posts: List of post dictionaries from the database
@@ -115,19 +115,25 @@ class HashtagFrequencyProcessor:
                 # Extract hashtags using regex
                 hashtags = re.findall(r'#\w+', content)
                 
-                # Filter hashtags by exclusion list
+                # Filter out empty, whitespace-only, or excluded hashtags
                 filtered_hashtags = [
-                    hashtag.lower() for hashtag in hashtags if hashtag.lower() not in exclude_hashtags
+                    hashtag.lower() for hashtag in hashtags 
+                    if hashtag.strip() and hashtag.lower() not in exclude_hashtags
                 ]
-                
+
                 # Update counter
                 hashtag_counter.update(filtered_hashtags)
         
+        # Remove any empty hashtags from the Counter
+        if "" in hashtag_counter:
+            del hashtag_counter[""]
+            
         return hashtag_counter
+
     
     def _get_top_hashtags(self, hashtag_counts: Counter, top_n: int) -> List[tuple]:
         """
-        Get the top N hashtags by frequency.
+        Get the top N hashtags by frequency, excluding any empty ones.
         
         Args:
             hashtag_counts: Counter object with hashtag frequencies
@@ -136,4 +142,5 @@ class HashtagFrequencyProcessor:
         Returns:
             List of (hashtag, count) tuples for top hashtags
         """
-        return hashtag_counts.most_common(top_n)
+        return [(hashtag, count) for hashtag, count in hashtag_counts.most_common(top_n) if hashtag.strip()]
+
