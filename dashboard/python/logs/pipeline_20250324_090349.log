@@ -1,0 +1,73 @@
+2025-03-24 09:03:49,740 - root - ℹ️ INFO - main.py:80 - Initializing pipeline
+2025-03-24 09:03:49,740 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @ALJADEEDNEWS
+2025-03-24 09:03:59,988 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @ALJADEEDNEWS
+2025-03-24 09:04:09,558 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 1)
+2025-03-24 09:04:10,405 - root - ⚠️ WARNING - core.py:77 - ⚠️  No new tweets in loaded content
+2025-03-24 09:04:10,405 - root - ⚠️ WARNING - core.py:82 - ⏳ Retry #1 for 2s
+2025-03-24 09:04:10,802 - root - ℹ️ INFO - main.py:29 - Starting storage consumer
+2025-03-24 09:04:13,106 - root - ⚠️ WARNING - core.py:77 - ⚠️  No new tweets in loaded content
+2025-03-24 09:04:13,106 - root - ⚠️ WARNING - core.py:82 - ⏳ Retry #2 for 4s
+2025-03-24 09:04:17,877 - root - ⚠️ WARNING - core.py:77 - ⚠️  No new tweets in loaded content
+2025-03-24 09:04:17,877 - root - ⚠️ WARNING - core.py:82 - ⏳ Retry #3 for 8s
+2025-03-24 09:04:17,998 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:17,998 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:17,999 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:17,999 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 19:38:48 from 2025-03-15 19:38:48
+2025-03-24 09:04:22,101 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:22,102 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:22,102 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:22,102 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 19:26:57 from 2025-03-15 19:26:57
+2025-03-24 09:04:26,175 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:26,176 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:26,176 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:26,177 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 18:50:28 from 2025-03-15 18:50:28
+2025-03-24 09:04:26,588 - root - ⚠️ WARNING - core.py:77 - ⚠️  No new tweets in loaded content
+2025-03-24 09:04:26,588 - root - ❌ ERROR - core.py:85 - 🔴 Max retries reached. Stopping.
+2025-03-24 09:04:28,769 - root - ℹ️ INFO - core.py:94 - ✅ Final count: 1/1000 tweets
+2025-03-24 09:04:28,769 - root - ⚠️ WARNING - core.py:98 - ⚠️  Ended before reaching target
+2025-03-24 09:04:28,770 - root - ℹ️ INFO - main.py:22 - Scraping completed for @ALJADEEDNEWS
+2025-03-24 09:04:28,770 - root - ℹ️ INFO - producer.py:29 - Final count: 1 tweets sent
+2025-03-24 09:04:30,291 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:30,292 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:30,292 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:30,292 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 17:47:34 from 2025-03-15 17:47:34
+2025-03-24 09:04:34,390 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:34,391 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:34,392 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:34,392 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 17:00:50 from 2025-03-15 17:00:50
+2025-03-24 09:04:38,493 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:38,493 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:38,494 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:38,494 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 16:57:31 from 2025-03-15 16:57:31
+2025-03-24 09:04:42,591 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:42,592 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:42,592 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:42,592 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 15:45:37 from 2025-03-15 15:45:37
+2025-03-24 09:04:46,688 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:46,689 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:46,689 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:46,690 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 15:37:58 from 2025-03-15 15:37:58
+2025-03-24 09:04:50,794 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:50,795 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:50,795 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:50,795 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 14:57:50 from 2025-03-15 14:57:50
+2025-03-24 09:04:54,897 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:54,898 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:54,898 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:54,898 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 14:54:51 from 2025-03-15 14:54:51
+2025-03-24 09:04:58,969 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:58,970 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:04:58,970 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:04:58,972 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 14:42:03 from 2025-03-15 14:42:03
+2025-03-24 09:05:03,053 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:05:03,054 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:05:03,054 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:05:03,055 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 14:24:25 from 2025-03-15 14:24:25
+2025-03-24 09:05:07,157 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:05:07,158 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:05:07,158 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:05:07,158 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 13:02:55 from 2025-03-15 13:02:55
+2025-03-24 09:05:11,243 - src.models.relational.connection - ❌ ERROR - connection.py:92 - Error connecting to database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:05:11,243 - src.models.relational.tweets - ❌ ERROR - tweets.py:39 - Error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-03-24 09:05:11,243 - src.models.relational.tweets - ℹ️ INFO - tweets.py:71 - Post inserted or updated successfully.
+2025-03-24 09:05:11,245 - src.kafka.consumers.storage - ℹ️ INFO - storage.py:52 - Stored tweet LBCI_NEWS_2025-03-15 13:01:05 from 2025-03-15 13:01:05

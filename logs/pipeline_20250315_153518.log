@@ -1,0 +1,57 @@
+2025-03-15 15:35:18,540 - root - ℹ️ INFO - main.py:69 - Initializing pipeline
+2025-03-15 15:35:18,540 - root - ℹ️ INFO - main.py:13 - Starting Twitter scraper for @LBCI_NEWS
+2025-03-15 15:35:23,762 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @LBCI_NEWS
+2025-03-15 15:35:26,748 - root - ❌ ERROR - core.py:88 - 💥 Critical error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73AA4FE45+26629]
+	(No symbol) [0x00007FF73A9B6010]
+	(No symbol) [0x00007FF73A84931A]
+	(No symbol) [0x00007FF73A821753]
+	(No symbol) [0x00007FF73A8CF6BE]
+	(No symbol) [0x00007FF73A8EFA55]
+	(No symbol) [0x00007FF73A8C7883]
+	(No symbol) [0x00007FF73A890550]
+	(No symbol) [0x00007FF73A891803]
+	GetHandleVerifier [0x00007FF73ADA72BD+3529853]
+	GetHandleVerifier [0x00007FF73ADBDA22+3621858]
+	GetHandleVerifier [0x00007FF73ADB24D3+3575443]
+	GetHandleVerifier [0x00007FF73AB1B77A+860474]
+	(No symbol) [0x00007FF73A9C088F]
+	(No symbol) [0x00007FF73A9BCBC4]
+	(No symbol) [0x00007FF73A9BCD66]
+	(No symbol) [0x00007FF73A9AC2C9]
+	BaseThreadInitThunk [0x00007FF9E900259D+29]
+	RtlUserThreadStart [0x00007FF9EB0AAF38+40]
+
+2025-03-15 15:35:28,822 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 0/50 tweets
+2025-03-15 15:35:28,822 - root - ⚠️ WARNING - core.py:97 - ⚠️  Ended before reaching target
+2025-03-15 15:35:28,822 - root - ❌ ERROR - main.py:23 - Scraping failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73AA4FE45+26629]
+	(No symbol) [0x00007FF73A9B6010]
+	(No symbol) [0x00007FF73A84931A]
+	(No symbol) [0x00007FF73A821753]
+	(No symbol) [0x00007FF73A8CF6BE]
+	(No symbol) [0x00007FF73A8EFA55]
+	(No symbol) [0x00007FF73A8C7883]
+	(No symbol) [0x00007FF73A890550]
+	(No symbol) [0x00007FF73A891803]
+	GetHandleVerifier [0x00007FF73ADA72BD+3529853]
+	GetHandleVerifier [0x00007FF73ADBDA22+3621858]
+	GetHandleVerifier [0x00007FF73ADB24D3+3575443]
+	GetHandleVerifier [0x00007FF73AB1B77A+860474]
+	(No symbol) [0x00007FF73A9C088F]
+	(No symbol) [0x00007FF73A9BCBC4]
+	(No symbol) [0x00007FF73A9BCD66]
+	(No symbol) [0x00007FF73A9AC2C9]
+	BaseThreadInitThunk [0x00007FF9E900259D+29]
+	RtlUserThreadStart [0x00007FF9EB0AAF38+40]
+
+2025-03-15 15:35:28,823 - root - ℹ️ INFO - producer.py:29 - Final count: 0 tweets sent
+2025-03-15 15:35:28,824 - root - ℹ️ INFO - main.py:28 - Starting storage consumer
+2025-03-15 15:35:28,827 - root - ℹ️ INFO - main.py:40 - Starting stats consumers
+2025-03-15 15:35:38,929 - root - ℹ️ INFO - main.py:33 - Storage consumer finished

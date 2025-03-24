@@ -1,0 +1,1189 @@
+2025-03-15 16:01:17,251 - root - ℹ️ INFO - main.py:70 - Initializing pipeline
+2025-03-15 16:01:17,251 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @LBCI_NEWS
+2025-03-15 16:01:22,143 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @LBCI_NEWS
+2025-03-15 16:01:26,908 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 5)
+2025-03-15 16:01:27,622 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 6)
+2025-03-15 16:01:28,404 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 9)
+2025-03-15 16:01:29,207 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 10)
+2025-03-15 16:01:29,207 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 11)
+2025-03-15 16:01:29,991 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 13)
+2025-03-15 16:01:30,867 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 16)
+2025-03-15 16:01:31,715 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 20)
+2025-03-15 16:01:31,716 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 20)
+2025-03-15 16:01:32,889 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 24)
+2025-03-15 16:01:33,763 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 27)
+2025-03-15 16:01:34,814 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 29)
+2025-03-15 16:01:35,871 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 30)
+2025-03-15 16:01:35,873 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 33)
+2025-03-15 16:01:36,726 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 35)
+2025-03-15 16:01:37,653 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 37)
+2025-03-15 16:01:38,432 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 39)
+2025-03-15 16:01:39,706 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 40)
+2025-03-15 16:01:39,710 - root - ℹ️ INFO - core.py:75 - 📦 Collected 6 new tweets (Total: 45)
+2025-03-15 16:01:40,539 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 46)
+2025-03-15 16:01:41,327 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 49)
+2025-03-15 16:01:42,126 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 50)
+2025-03-15 16:01:42,126 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 50)
+2025-03-15 16:01:44,161 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 50/50 tweets
+2025-03-15 16:01:44,162 - root - ℹ️ INFO - core.py:95 - 🎯 Target reached successfully
+2025-03-15 16:01:44,162 - root - ℹ️ INFO - main.py:22 - Scraping completed for @LBCI_NEWS
+2025-03-15 16:01:44,162 - root - ℹ️ INFO - producer.py:29 - Final count: 50 tweets sent
+2025-03-15 16:01:44,163 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:216 - Starting Storage Consumer...
+2025-03-15 16:01:47,209 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,209 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,210 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,210 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,210 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,211 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,211 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,211 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,211 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,212 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,212 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,212 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,212 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,213 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,213 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,214 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,214 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,214 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,214 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,214 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,215 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,215 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,215 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,215 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,215 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,215 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,216 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,216 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,216 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,216 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,216 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,217 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,217 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,217 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,217 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,217 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,218 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,218 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,218 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,218 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,218 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:01:47,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:76 - Error processing message: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+TypeError: TweetModel.insert_post_and_engagement_metrics() got an unexpected keyword argument 'post_id'
+2025-03-15 16:02:17,476 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:220 - Storage Consumer finished.
+2025-03-15 16:02:17,477 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:223 - Starting Word Frequency Consumer...
+2025-03-15 16:02:20,497 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,498 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,499 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,499 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,500 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,500 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,500 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,501 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,501 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,501 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,502 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,502 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,502 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,502 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,503 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,503 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,503 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,504 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,504 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,504 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,504 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,505 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,505 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,505 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,506 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,506 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,507 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,507 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,507 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,508 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,508 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,508 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,508 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,508 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,509 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,509 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,509 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,509 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,510 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,510 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,510 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,511 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,511 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,511 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,512 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,512 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,513 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,513 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,513 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,514 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,514 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,515 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,515 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,515 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,516 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,516 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,517 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,517 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,517 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,518 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,518 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,518 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,519 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,519 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,519 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,520 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,520 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,520 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,521 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,521 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,522 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,522 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,522 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,523 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,523 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,523 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,524 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,524 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,524 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,525 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,525 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,526 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,526 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,526 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,527 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,527 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,528 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,528 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,528 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,529 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,529 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,529 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,530 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,530 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,530 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,531 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,531 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,531 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,532 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:20,532 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:109 - Error processing message for word frequency: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 104, in process_message
+    keywords = extract_keywords(message['content'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\utils\data_helpers.py", line 104, in extract_keywords
+    if word not in stop_words and len(word) >= min_length]
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2025-03-15 16:02:50,766 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:121 - No words to save in frequencies
+2025-03-15 16:02:50,767 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:229 - Starting Engagement Metrics Consumer...
+2025-03-15 16:02:50,767 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:149 - No messages in shared store to process
+2025-03-15 16:02:50,767 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:177 - No engagement data collected to save.
+2025-03-15 16:02:50,767 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:235 - Pipeline run completed
+2025-03-15 16:02:50,768 - root - ℹ️ INFO - main.py:92 - Pipeline run completed

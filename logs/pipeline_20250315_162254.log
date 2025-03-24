@@ -1,0 +1,642 @@
+2025-03-15 16:22:54,440 - root - ℹ️ INFO - main.py:70 - Initializing pipeline
+2025-03-15 16:22:54,440 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @LBCI_NEWS
+2025-03-15 16:22:59,298 - root - ℹ️ INFO - core.py:25 - 🚀 Starting scrape for @LBCI_NEWS
+2025-03-15 16:23:03,940 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 5)
+2025-03-15 16:23:04,667 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 6)
+2025-03-15 16:23:05,387 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 8)
+2025-03-15 16:23:06,221 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 10)
+2025-03-15 16:23:06,221 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 11)
+2025-03-15 16:23:07,002 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 13)
+2025-03-15 16:23:07,840 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 16)
+2025-03-15 16:23:08,602 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 20)
+2025-03-15 16:23:08,602 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 20)
+2025-03-15 16:23:09,665 - root - ℹ️ INFO - core.py:75 - 📦 Collected 6 new tweets (Total: 26)
+2025-03-15 16:23:10,537 - root - ⚠️ WARNING - core.py:77 - ⚠️  No new tweets in loaded content
+2025-03-15 16:23:10,537 - root - ⚠️ WARNING - core.py:82 - ⏳ Retry #1 for 2s
+2025-03-15 16:23:13,277 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 30)
+2025-03-15 16:23:13,277 - root - ℹ️ INFO - core.py:75 - 📦 Collected 4 new tweets (Total: 30)
+2025-03-15 16:23:14,160 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 33)
+2025-03-15 16:23:15,039 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 35)
+2025-03-15 16:23:15,857 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 37)
+2025-03-15 16:23:16,666 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 39)
+2025-03-15 16:23:17,677 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 40)
+2025-03-15 16:23:17,681 - root - ℹ️ INFO - core.py:75 - 📦 Collected 5 new tweets (Total: 44)
+2025-03-15 16:23:18,410 - root - ℹ️ INFO - core.py:75 - 📦 Collected 3 new tweets (Total: 47)
+2025-03-15 16:23:19,132 - root - ℹ️ INFO - core.py:75 - 📦 Collected 2 new tweets (Total: 49)
+2025-03-15 16:23:20,042 - root - ℹ️ INFO - producer.py:22 - Sent batch of 10 tweets (Total: 50)
+2025-03-15 16:23:20,042 - root - ℹ️ INFO - core.py:75 - 📦 Collected 1 new tweets (Total: 50)
+2025-03-15 16:23:22,082 - root - ℹ️ INFO - core.py:93 - ✅ Final count: 50/50 tweets
+2025-03-15 16:23:22,082 - root - ℹ️ INFO - core.py:95 - 🎯 Target reached successfully
+2025-03-15 16:23:22,082 - root - ℹ️ INFO - main.py:22 - Scraping completed for @LBCI_NEWS
+2025-03-15 16:23:22,082 - root - ℹ️ INFO - producer.py:29 - Final count: 50 tweets sent
+2025-03-15 16:23:22,084 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:215 - Starting Storage Consumer...
+2025-03-15 16:23:25,112 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,115 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,150 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,151 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,153 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,155 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,157 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,158 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,161 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,163 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,165 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,166 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,168 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,170 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,173 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,174 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,177 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,178 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,180 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,182 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,184 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,185 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,187 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,188 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,191 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,192 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,194 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,195 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,198 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,199 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,201 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,202 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,205 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,206 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,209 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,211 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,213 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,214 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,217 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,219 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,220 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,223 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,225 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,226 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,229 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,230 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,233 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,234 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,236 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,238 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,239 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,241 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,243 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,244 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,246 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,248 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,250 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,252 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,254 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,255 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,257 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,258 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,261 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,262 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,265 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,266 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,269 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,271 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,273 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,275 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,277 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,278 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,280 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,282 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,285 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,286 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,288 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,290 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,292 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,293 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,295 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,298 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,300 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,301 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,304 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,305 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,308 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,309 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,312 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,313 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,315 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,318 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,320 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,322 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,325 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,326 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,330 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,332 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:25,335 - src.models.relational.tweets - ℹ️ INFO - tweets.py:42 - Platforms already exist.
+2025-03-15 16:23:25,336 - src.kafka.consumers.pipeline - ❌ ERROR - pipeline.py:75 - Error processing message: Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\kafka\consumers\pipeline.py", line 60, in process_message
+    self.tweet_model.insert_post_and_engagement_metrics(
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 115, in insert_post_and_engagement_metrics
+    self.execute_query(insert_post_query, params)
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\src\models\relational\tweets.py", line 51, in execute_query
+    connection.commit()
+  File "C:\Users\Admin\PycharmProjects\SocialMediaPipeline\.venv\Lib\site-packages\mysql\connector\connection_cext.py", line 609, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+2025-03-15 16:23:55,588 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:219 - Storage Consumer finished.
+2025-03-15 16:23:55,589 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:222 - Starting Word Frequency Consumer...
+2025-03-15 16:24:28,879 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:127 - Top 20 word frequencies saved to C:\Users\Admin\PycharmProjects\SocialMediaPipeline\data\word_frequencies.json
+2025-03-15 16:24:28,921 - src.models.relational.tweets - ℹ️ INFO - tweets.py:157 - Word frequencies inserted successfully.
+2025-03-15 16:24:28,921 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:131 - Word frequencies saved to database
+2025-03-15 16:24:28,921 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:228 - Starting Engagement Metrics Consumer...
+2025-03-15 16:24:28,921 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:148 - No messages in shared store to process
+2025-03-15 16:24:28,922 - src.kafka.consumers.pipeline - ⚠️ WARNING - pipeline.py:176 - No engagement data collected to save.
+2025-03-15 16:24:28,922 - src.kafka.consumers.pipeline - ℹ️ INFO - pipeline.py:234 - Pipeline run completed
+2025-03-15 16:24:28,922 - root - ℹ️ INFO - main.py:92 - Pipeline run completed

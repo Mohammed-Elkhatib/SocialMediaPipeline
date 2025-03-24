@@ -1,0 +1,4 @@
+2025-03-23 16:24:17,834 - root - ℹ️ INFO - main.py:80 - Initializing pipeline
+2025-03-23 16:24:17,835 - root - ℹ️ INFO - main.py:14 - Starting Twitter scraper for @ALJADEEDNEWS
+2025-03-23 16:24:17,836 - root - ❌ ERROR - main.py:24 - Scraping failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2025-03-23 16:24:17,836 - root - ℹ️ INFO - producer.py:29 - Final count: 0 tweets sent
